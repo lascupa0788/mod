@@ -1346,6 +1346,10 @@ technologies = {
 				factor = 2
 				has_tech = scientific_civilization
 			}
+			modifier = {
+				factor = 0
+				has_tech = scavtool_engineering
+			}
 		}
 		
 		categories = {
@@ -1395,6 +1399,10 @@ technologies = {
 				factor = 2
 				has_tech = scientific_civilization
 			}
+			modifier = {
+				factor = 0
+				has_tech = scavtool_engineering
+			}
 		}
 		
 		categories = {
@@ -1439,6 +1447,10 @@ technologies = {
 			modifier = {
 				factor = 2
 				has_tech = scientific_civilization
+			}
+			modifier = {
+				factor = 0
+				has_tech = scavtool_engineering
 			}
 		}
 		
@@ -1485,6 +1497,10 @@ technologies = {
 				factor = 2
 				has_tech = scientific_civilization
 			}
+			modifier = {
+				factor = 0
+				has_tech = scavtool_engineering
+			}
 		}
 		
 		categories = {
@@ -1528,6 +1544,10 @@ technologies = {
 			modifier = {
 				factor = 2
 				has_tech = scientific_civilization
+			}
+			modifier = {
+				factor = 0
+				has_tech = scavtool_engineering
 			}
 		}
 		
