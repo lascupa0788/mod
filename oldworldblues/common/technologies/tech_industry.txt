@@ -1,16 +1,16 @@
 technologies = {
 	@Col_1 = 8
 	@Col_2 = 12
-	@Col_3 = 16
-	@Col_4 = 20
-	@Col_5 = 24
-	@Col_6 = 28
-    @Col_7 = 32
-    @Col_8 = 36
-    @Col_9 = 40
-    @Col_10 = 44
-    @Col_11 = 48
-    @Col_12 = 52
+	@Col_3 = 12
+	@Col_4 = 14
+	@Col_5 = 16
+	@Col_6 = 18
+    @Col_7 = 20
+    @Col_8 = 22
+    @Col_9 = 24
+    @Col_10 = 26
+    @Col_11 = 28
+    @Col_12 = 30
     
     @Row_1 = 0
     @Row_2 = 2
@@ -36,14 +36,13 @@ technologies = {
     # Agarian Industry
     #-------------------------
     organised_tato_farming = {
-		global_building_slots_factor = 0.15
-        industrial_capacity_factory = 0.1
-        line_change_production_efficiency_factor = 0.05
-		production_factory_start_efficiency_factor = 0.05
+		global_building_slots_factor = 0.08
+        industrial_capacity_factory = 0.05
+        line_change_production_efficiency_factor = 0.025
+		production_factory_start_efficiency_factor = 0.025
         conscription_factor = 0.02
-        
-        xor = { basic_forges }
-        
+		MONTHLY_POPULATION = 0.02 
+         
 		path = {
 			leads_to_tech = brahmin_milking
 			research_cost_coeff = 1
@@ -58,6 +57,7 @@ technologies = {
 		
 		categories = {
 			industry
+			agriculture_tech
 		}
 		
 		ai_will_do = {
@@ -66,14 +66,6 @@ technologies = {
 				factor = 5
 				date > "2276.1.1"
 			}
-			modifier = {
-				factor = 0
-				is_researching_technology = basic_forges
-			}
-			modifier = {
-				factor = 0
-				has_tech = basic_forges
-			}
 		}
 		ai_research_weights = {
 			defensive = -1.0
@@ -81,12 +73,13 @@ technologies = {
 	}
     
     brahmin_milking = {
-		global_building_slots_factor = 0.15
-        industrial_capacity_factory = 0.1
-        line_change_production_efficiency_factor = 0.05
-		production_factory_start_efficiency_factor = 0.05
+		global_building_slots_factor = 0.08
+        industrial_capacity_factory = 0.05
+        line_change_production_efficiency_factor = 0.025
+		production_factory_start_efficiency_factor = 0.025
         conscription_factor = 0.02
-        
+        MONTHLY_POPULATION = 0.02
+		
 		path = {
 			leads_to_tech = sharecropper_farms
 			research_cost_coeff = 1
@@ -96,11 +89,12 @@ technologies = {
 		start_year = 2278
 		folder = {
 			name = fallout_industry_folder
-			position = { x = @Row_1 y = @Col_2 }
+			position = { x = @Row_1 y = @Col_3 }
 		}
 		
 		categories = {
 			industry
+			agriculture_tech
 		}
 		
 		ai_will_do = {
@@ -116,11 +110,12 @@ technologies = {
 	}
     
     sharecropper_farms = {
-		global_building_slots_factor = 0.15
-        industrial_capacity_factory = 0.10
-        line_change_production_efficiency_factor = 0.05
-		production_factory_start_efficiency_factor = 0.05
+		global_building_slots_factor = 0.08
+        industrial_capacity_factory = 0.05
+        line_change_production_efficiency_factor = 0.025
+		production_factory_start_efficiency_factor = 0.025
         conscription_factor = 0.02
+		MONTHLY_POPULATION = 0.02
         
 		path = {
 			leads_to_tech = brahmin_herding_equipment
@@ -135,11 +130,12 @@ technologies = {
 		start_year = 2280
 		folder = {
 			name = fallout_industry_folder
-			position = { x = @Row_1 y = @Col_3 }
+			position = { x = @Row_1 y = @Col_5 }
 		}
 		
 		categories = {
 			industry
+			agriculture_tech
 		}
 		
 		ai_will_do = {
@@ -155,11 +151,12 @@ technologies = {
 	}
     
     brahmin_herding_equipment = {
-		global_building_slots_factor = 0.15
-		industrial_capacity_factory = 0.10
-        line_change_production_efficiency_factor = 0.05
-		production_factory_start_efficiency_factor = 0.05
+		global_building_slots_factor = 0.08
+		industrial_capacity_factory = 0.05
+        line_change_production_efficiency_factor = 0.025
+		production_factory_start_efficiency_factor = 0.025
         conscription_factor = 0.02
+		MONTHLY_POPULATION = 0.02
         
 		path = {
 			leads_to_tech = mechanized_agriculture
@@ -174,11 +171,12 @@ technologies = {
 		start_year = 2282
 		folder = {
 			name = fallout_industry_folder
-			position = { x = @Row_1 y = @Col_4 }
+			position = { x = @Row_1 y = @Col_7 }
 		}
 		
 		categories = {
 			industry
+			agriculture_tech
 		}
 		
 		ai_will_do = {
@@ -194,11 +192,12 @@ technologies = {
 	}
     
     mechanized_agriculture = {
-		global_building_slots_factor = 0.15
-		industrial_capacity_factory = 0.2
-        line_change_production_efficiency_factor = 0.05
-		production_factory_start_efficiency_factor = 0.05
+		global_building_slots_factor = 0.08
+		industrial_capacity_factory = 0.1
+        line_change_production_efficiency_factor = 0.025
+		production_factory_start_efficiency_factor = 0.025
         conscription_factor = 0.02
+		MONTHLY_POPULATION = 0.02
         
         dependencies = {
             scientific_civilization = 1
@@ -208,11 +207,12 @@ technologies = {
 		start_year = 2284
 		folder = {
 			name = fallout_industry_folder
-			position = { x = @Row_1 y = @Col_5 }
+			position = { x = @Row_1 y = @Col_9 }
 		}
 		
 		categories = {
 			industry
+			agriculture_tech
 		}
 		
 		ai_will_do = {
@@ -231,13 +231,11 @@ technologies = {
     # Manufactories
     #-------------------------
     basic_forges = {
-        industrial_capacity_factory = 0.2
-        global_building_slots_factor = 0.2
-		production_factory_max_efficiency_factor = 0.05
+        industrial_capacity_factory = 0.1
+        global_building_slots_factor = 0.12
+		production_factory_max_efficiency_factor = 0.03
 		production_factory_efficiency_gain_factor = -0.05
         equipment_conversion_speed = 0.1
-        
-        xor = { organised_tato_farming }
         
 		path = {
 			leads_to_tech = primitive_workshops
@@ -261,14 +259,6 @@ technologies = {
 				factor = 5
 				date > "2276.1.1"
 			}
-			modifier = {
-				factor = 0
-				is_researching_technology = organised_tato_farming
-			}
-			modifier = {
-				factor = 0
-				has_tech = organised_tato_farming
-			}
 		}
 		ai_research_weights = {
 			offensive = -1.0
@@ -276,9 +266,9 @@ technologies = {
 	}
     
     primitive_workshops = {
-        industrial_capacity_factory = 0.2
-        global_building_slots_factor = 0.2
-		production_factory_max_efficiency_factor = 0.05
+        industrial_capacity_factory = 0.1
+        global_building_slots_factor = 0.12
+		production_factory_max_efficiency_factor = 0.03
 		production_factory_efficiency_gain_factor = -0.05
         equipment_conversion_speed = 0.1
         
@@ -291,7 +281,7 @@ technologies = {
 		start_year = 2278
 		folder = {
 			name = fallout_industry_folder
-			position = { x = @Row_2 y = @Col_2 }
+			position = { x = @Row_2 y = @Col_3 }
 		}
 		
 		categories = {
@@ -311,9 +301,9 @@ technologies = {
 	}
     
     wasteland_workshops = {
-        industrial_capacity_factory = 0.2
-        global_building_slots_factor = 0.2
-		production_factory_max_efficiency_factor = 0.05
+        industrial_capacity_factory = 0.1
+        global_building_slots_factor = 0.12
+		production_factory_max_efficiency_factor = 0.03
 		production_factory_efficiency_gain_factor = -0.05
         equipment_conversion_speed = 0.1
         
@@ -330,7 +320,7 @@ technologies = {
 		start_year = 2280
 		folder = {
 			name = fallout_industry_folder
-			position = { x = @Row_2 y = @Col_3 }
+			position = { x = @Row_2 y = @Col_5 }
 		}
 		
 		categories = {
@@ -350,9 +340,9 @@ technologies = {
 	}
     
     pneumatic_presses = {
-        industrial_capacity_factory = 0.2
-        global_building_slots_factor = 0.2
-		production_factory_max_efficiency_factor = 0.05
+        industrial_capacity_factory = 0.1
+        global_building_slots_factor = 0.12
+		production_factory_max_efficiency_factor = 0.03
 		production_factory_efficiency_gain_factor = -0.05
         equipment_conversion_speed = 0.1
         
@@ -369,7 +359,7 @@ technologies = {
 		start_year = 2282
 		folder = {
 			name = fallout_industry_folder
-			position = { x = @Row_2 y = @Col_4 }
+			position = { x = @Row_2 y = @Col_7 }
 		}
 		
 		categories = {
@@ -389,9 +379,9 @@ technologies = {
 	}
     
     automated_production = {
-        industrial_capacity_factory = 0.2
-        global_building_slots_factor = 0.2
-		production_factory_max_efficiency_factor = 0.05
+        industrial_capacity_factory = 0.1
+        global_building_slots_factor = 0.12
+		production_factory_max_efficiency_factor = 0.03
 		production_factory_efficiency_gain_factor = -0.05
         equipment_conversion_speed = 0.1
         
@@ -403,11 +393,12 @@ technologies = {
 		start_year = 2284
 		folder = {
 			name = fallout_industry_folder
-			position = { x = @Row_2 y = @Col_5 }
+			position = { x = @Row_2 y = @Col_9 }
 		}
 		
 		categories = {
 			industry
+			electronics
 		}
 		
 		ai_will_do = {
@@ -423,160 +414,6 @@ technologies = {
 	}
     
     #-------------------------
-    # Organisation
-    #-------------------------
-    oral_instruction = {
-		production_factory_max_efficiency_factor = 0.05
-		production_factory_efficiency_gain_factor = 0.05
-		path = {
-			leads_to_tech = traditional_instruction
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-		start_year = 2275
-		folder = {
-			name = fallout_industry_folder
-			position = { x = @Row_3 y = @Col_1 }
-		}
-		
-		categories = {
-			industry
-		}
-		
-		ai_will_do = {
-			factor = 40
-			modifier = {
-				factor = 10
-				date > "2275.1.1"
-			}
-		}
-	}
-    
-    traditional_instruction = {
- 		production_factory_max_efficiency_factor = 0.05
-		production_factory_efficiency_gain_factor = 0.05
-        
-		path = {
-			leads_to_tech = physical_blueprints
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2.0
-		start_year = 2277
-		folder = {
-			name = fallout_industry_folder
-			position = { x = @Row_3 y = @Col_2 }
-		}
-		
-		categories = {
-			industry
-		}
-		
-		ai_will_do = {
-			factor = 30
-			modifier = {
-				factor = 10
-				date > "2277.1.1"
-			}
-		}
-	}
-    
-    physical_blueprints = {
-		production_factory_max_efficiency_factor = 0.05
-		production_factory_efficiency_gain_factor = 0.05
-   
-		path = {
-			leads_to_tech = electronic_blueprints
-			research_cost_coeff = 1
-		}
-
-        dependencies = {
-            settled_civilization = 1
-        }
-        
-		research_cost = 2.0
-		start_year = 2279
-		folder = {
-			name = fallout_industry_folder
-			position = { x = @Row_3 y = @Col_3 }
-		}
-		
-		categories = {
-			industry
-		}
-		
-		ai_will_do = {
-			factor = 30
-			modifier = {
-				factor = 10
-				date > "2279.1.1"
-			}
-		}
-	}
-    
-    electronic_blueprints = {
-		production_factory_max_efficiency_factor = 0.05
-		production_factory_efficiency_gain_factor = 0.05
-        
-		path = {
-			leads_to_tech = robotic_helpers
-			research_cost_coeff = 1
-		}
-
-        dependencies = {
-            settled_civilization = 1
-        }
-        
-		research_cost = 2.0
-		start_year = 2281
-		folder = {
-			name = fallout_industry_folder
-			position = { x = @Row_3 y = @Col_4 }
-		}
-		
-		categories = {
-			industry
-		}
-		
-		ai_will_do = {
-			factor = 30
-			modifier = {
-				factor = 10
-				date > "2281.1.1"
-			}
-		}
-	}
-    
-    robotic_helpers = {
-		production_factory_max_efficiency_factor = 0.08
-		production_factory_efficiency_gain_factor = 0.08
-        
-        dependencies = {
-            scientific_civilization = 1
-        }
-        
-		research_cost = 2.0
-		start_year = 2283
-		folder = {
-			name = fallout_industry_folder
-			position = { x = @Row_3 y = @Col_5 }
-		}
-		
-		categories = {
-			industry
-		}
-		
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				factor = 10
-				date > "2283.1.1"
-			}
-		}
-	}
-    
-    #-------------------------
     # Extraction
     #-------------------------
     logging_camps = {
@@ -586,7 +423,7 @@ technologies = {
 		start_year = 2275
 		folder = {
 			name = fallout_industry_folder
-			position = { x = @Row_4 y = @Col_1 }
+			position = { x = @Row_3 y = @Col_1 }
 		}
 		
 		categories = {
@@ -628,7 +465,7 @@ technologies = {
 		start_year = 2278
 		folder = {
 			name = fallout_industry_folder
-			position = { x = @Row_4 y = @Col_2 }
+			position = { x = @Row_3 y = @Col_3 }
 		}
 		
 		categories = {
@@ -651,7 +488,7 @@ technologies = {
 		start_year = 2281
 		folder = {
 			name = fallout_industry_folder
-			position = { x = @Row_4 y = @Col_3 }
+			position = { x = @Row_3 y = @Col_5 }
 		}
 		
 		categories = {
@@ -674,7 +511,7 @@ technologies = {
 		start_year = 2285
 		folder = {
 			name = fallout_industry_folder
-			position = { x = @Row_4 y = @Col_4 }
+			position = { x = @Row_3 y = @Col_7 }
 		}
 		
 		categories = {
@@ -697,11 +534,12 @@ technologies = {
 		start_year = 2290
 		folder = {
 			name = fallout_industry_folder
-			position = { x = @Row_4 y = @Col_5 }
+			position = { x = @Row_3 y = @Col_9 }
 		}
 		
 		categories = {
 			industry
+			electronics
 		}
 		ai_will_do = {
 			factor = 4
@@ -733,7 +571,7 @@ technologies = {
 		start_year = 2275
 		folder = {
 			name = fallout_industry_folder
-			position = { x = @Row_5 y = @Col_1 }
+			position = { x = @Row_4 y = @Col_1 }
 		}
 		
 		categories = {
@@ -771,7 +609,7 @@ technologies = {
 		start_year = 2276
 		folder = {
 			name = fallout_industry_folder
-			position = { x = @Row_5 y = @Col_2 }
+			position = { x = @Row_4 y = @Col_3 }
 		}
 		
 		categories = {
@@ -813,7 +651,7 @@ technologies = {
 		start_year = 2278
 		folder = {
 			name = fallout_industry_folder
-			position = { x = @Row_5 y = @Col_3 }
+			position = { x = @Row_4 y = @Col_5 }
 		}
 		
 		categories = {
@@ -866,7 +704,7 @@ technologies = {
 		start_year = 2280
 		folder = {
 			name = fallout_industry_folder
-			position = { x = @Row_5 y = @Col_4 }
+			position = { x = @Row_4 y = @Col_7 }
 		}
 		
 		categories = {
@@ -905,7 +743,7 @@ technologies = {
 		start_year = 2282
 		folder = {
 			name = fallout_industry_folder
-			position = { x = @Row_5 y = @Col_5 }
+			position = { x = @Row_4 y = @Col_9 }
 		}
 		
 		categories = {
@@ -934,7 +772,7 @@ technologies = {
 		start_year = 2275
 		folder = {
 			name = fallout_industry_folder
-			position = { x = @Row_6 y = @Col_1 }
+			position = { x = @Row_5 y = @Col_1 }
 		}
 		
 		categories = {
@@ -954,7 +792,7 @@ technologies = {
 		start_year = 2276
 		folder = {
 			name = fallout_industry_folder
-			position = { x = @Row_6 y = @Col_2 }
+			position = { x = @Row_5 y = @Col_3 }
 		}
 		
 		categories = {
@@ -979,7 +817,7 @@ technologies = {
 		start_year = 2278
 		folder = {
 			name = fallout_industry_folder
-			position = { x = @Row_6 y = @Col_3 }
+			position = { x = @Row_5 y = @Col_5 }
 		}
 		
 		categories = {
@@ -1003,7 +841,7 @@ technologies = {
 		start_year = 2280
 		folder = {
 			name = fallout_industry_folder
-			position = { x = @Row_6 y = @Col_4 }
+			position = { x = @Row_5 y = @Col_7 }
 		}
 		
 		categories = {
@@ -1028,7 +866,7 @@ technologies = {
 		start_year = 2282
 		folder = {
 			name = fallout_industry_folder
-			position = { x = @Row_6 y = @Col_5 }
+			position = { x = @Row_5 y = @Col_9 }
 		}
 		
 		categories = {
@@ -1058,7 +896,7 @@ technologies = {
 		start_year = 2275
 		folder = {
 			name = fallout_industry_folder
-			position = { x = @Row_7 y = @Col_1 }
+			position = { x = @Row_6 y = @Col_1 }
 		}
 		
 		categories = {
@@ -1086,7 +924,7 @@ technologies = {
 		start_year = 2278
 		folder = {
 			name = fallout_industry_folder
-			position = { x = @Row_7 y = @Col_2 }
+			position = { x = @Row_6 y = @Col_3 }
 		}
 		
 		categories = {
@@ -1118,7 +956,7 @@ technologies = {
 		start_year = 2281
 		folder = {
 			name = fallout_industry_folder
-			position = { x = @Row_7 y = @Col_3 }
+			position = { x = @Row_6 y = @Col_5 }
 		}
 		
 		categories = {
@@ -1150,7 +988,7 @@ technologies = {
 		start_year = 2285
 		folder = {
 			name = fallout_industry_folder
-			position = { x = @Row_7 y = @Col_4 }
+			position = { x = @Row_6 y = @Col_7 }
 		}
 		
 		categories = {
@@ -1177,7 +1015,7 @@ technologies = {
 		start_year = 2290
 		folder = {
 			name = fallout_industry_folder
-			position = { x = @Row_7 y = @Col_5 }
+			position = { x = @Row_6 y = @Col_9 }
 		}
 		
 		categories = {
@@ -1208,7 +1046,7 @@ technologies = {
 		start_year = 2275
 		folder = {
 			name = fallout_industry_folder
-			position = { x = @Row_8 y = @Col_1 }
+			position = { x = @Row_7 y = @Col_1 }
 		}
 		
 		categories = {
@@ -1252,7 +1090,7 @@ technologies = {
 		start_year = 2278
 		folder = {
 			name = fallout_industry_folder
-			position = { x = @Row_8 y = @Col_2 }
+			position = { x = @Row_7 y = @Col_3 }
 		}
 		
 		categories = {
@@ -1300,7 +1138,7 @@ technologies = {
 		start_year = 2281
 		folder = {
 			name = fallout_industry_folder
-			position = { x = @Row_8 y = @Col_3 }
+			position = { x = @Row_7 y = @Col_5 }
 		}
 		
 		categories = {
@@ -1348,7 +1186,7 @@ technologies = {
 		start_year = 2285
 		folder = {
 			name = fallout_industry_folder
-			position = { x = @Row_8 y = @Col_4 }
+			position = { x = @Row_7 y = @Col_7 }
 		}
 		
 		categories = {
@@ -1391,7 +1229,7 @@ technologies = {
 		start_year = 2290
 		folder = {
 			name = fallout_industry_folder
-			position = { x = @Row_8 y = @Col_5 }
+			position = { x = @Row_7 y = @Col_9 }
 		}
 		
 		categories = {
@@ -1438,7 +1276,7 @@ technologies = {
 		start_year = 2275
 		folder = {
 			name = fallout_industry_folder
-			position = { x = @Row_9 y = @Col_1 }
+			position = { x = @Row_8 y = @Col_1 }
 		}
 		
 		categories = {
@@ -1482,7 +1320,7 @@ technologies = {
 		start_year = 2278
 		folder = {
 			name = fallout_industry_folder
-			position = { x = @Row_9 y = @Col_2 }
+			position = { x = @Row_8 y = @Col_3 }
 		}
 		
 		categories = {
@@ -1530,7 +1368,7 @@ technologies = {
 		start_year = 2281
 		folder = {
 			name = fallout_industry_folder
-			position = { x = @Row_9 y = @Col_3 }
+			position = { x = @Row_8 y = @Col_5 }
 		}
 		
 		categories = {
@@ -1578,7 +1416,7 @@ technologies = {
 		start_year = 2285
 		folder = {
 			name = fallout_industry_folder
-			position = { x = @Row_9 y = @Col_4 }
+			position = { x = @Row_8 y = @Col_7 }
 		}
 		
 		categories = {
@@ -1621,7 +1459,7 @@ technologies = {
 		start_year = 2290
 		folder = {
 			name = fallout_industry_folder
-			position = { x = @Row_9 y = @Col_5 }
+			position = { x = @Row_8 y = @Col_9 }
 		}
 		
 		categories = {
@@ -1712,7 +1550,7 @@ technologies = {
 		start_year = 2278
 		folder = {
 			name = fallout_industry_folder
-			position = { x = @Row_10 y = @Col_2 }
+			position = { x = @Row_10 y = @Col_3 }
 		}
 		
 		categories = {
@@ -1721,8 +1559,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			#factor = 5
-			factor = 0
+			factor = 5
 			modifier = {
 				factor = 0.5
 				fuel > 10
@@ -1761,7 +1598,7 @@ technologies = {
 		start_year = 2281
 		folder = {
 			name = fallout_industry_folder
-			position = { x = @Row_10 y = @Col_3 }
+			position = { x = @Row_10 y = @Col_5 }
 		}
 		
 		categories = {
@@ -1770,8 +1607,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			#factor = 5
-			factor = 0
+			factor = 5
 			modifier = {
 				factor = 0.5
 				fuel > 10
@@ -1810,7 +1646,7 @@ technologies = {
 		start_year = 2285
 		folder = {
 			name = fallout_industry_folder
-			position = { x = @Row_10 y = @Col_4 }
+			position = { x = @Row_10 y = @Col_7 }
 		}
 		
 		categories = {
@@ -1819,7 +1655,8 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 0
+			factor = 5
+
 			modifier = {
 				factor = 0.5
 				fuel > 10
@@ -1853,7 +1690,7 @@ technologies = {
 		start_year = 2290
 		folder = {
 			name = fallout_industry_folder
-			position = { x = @Row_10 y = @Col_5 }
+			position = { x = @Row_10 y = @Col_9 }
 		}
 		
 		categories = {
@@ -1862,7 +1699,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 0
+			factor = 5
 			modifier = {
 				factor = 0.5
 				fuel > 10
@@ -1944,7 +1781,7 @@ technologies = {
 		start_year = 2278
 		folder = {
 			name = fallout_industry_folder
-			position = { x = @Row_11 y = @Col_2 }
+			position = { x = @Row_11 y = @Col_3 }
 		}
 		
 		categories = {
@@ -1953,7 +1790,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 0
+			factor = 5
 			modifier = {
 				factor = 0.5
 				electronics > 10
@@ -1992,7 +1829,7 @@ technologies = {
 		start_year = 2281
 		folder = {
 			name = fallout_industry_folder
-			position = { x = @Row_11 y = @Col_3 }
+			position = { x = @Row_11 y = @Col_5 }
 		}
 		
 		categories = {
@@ -2001,7 +1838,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 0
+			factor = 5
 			modifier = {
 				factor = 0.5
 				electronics > 10
@@ -2040,7 +1877,7 @@ technologies = {
 		start_year = 2285
 		folder = {
 			name = fallout_industry_folder
-			position = { x = @Row_11 y = @Col_4 }
+			position = { x = @Row_11 y = @Col_7 }
 		}
 		
 		categories = {
@@ -2049,7 +1886,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 0
+			factor = 5
 			modifier = {
 				factor = 0.5
 				electronics > 10
@@ -2083,7 +1920,7 @@ technologies = {
 		start_year = 2290
 		folder = {
 			name = fallout_industry_folder
-			position = { x = @Row_11 y = @Col_5 }
+			position = { x = @Row_11 y = @Col_9 }
 		}
 		
 		categories = {
@@ -2092,7 +1929,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 0
+			factor = 5
 			modifier = {
 				factor = 0.5
 				electronics > 10
@@ -2174,7 +2011,7 @@ technologies = {
 		start_year = 2278
 		folder = {
 			name = fallout_industry_folder
-			position = { x = @Row_12 y = @Col_2 }
+			position = { x = @Row_12 y = @Col_3 }
 		}
 		
 		categories = {
@@ -2183,7 +2020,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 0
+			factor = 5
 			modifier = {
 				factor = 0.5
 				advanced_technology  > 10
@@ -2222,7 +2059,7 @@ technologies = {
 		start_year = 2281
 		folder = {
 			name = fallout_industry_folder
-			position = { x = @Row_12 y = @Col_3 }
+			position = { x = @Row_12 y = @Col_5 }
 		}
 		
 		categories = {
@@ -2231,7 +2068,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 0
+			factor = 5
 			modifier = {
 				factor = 0.5
 				advanced_technology  > 10
@@ -2270,7 +2107,7 @@ technologies = {
 		start_year = 2285
 		folder = {
 			name = fallout_industry_folder
-			position = { x = @Row_12 y = @Col_4 }
+			position = { x = @Row_12 y = @Col_7 }
 		}
 		
 		categories = {
@@ -2279,7 +2116,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 0
+			factor = 5
 			modifier = {
 				factor = 0.5
 				advanced_technology  > 10
@@ -2313,7 +2150,7 @@ technologies = {
 		start_year = 2290
 		folder = {
 			name = fallout_industry_folder
-			position = { x = @Row_12 y = @Col_5 }
+			position = { x = @Row_12 y = @Col_9 }
 		}
 		
 		categories = {
@@ -2322,7 +2159,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 0
+			factor = 1
 			modifier = {
 				factor = 0.5
 				advanced_technology  > 10

@@ -59,6 +59,7 @@ technology_categories = {
 	cat_superior_firepower
 	cat_grand_battle_plan
 	cat_mass_assault
+	cat_outsider_warfare
 	cat_base_strike
 	cat_trade_interdiction
 	cat_fleet_in_being
@@ -118,6 +119,13 @@ technology_categories = {
     ship_carrier_tech
     naval_tech
     chem_tech
+	tribal_tech
+	implant_tech
+	med_tech
+	education_tech
+	agriculture_tech
+	data_storage_tech
+	tool_tech
 }
 
 technology_folders = {
@@ -132,6 +140,7 @@ technology_folders = {
     fallout_engineering_folder
     fallout_naval_folder
     fallout_naval_doctrine_folder
+	fallout_education_folder
     
 }
 

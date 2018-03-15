@@ -1,20 +1,21 @@
 technologies = {
-
+	# Automated Warfare
 	mobile_warfare = {
 		
-		xor = { superior_firepower trench_warfare mass_assault } 
+		xor = { superior_firepower trench_warfare mass_assault outsider_warfare } 
 
 		path = {
 			leads_to_tech = delay 
 			research_cost_coeff = 1
 		}
 		
-		category_all_armor = {
+		category_robots = {
 			breakthrough = 0.20
 		}
 		
+		
 		planning_speed = 0.5
-		army_speed_factor = 0.10
+		army_speed_factor = 0.05
 		enable_tactic = tactic_unexpected_thrust
 		org_loss_when_moving = -0.1
 
@@ -40,10 +41,11 @@ technologies = {
 		}
 	}
 	
+	# Combat Protocols
 	delay = {
 
-		category_all_infantry = {
-			max_organisation = 15
+		category_robots = {
+			max_organisation = 3
 		}
 		
 		
@@ -77,18 +79,15 @@ technologies = {
 		}
 	}
 	
+	# Advanced Combat Protocols
 	elastic_defence = {
 
 		land_reinforce_rate = 0.02
 
-		category_tanks = {
+		category_robots = {
 			max_organisation = 1
-		}
-
-		category_all_armor = {
 			maximum_speed = 0.1
 		}
-		
 	
 		enable_tactic = tactic_elastic_defense
 		
@@ -124,14 +123,18 @@ technologies = {
 		}
 	}
 	
+	# Automated Distribution
 	mobile_infantry = { #Branch focuses on infantry, included Motorised and Mechanised.
 	
 		xor={
 			armored_spearhead
 		}
-		category_vehicles = {
+		
+		supply_consumption_factor = -0.05
+		
+		category_robots = {
 			maximum_speed = 0.1
-			default_morale = 0.2
+			
 		}
 
 		path = {
@@ -165,10 +168,16 @@ technologies = {
 		}
 	}
 	
+	# Rushed Production
 	mass_motorization = {
-		category_all_infantry = {
-			max_organisation = 10
-		}	
+		category_army = {
+			hardness = -0.05
+			soft_attack = -0.01
+			hard_attack = -0.01
+		}
+
+	    industrial_capacity_factory = 0.10
+		production_factory_efficiency_gain_factor = 0.20
 		
 		
 		path = {
@@ -200,15 +209,15 @@ technologies = {
 		}
 	}
 	
+	#Self Replicating Machinery
 	mechanised_offensive = {
 
-		category_vehicles = {
-			max_organisation = 15
+		category_robots = {
+			max_organisation = 2
 		}
 		
-		category_tanks = {
-			max_organisation = 3
-		}
+        production_factory_max_efficiency_factor = 0.2
+		production_factory_efficiency_gain_factor = 0.1
 	
 
 		enable_tactic = tactic_blitz
@@ -245,12 +254,16 @@ technologies = {
 		}
 	}
 	
+	#Field Maintenance
 	armored_spearhead = { #Branch focused on Tanks 
 	
-		category_tanks = {
-			max_organisation = 3
-			breakthrough = 0.20
+		category_robots = {
+			max_organisation = 2
+			breakthrough = 0.10
+			
 		}
+		
+		supply_consumption_factor = -0.02
 		
 		enable_tactic = tactic_blitz
 		
@@ -291,14 +304,11 @@ technologies = {
 		}
 	}
 	
+	#The Flesh is Weak
 	schwerpunk = {
 
-		category_tanks = {
-			max_organisation = 2
-		}
-
-		category_all_armor = {
-			default_morale = 0.1
+		category_robots = {
+			max_organisation = 10
 		}
 		
 		
@@ -332,21 +342,15 @@ technologies = {
 		}
 	}
 	
+	#Refined Construction
 	blitzkrieg = {
 
-		category_tanks = {
-			max_organisation = 1
-		}
-
-		category_all_armor = {
-			default_morale = 0.1
+		category_robots = {
+			hardness = 0.05
+			armor_value = 0.05
 		}
 		
 		enable_tactic = tactic_breakthrough
-		
-		category_vehicles = {
-			max_organisation = 5
-		}
 		
 		path = {
 			leads_to_tech = kampfgruppe 
@@ -378,14 +382,12 @@ technologies = {
 		}
 	}
 	
+	#Combat Simulations
 	kampfgruppe = {
 
-		category_all_infantry = {
-			default_morale = 0.2
-			max_organisation = 10
-		}
 		# faster planning
 		planning_speed = 0.2
+		max_organisation = 5
 		
 		enable_tactic = tactic_overwhelming_fire
 		
@@ -422,19 +424,18 @@ technologies = {
 		}
 	}
 	
+	# Offensive Protocols
 	firebrigades = { #Branch focused on mobile warfares
 	
 		xor={
 			volkssturm
 		}
 		
-		category_all_infantry = {
-			max_organisation = 10
+		category_robots = {
+			soft_attack = 0.1
+			hard_attack = 0.1
+			breakthrough = 0.1
 		}
-		category_tanks = {
-			max_organisation = 2
-		}
-
 		
 		path = {
 			leads_to_tech = backhand_blow 
@@ -465,7 +466,15 @@ technologies = {
 		}
 	}
 	
+	# Iron Fist
 	backhand_blow = {
+	
+		category_robots = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+			breakthrough = 0.05
+			defense = -0.05
+		}
 
 	
 		enable_tactic = tactic_backhand_blow
@@ -499,15 +508,14 @@ technologies = {
 		}
 	}
 	
+	# Age of the Machine
 	modern_blitzkrieg = {
 
-		category_tanks = {
-			max_organisation = 3
-			breakthrough = 0.20
-		}
-
-		category_all_armor = {
-			default_morale = 0.2
+		category_robots = {
+			max_organisation = 5
+			breakthrough = 0.10
+			soft_attack = 0.20
+			hard_attack = 0.20
 		}
 		
 		doctrine = yes	
@@ -533,14 +541,17 @@ technologies = {
 		}
 	}
 	
+	# Standardised Blueprints
 	volkssturm = {
 	
 		xor={
 			firebrigades
 		}
 
-		
-		conscription = 0.02
+        industrial_capacity_factory = 0.08
+        line_change_production_efficiency_factor = 0.05
+		production_factory_start_efficiency_factor = 0.1
+		production_factory_efficiency_gain_factor = 0.15
 		
 		path = {
 			leads_to_tech = nd_conscription 
@@ -571,9 +582,12 @@ technologies = {
 		}
 	}
 	
+	# Networked Ai
 	nd_conscription = {
 
-		conscription = 0.03
+		category_robots = {
+			max_organisation = 7
+		}
 
 		path = {
 			leads_to_tech = werwolf_guerillas 
@@ -604,14 +618,17 @@ technologies = {
 		}
 	}
 	
+	# Internal Replicators
 	werwolf_guerillas = {
+	
+	supply_consumption_factor = -0.1
+	
+		category_robots = {
+			hardness = 0.1
+			armor_value = 0.1
+			default_morale = 0.1
+		}
 
-		
-		#Increased Partisan effect on your land occupied by others
-		partisan_effect = 0.1 #10% more partisan effects
-		
-		enable_tactic = tactic_guerrilla_tactics
-		
 		doctrine = yes	
 		research_cost = 3
 		
@@ -634,18 +651,23 @@ technologies = {
 			armor = 2.0
 		}
 	}
-	
+	# Elite Forces
 	superior_firepower = {
 
-		xor = { mobile_warfare trench_warfare mass_assault } 
+		xor = { mobile_warfare trench_warfare mass_assault outsider_warfare } 
 
 		path = {
 			leads_to_tech = sup_delay 
 			research_cost_coeff = 1
 		}
 		
-		category_front_line = {
-			 soft_attack = 0.2
+		conscription_factor = -0.05
+		
+		category_army = {
+			 soft_attack = 0.1
+			 hard_attack = 0.1
+			 default_morale = -0.2
+			 max_organisation = 1
 		}
 		
 		enable_tactic = tactic_barrage
@@ -673,10 +695,12 @@ technologies = {
 		}
 	}
 	
+	# Concentration of Force
 	sup_delay = {
 
-		category_light_infantry = {
-			max_organisation = 10
+		category_all_infantry = {
+			max_organisation = 5
+			default_morale = 0.1
 		}
 		
 		enable_tactic = tactic_delay
@@ -708,10 +732,11 @@ technologies = {
 		}
 	}
 	
+	# Speed of Movement
 	mobile_defence = {
 
 		category_all_infantry = {
-			defense = 0.20
+			maximum_speed = 0.1
 		}
 		
 		enable_tactic = tactic_elastic_defense
@@ -750,6 +775,7 @@ technologies = {
 		}
 	}
 	
+	
 	intergrated_support = { #This Branch is focused on boosting stuff in the support column 
 	
 		xor={
@@ -759,7 +785,10 @@ technologies = {
 	
 		category_support_battalions = {
 			max_organisation = 10
-			soft_attack = 0.25
+			soft_attack = 0.1
+			defense = 0.1
+			hard_attack = 0.1
+			
 		}
 		
 		path = {
@@ -791,11 +820,12 @@ technologies = {
 		}
 	}
 	
+	# Adaptive Chain of Command
 	regimental_combat_teams = {
 
-		category_support_battalions = {
-			max_organisation = 10
-			soft_attack = 0.25
+		category_army = {
+			land_reinforce_rate = 0.1
+			default_morale = 0.1
 		}
 		
 		enable_tactic = tactic_overwhelming_fire
@@ -828,14 +858,15 @@ technologies = {
 		}
 	}
 	
+	# Walking Fire
 	dispersed_support = { # Branch is focused on support units as part of the regular brigades
 		
 		xor = {
 			intergrated_support
 		}
 		
-		category_line_artillery = {
-			default_morale = 0.2
+		category_army = {
+			breakthrough = 0.2
 		}
 		
 		path = {
@@ -867,10 +898,15 @@ technologies = {
 		}
 	}
 	
+	# Hit and Run
 	overwhelming_firepower = {
 
-		category_line_artillery = {
-			soft_attack = 0.10
+		category_army = {
+			soft_attack = 0.05
+			maximum_speed = 0.1
+			max_organisation = 0.05
+			max_dig_in = -0.25
+			org_loss_when_moving = -0.05
 		}
 		
 		enable_tactic = tactic_overwhelming_fire
@@ -904,10 +940,17 @@ technologies = {
 		}
 	}
 	
+	# Walking Tanks
 	sup_mechanized_offensive = {
 
-		category_all_armor = {
+		category_power_armor = {
 			breakthrough = 0.10
+			hard_attack = 0.1
+			soft_attack = 0.1
+			org_loss_when_moving = -0.1
+			hardness = 0.05
+			dig_in_speed_factor = -0.5
+			max_dig_in = -0.5
 		}
 		
 		
@@ -947,14 +990,22 @@ technologies = {
 		}
 	}
 	
+	# Non Discriminatory Targeting
 	concentrated_fire_plans = {
 	
 		xor = {
 			centralized_fire_control
 		}
 
+		
+		MONTHLY_POPULATION = -0.02
+		supply_consumption_factor = 0.02
+		conscription_factor = -0.1
 		category_army = {
-			hard_attack = 0.10
+			hard_attack = 0.2
+			soft_attack = 0.2
+			default_morale = -0.1
+			max_organisation = -1
 		}
 		
 		path = {
@@ -986,13 +1037,11 @@ technologies = {
 		}
 	}
 	
+	# Airborne Assaults
 	combined_arms = {
 
-		
-		category_all_armor = {
-			hard_attack = 0.10
-			soft_attack = 0.10
-		}
+		no_supply_grace = 56		
+
 		
 		enable_tactic = tactic_breakthrough
 		
@@ -1025,9 +1074,15 @@ technologies = {
 		}
 	}
 	
+	# Scorched Earth
 	tactical_control = {
 
-		land_reinforce_rate = 0.02
+		land_reinforce_rate = -0.02
+		
+		category_army = {
+			soft_attack = 0.05
+			breakthrough = 0.2
+		}
 	
 		enable_tactic = tactic_tactical_withdrawal
 		
@@ -1060,14 +1115,18 @@ technologies = {
 		}
 	}
 	
+	# Shock and Awe
 	air_land_battle = {
 
-		category_front_line = {
+		category_army = {
 			max_organisation = 5
+			soft_attack = 0.15
+			hard_attack = 0.15
 		}
-			
+		
+		supply_consumption_factor = 0.05			
 		#combat advantage when air superior
-		army_bonus_air_superiority_factor = 0.20
+		army_bonus_air_superiority_factor = 0.15
 		
 		doctrine = yes	
 		research_cost = 3
@@ -1092,14 +1151,15 @@ technologies = {
 		}
 	}
 	
+	# Recon in Depth
 	centralized_fire_control = {
 	
 		xor = {
 			concentrated_fire_plans
 		}
 
-		category_army = {
-			soft_attack = 0.05
+		category_light_infantry = {
+			recon = 1.5
 		}
 		
 		path = {
@@ -1131,12 +1191,15 @@ technologies = {
 		}
 	}
 	
+	# Warrior Code
 	forward_observers = {
 
-		land_reinforce_rate = 0.02
-
-		recon_company = {
-			recon = 1
+		conscription_factor = 0.05
+		supply_consumption_factor = -0.01
+		
+		category_army = {
+			soft_attack = 0.1
+			hard_attack = 0.1
 		}
 		
 		path = {
@@ -1168,17 +1231,17 @@ technologies = {
 		}
 	}
 	
+	#Combined Arms
 	advanced_firebases = {
 
 		category_all_infantry = {
 			max_organisation = 10
 			default_morale = 0.05
 		}
-		category_tanks = {
+		category_power_armor = {
 			max_organisation = 2
-		}
-
-		category_all_armor = {
+			soft_attack = 0.05
+			hard_attack = 0.05
 			default_morale = 0.05
 		}
 		
@@ -1213,11 +1276,14 @@ technologies = {
 		}
 	}
 	
+	#Brigades of Steel
 	shock_and_awe = {
 
-		category_army = { 
-			soft_attack = 0.1 
-			hard_attack = 0.1 
+		no_supply_grace = 24
+		category_power_armor = { 
+		max_organisation = 5
+		default_morale = 0.1
+		defense = 0.1
 		}
 		
 		enable_tactic = tactic_breakthrough
@@ -1245,12 +1311,12 @@ technologies = {
 		}
 	}
 	
-	
+	# Prepared Defense
 	trench_warfare = {
 
-		xor = { mobile_warfare superior_firepower mass_assault } 
+		xor = { mobile_warfare superior_firepower mass_assault outsider_warfare} 
 	
-		max_dig_in = 10
+		max_dig_in = 15
 		dig_in_speed_factor = 0.25 #25% bonus
 		
 		
@@ -1283,6 +1349,7 @@ technologies = {
 		}
 	}
 	
+	# Grand Battle Plan
 	grand_battle_plan = {
 	
 
@@ -1292,7 +1359,7 @@ technologies = {
 		}
 		
 		#planning max bonus increase
-		max_planning = 0.3
+		max_planning = 0.5
 
 		doctrine = yes	
 		research_cost = 3
@@ -1319,12 +1386,12 @@ technologies = {
 	}
 	
 
-	
+	# Fortified Positions
 	prepared_defense = {
 
 		category_all_infantry = {
-			defense = 0.10
-			max_organisation = 10
+			defense = 0.15
+			max_organisation = 8
 		}
 		
 		path = {
@@ -1356,6 +1423,7 @@ technologies = {
 		}
 	}
 	
+	# Grand Assault
 	grand_assault = {
 
 		category_army = {
@@ -1398,6 +1466,7 @@ technologies = {
 		}
 	}
 	
+	# Mechanized Offensive
 	grand_mechanized_offensive = {
 	
 		xor = {
@@ -1442,9 +1511,14 @@ technologies = {
 		}
 	}
 	
+	# Assault Concentration
 	assault_concentration = {
 	
-		max_planning = 0.2
+		supply_consumption_factor = 0.02
+		
+		category_army = {
+			soft_attack = 0.15
+		}
 
 		enable_tactic = tactic_overwhelming_fire
 		
@@ -1478,14 +1552,14 @@ technologies = {
 		}
 	}
 	
+	# Old World Tactics
 	branch_interoperation = {
 
-		category_all_infantry = {
-			max_organisation = 5
-		}
-		category_tanks = {
+		category_vehicles = {
 			max_organisation = 1
+			maximum_speed = 0.1
 		}
+
 		
 		path = {
 			leads_to_tech = assault_breakthrough 
@@ -1516,10 +1590,12 @@ technologies = {
 		}
 	}
 	
+	# Old World Thunder
 	assault_breakthrough = {
 
-		category_army = {
-			breakthrough = 0.10
+		category_tanks = {
+			breakthrough = 0.2
+			armor_value = 0.1
 		}
 		
 		enable_tactic = tactic_breakthrough
@@ -1554,10 +1630,14 @@ technologies = {
 		}
 	}
 	
+	# Old World Lightning
 	central_planning = {
-
-		max_planning = 0.1
-		planning_speed = 0.1
+	
+		supply_consumption_factor = 0.02
+		
+		category_army = {
+			maximum_speed = 0.1
+		}
 		
 		
 		path = {
@@ -1589,14 +1669,16 @@ technologies = {
 		}
 	}
 	
+	# Mechanized Onslaught
 	c3i_theory = {
-
-		land_reinforce_rate = 0.02
-		category_all_infantry = {
-			max_organisation = 5
-		}
+	
+		supply_consumption_factor = 0.04
+		
 		category_tanks = {
-			max_organisation = 1
+			max_organisation = 4
+			soft_attack = 0.15
+			hard_attack = 0.15
+
 		}
 
 		doctrine = yes	
@@ -1623,14 +1705,16 @@ technologies = {
 		}
 	}
 	
+	# Hold the Line
 	infantry_offensive = {
 	
 		xor = {
 			grand_mechanized_offensive
 		}
 		category_light_infantry = {
-			max_organisation = 5
-			breakthrough = 0.1
+			defense = 0.2
+			dig_in_speed_factor = 0.1
+
 		}
 		
 		enable_tactic = tactic_infantry_charge
@@ -1664,13 +1748,12 @@ technologies = {
 		}
 	}
 	
+	# Concentration of Firepower
 	armored_operations = {
 
-		category_tanks = {
-			max_organisation = 2
-		}
-		category_all_armor = {
-			default_morale = 0.1
+		category_support_battalions = {
+			soft_attack = 0.15
+			hard_attack = 0.15
 		}
 		
 		enable_tactic = tactic_blitz
@@ -1706,6 +1789,7 @@ technologies = {
 		}
 	}
 	
+	# New World Tactics
 	infiltration_assault = {
 
 	
@@ -1740,11 +1824,14 @@ technologies = {
 		}
 	}
 	
+	# Send in the next Wave
 	night_assault_tactics = {
-
-		#reduce land night combat penalty
-		land_night_attack = 0.25 # negates half of base penalty
-	
+		
+		land_reinforce_rate = 0.02
+		
+		category_light_infantry = {
+			default_morale = 0.2
+		}
 	
 		path = {
 			leads_to_tech = attritional_containment 
@@ -1777,14 +1864,15 @@ technologies = {
 		}
 	}
 	
+	# Mass Conscription
 	attritional_containment = {
 
-		category_all_infantry = {
-			max_organisation = 5
+		conscription = 0.05
+		
+		category_army = {
+			max_organisation = -1
 		}
-		category_tanks = {
-			max_organisation = 1
-		}		
+	
 		path = {
 			leads_to_tech = infiltration_in_depth 
 			research_cost_coeff = 1
@@ -1814,12 +1902,17 @@ technologies = {
 		}
 	}
 	
+	# Ranger Infiltration
 	infiltration_in_depth = {
 
-		land_reinforce_rate = 0.02
-		
-		recon_company = { 
-			recon = 1 
+		category_light_infantry = {
+			recon = 0.5
+		}
+
+
+		category_army = {  
+			soft_attack = 0.1
+			hard_attack = 0.1
 		} 
 
 		doctrine = yes	
@@ -1846,9 +1939,10 @@ technologies = {
 		}
 	}
 	
+	# Mass Assault
 	mass_assault = {
 
-		xor = { mobile_warfare superior_firepower trench_warfare } 
+		xor = { mobile_warfare superior_firepower trench_warfare outsider_warfare} 
 
 		path = {
 			leads_to_tech = pocket_defence 
@@ -1881,6 +1975,7 @@ technologies = {
 		}
 	}
 	
+	# Pocket Defense
 	pocket_defence = {
 
 
@@ -1916,12 +2011,13 @@ technologies = {
 		}
 	}
 	
+	# Terror Tactics
 	defence_in_depth = {
 
 		max_dig_in = 5
 
-		category_light_infantry = {
-			max_organisation = 5
+		category_army = {
+			soft_attack = 0.1
 		}
 		
 		
@@ -1957,6 +2053,7 @@ technologies = {
 		}
 	}
 	
+	# Decimato
 	large_front_operations = {
 	
 		xor = {
@@ -1964,9 +2061,15 @@ technologies = {
 		}
 
 
-
+		conscription_factor = -0.1
 		supply_consumption_factor = -0.10
-
+		
+		category_army = {
+			soft_attack = 0.1
+			hard_attack = 0.1
+			max_organisation = 2
+		}
+		
 		enable_tactic = tactic_relentless_assault
 		
 		path = {
@@ -1997,9 +2100,16 @@ technologies = {
 		}
 	}
 	
+	# Ego Gloriam Nominis
 	deep_operations = {
-		category_tanks = {
+	
+		conscription_factor = -0.05
+
+
+		category_all_infantry = {
 			max_organisation = 2
+			soft_attack = 0.1
+			hard_attack = 0.1
 		}
 
 		enable_tactic = tactic_blitz
@@ -2033,9 +2143,17 @@ technologies = {
 		}
 	}
 	
+	# Prae Timore Mortis
 	operational_concentration = {
 
-		max_planning = 0.10
+		conscription_factor = -0.05
+
+
+		category_all_infantry = {
+			max_organisation = 2
+			soft_attack = 0.1
+			hard_attack = 0.1
+		}
 		
 		enable_tactic = tactic_elastic_defense
 		
@@ -2067,15 +2185,11 @@ technologies = {
 		}
 	}
 	
+	# Exitum
 	vast_offensives = {
 
-		supply_consumption_factor = -0.10
-		
-		infantry = {
-			combat_width = -0.4
-		}
-
-		
+		partisan_effect = 0.25
+	
 		enable_tactic = tactic_overwhelming_fire
 		
 		path = {
@@ -2106,15 +2220,11 @@ technologies = {
 		}
 	}
 	
+	# Invisibilia Mortem
 	breakthrough_priority = {
 
-		category_tanks = {
-			max_organisation = 1
-			breakthrough = 0.10
-		}
 		category_all_infantry = {
-			max_organisation = 5
-			breakthrough = 0.10
+			breakthrough = 0.25
 		}
 		
 		enable_tactic = tactic_breakthrough
@@ -2147,19 +2257,14 @@ technologies = {
 		}
 	}
 	
+	# Divide et Vincet
 	mechanized_wave = {
-		category_tanks = {
-			max_organisation = 2
-		}
-
-		category_all_armor = {
-			default_morale = 0.1
-		}
 		
-		category_vehicles = {
-			max_organisation = 10
-			default_morale = 0.1
-		}	
+		supply_consumption_factor = -0.1	
+		
+		category_army = {
+			maximum_speed = 0.1
+		}
 		
 		path = {
 			leads_to_tech = continuous_offensive
@@ -2190,9 +2295,14 @@ technologies = {
 		}
 	}
 	
+	# Summa Bellum
 	continuous_offensive = {
 
-		org_loss_when_moving = -0.25
+		org_loss_when_moving = -0.3
+		
+		infantry = {
+			combat_width = -0.2
+		}
 		
 		enable_tactic = tactic_backhand_blow
 
@@ -2219,18 +2329,19 @@ technologies = {
 		}
 	}
 	
+	# Tribal Wisdom
 	peoples_army = {
 	
 		xor = {
 			large_front_operations
 		}
 
+		land_reinforce_rate = 0.02
 		
-		
-		#Increased Partisan effect on your land occupied by others
-		partisan_effect = 0.1 #10% more partisan effects
-		#Land Units take less attrition
-		attrition = -0.1 #take 10% less attrition losses
+		category_army = {
+			default_morale = 0.1
+			attrition = -0.2
+		}
 		
 		enable_tactic = tactic_human_wave_tactics
 		
@@ -2263,8 +2374,11 @@ technologies = {
 		}
 	}
 	
+	# The Dog Barks
 	human_infantry_offensive = {
 
+		land_reinforce_rate = 0.02
+		
 		infantry = {
 			default_morale = 0.30
 		}
@@ -2299,13 +2413,11 @@ technologies = {
 		}
 	}
 	
+	# The Wolf Pack
 	large_front_offensive = {
 
-		category_all_infantry = {
-			max_organisation = 10
-		}
-		category_tanks = {
-			max_organisation = 2
+		infantry = {
+			combat_width = -0.2
 		}
 		
 		
@@ -2337,13 +2449,13 @@ technologies = {
 		}
 	}
 	
+	# The Mirelurks Pincer
 	human_wave_offensive = {
 
 
-		conscription = 0.05
-				
-		infantry = {
-			combat_width = -0.4
+		category_army = {
+			maximum_speed = 0.1
+			breakthrough = 0.15
 		}
 
 		
@@ -2377,16 +2489,24 @@ technologies = {
 		}
 	}
 	
+	# The Nightstalkers Bite
 	guerilla_warfare = {
 
-		out_of_supply_factor = -0.30
+		out_of_supply_factor = -0.4
+		
 		category_army = {
-			default_morale = 0.2
+			default_morale = 0.10
+			
 		}
 		
-		partisan_effect = 0.2
+		partisan_effect = 0.25
 		
 		enable_tactic = tactic_guerrilla_tactics
+		
+		path = {
+			leads_to_tech = the_cazadores_speed
+			research_cost_coeff = 1
+		}
 		
 		doctrine = yes	
 		research_cost = 3
@@ -2410,4 +2530,742 @@ technologies = {
 		}
 	}
 	
+	the_cazadores_speed = {
+	
+	
+		category_army = {
+			maximum_speed = 0.1
+			soft_attack = 0.1
+		}
+	
+	
+	
+	
+		path = {
+			leads_to_tech = the_deathclaws_might
+			research_cost_coeff = 1
+		}
+		
+		doctrine = yes	
+		research_cost = 3
+		
+		categories = {
+			land_doctrine
+			cat_mass_assault
+		}
+		
+		folder = {
+			name = fallout_land_doctrine_folder
+			position = { x = 2 y = 16 }
+		}
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		ai_research_weights = {
+			industry = 2.0
+		}	
+	
+	}
+	
+	the_deathclaws_might = {
+	
+		supply_consumption_factor = 0.1	
+		category_light_infantry = {
+			breakthrough = 0.15
+			soft_attack = 0.2
+			hard_attack = 0.2
+			hardness = 0.05
+		}
+
+		
+		doctrine = yes	
+		research_cost = 3
+		
+		categories = {
+			land_doctrine
+			cat_mass_assault
+		}
+		
+		folder = {
+			name = fallout_land_doctrine_folder
+			position = { x = 2 y = 18 }
+		}
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		ai_research_weights = {
+			industry = 2.0
+		}
+	}
+
+	# Outsider Warfare
+	outsider_warfare = {
+	
+		ghoul_infantry = {
+			max_organisation = 5
+		}
+		super_mutant_infantry = {
+			max_organisation = 5
+		}
+		behemoth = {
+			max_organisation = 2
+		}
+
+		xor = { mobile_warfare superior_firepower trench_warfare mass_assault } 
+
+		path = {
+			leads_to_tech = we_are_different 
+			research_cost_coeff = 1
+		}
+		
+		doctrine = yes	
+		research_cost = 3
+		
+		categories = {
+			land_doctrine
+			cat_outsider_warfare
+		}
+
+		
+		folder = {
+			name = fallout_land_doctrine_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		ai_research_weights = {
+			industry = 2.0
+		}
+	}	
+	
+	we_are_different = {
+	
+		ghoul_infantry = {
+			default_morale = 0.1
+		}
+		super_mutant_infantry = {
+			default_morale = 0.1
+		}
+
+		path = {
+			leads_to_tech = we_are_special 
+			research_cost_coeff = 1
+		}
+		
+		doctrine = yes	
+		research_cost = 3
+		
+		categories = {
+			land_doctrine
+			cat_outsider_warfare
+		}
+
+		
+		folder = {
+			name = fallout_land_doctrine_folder
+			position = { x = 0 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		ai_research_weights = {
+			industry = 2.0
+		}
+	}	
+	
+	we_are_special = {
+	
+		ghoul_infantry = {
+			soft_attack = 0.01
+			hard_attack = 0.01
+			maximum_speed = 0.01
+			hardness = 0.01
+			recon = 0.01
+			default_morale = 0.01
+			supply_consumption = -0.003
+		}
+		super_mutant_infantry = {
+			soft_attack = 0.01
+			hard_attack = 0.01
+			maximum_speed = 0.01
+			hardness = 0.01
+			recon = 0.01
+			default_morale = 0.01
+			supply_consumption = -0.01
+		}	
+		
+		path = {
+			leads_to_tech = we_are_strong 
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = we_are_smart 
+			research_cost_coeff = 1
+		}
+		
+		doctrine = yes	
+		research_cost = 3
+		
+		categories = {
+			land_doctrine
+			cat_outsider_warfare
+		}
+
+		
+		folder = {
+			name = fallout_land_doctrine_folder
+			position = { x = 0 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		ai_research_weights = {
+			industry = 2.0
+		}
+	}	
+
+	we_are_strong = {
+	
+		ghoul_infantry = {
+			soft_attack = 0.15
+		}
+		super_mutant_infantry = {
+			soft_attack = 0.15
+		}		
+	
+		xor = { we_are_smart }
+
+		path = {
+			leads_to_tech = we_are_enduring
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = we_are_fast
+			research_cost_coeff = 1
+		}
+		
+		doctrine = yes	
+		research_cost = 3
+		
+		categories = {
+			land_doctrine
+			cat_outsider_warfare
+		}
+
+		
+		folder = {
+			name = fallout_land_doctrine_folder
+			position = { x = -2 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		ai_research_weights = {
+			industry = 2.0
+		}
+	}
+
+	we_are_smart = {
+	
+		ghoul_infantry = {
+			hard_attack = 0.1
+		}
+		super_mutant_infantry = {
+			hard_attack = 0.1
+		}	
+	
+		xor = { we_are_strong }
+
+		path = {
+			leads_to_tech = we_are_enduring
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = we_are_fast
+			research_cost_coeff = 1
+		}
+		
+		doctrine = yes	
+		research_cost = 3
+		
+		categories = {
+			land_doctrine
+			cat_outsider_warfare
+		}
+
+		
+		folder = {
+			name = fallout_land_doctrine_folder
+			position = { x = 2 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		ai_research_weights = {
+			industry = 2.0
+		}
+	}	
+	
+	we_are_enduring = {
+	
+		ghoul_infantry = {
+			hardness = 0.15
+		}
+		super_mutant_infantry = {
+			hardness = 0.15
+		}	
+	
+		xor = { we_are_fast }
+
+		path = {
+			leads_to_tech = we_are_beautiful
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = we_are_perceptive
+			research_cost_coeff = 1
+		}
+		
+		doctrine = yes	
+		research_cost = 3
+		
+		categories = {
+			land_doctrine
+			cat_outsider_warfare
+		}
+
+		
+		folder = {
+			name = fallout_land_doctrine_folder
+			position = { x = -2 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		ai_research_weights = {
+			industry = 2.0
+		}
+	}
+	
+	we_are_fast = {
+	
+		ghoul_infantry = {
+			maximum_speed = 0.15
+		}
+		super_mutant_infantry = {
+			maximum_speed = 0.15
+		}	
+	
+		xor = { we_are_enduring }
+
+		path = {
+			leads_to_tech = we_are_beautiful
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = we_are_perceptive
+			research_cost_coeff = 1
+		}
+		
+		doctrine = yes	
+		research_cost = 3
+		
+		categories = {
+			land_doctrine
+			cat_outsider_warfare
+		}
+
+		
+		folder = {
+			name = fallout_land_doctrine_folder
+			position = { x = 2 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		ai_research_weights = {
+			industry = 2.0
+		}
+	}
+	
+	we_are_beautiful = {
+	
+		ghoul_infantry = {
+			default_morale = 0.15
+		}
+		super_mutant_infantry = {
+			default_morale = 0.15
+		}	
+	
+		xor = { we_are_perceptive }
+
+		path = {
+			leads_to_tech = we_are_fortunate
+			research_cost_coeff = 1
+		}
+		
+		
+		doctrine = yes	
+		research_cost = 3
+		
+		categories = {
+			land_doctrine
+			cat_outsider_warfare
+		}
+
+		
+		folder = {
+			name = fallout_land_doctrine_folder
+			position = { x = -2 y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		ai_research_weights = {
+			industry = 2.0
+		}
+	}
+	
+	we_are_perceptive = {
+	
+		ghoul_infantry = {
+			recon = 1
+		}
+		super_mutant_infantry = {
+			recon = 1
+		}	
+	
+		xor = { we_are_beautiful }
+	
+		path = {
+			leads_to_tech = we_are_fortunate
+			research_cost_coeff = 1
+		}
+		
+		doctrine = yes	
+		research_cost = 3
+		
+		categories = {
+			land_doctrine
+			cat_outsider_warfare
+		}
+
+		
+		folder = {
+			name = fallout_land_doctrine_folder
+			position = { x = 2 y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		ai_research_weights = {
+			industry = 2.0
+		}
+	}
+	
+	we_are_fortunate = {
+	
+		ghoul_infantry = {
+			supply_consumption = -0.005
+		}
+		super_mutant_infantry = {
+			supply_consumption = -0.02
+		}	
+	
+		path = {
+			leads_to_tech = the_chosen_ones
+			research_cost_coeff = 1
+		}
+		
+		doctrine = yes	
+		research_cost = 3
+		
+		categories = {
+			land_doctrine
+			cat_outsider_warfare
+		}
+
+		
+		folder = {
+			name = fallout_land_doctrine_folder
+			position = { x = 0 y = 11 }
+		}
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		ai_research_weights = {
+			industry = 2.0
+		}
+	}	
+	
+	the_chosen_ones = {
+	
+		ghoul_infantry = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+			max_organisation = 2
+			max_dig_in = 0.25
+		}
+		super_mutant_infantry = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+			max_organisation = 2
+			breakthrough = 0.1
+		}	
+		behemoth = {
+			soft_attack = 0.05
+			hard_attack = 0.05		
+		}
+	
+		path = {
+			leads_to_tech = army_of_outsiders
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = the_master_servant
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = ageless_experience
+			research_cost_coeff = 1
+		}
+		
+		doctrine = yes	
+		research_cost = 3
+		
+		categories = {
+			land_doctrine
+			cat_outsider_warfare
+		}
+
+		
+		folder = {
+			name = fallout_land_doctrine_folder
+			position = { x = 0 y = 13 }
+		}
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		ai_research_weights = {
+			industry = 2.0
+		}
+	}	
+	
+	the_master_servant = {
+	
+		super_mutant_infantry = {
+			soft_attack = 0.1
+			hard_attack = 0.1
+		}	
+		behemoth = {
+			soft_attack = 0.05
+			hard_attack = 0.05		
+		}
+	
+		xor = { ageless_experience }
+		
+		doctrine = yes	
+		research_cost = 3
+		
+		categories = {
+			land_doctrine
+			cat_outsider_warfare
+		}
+
+		
+		folder = {
+			name = fallout_land_doctrine_folder
+			position = { x = -2 y = 15 }
+		}
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		ai_research_weights = {
+			industry = 2.0
+		}
+	}
+	
+	ageless_experience = {
+	
+		ghoul_infantry = {
+			max_organisation = 5
+			supply_consumption = -0.02
+		}		
+	
+		xor = { the_master_servant }
+		
+		doctrine = yes	
+		research_cost = 3
+		
+		categories = {
+			land_doctrine
+			cat_outsider_warfare
+		}
+
+		
+		folder = {
+			name = fallout_land_doctrine_folder
+			position = { x = 2 y = 15 }
+		}
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		ai_research_weights = {
+			industry = 2.0
+		}
+	}	
+	
+	army_of_outsiders = {
+	
+		ghoul_infantry = {
+			default_morale = 0.1
+		}
+		
+		super_mutant_infantry = {
+			default_morale = 0.1
+		}	
+		behemoth = {
+			default_morale = 0.1		
+		}
+	
+		path = {
+			leads_to_tech = master_race
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = mixed_army
+			research_cost_coeff = 1
+		}
+		
+		doctrine = yes	
+		research_cost = 3
+		
+		categories = {
+			land_doctrine
+			cat_outsider_warfare
+		}
+
+		
+		folder = {
+			name = fallout_land_doctrine_folder
+			position = { x = 0 y = 16 }
+		}
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		ai_research_weights = {
+			industry = 2.0
+		}
+	}
+	
+	mixed_army = {
+	
+		conscription = 0.02
+		category_army = {
+			max_organisation = 2
+			maximum_speed = 0.1
+		}
+	
+		xor = { master_race }
+		
+		doctrine = yes	
+		research_cost = 3
+		
+		categories = {
+			land_doctrine
+			cat_outsider_warfare
+		}
+
+		
+		folder = {
+			name = fallout_land_doctrine_folder
+			position = { x = 2 y = 18 }
+		}
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		ai_research_weights = {
+			industry = 2.0
+		}
+	}
+
+	master_race = {
+	
+		super_mutant_infantry = {
+			soft_attack = 0.25
+			hard_attack = 0.25
+		}
+		
+		behemoth = {
+			soft_attack = 0.25
+			hard_attack = 0.25
+		}
+	
+		xor = { mixed_army }
+		
+		doctrine = yes	
+		research_cost = 3
+		
+		categories = {
+			land_doctrine
+			cat_outsider_warfare
+		}
+
+		
+		folder = {
+			name = fallout_land_doctrine_folder
+			position = { x = -2 y = 18 }
+		}
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		ai_research_weights = {
+			industry = 2.0
+		}
+	}	
 }
