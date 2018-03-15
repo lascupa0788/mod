@@ -43,8 +43,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2
-		start_year = 2270
+		research_cost = 1
+		start_year = 2275
 		
 		folder = {
 			name = fallout_engineering_folder
@@ -52,8 +52,15 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 30
-			
+			factor = 1
+			modifier = {
+				factor = 10
+				date > "2275.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "2276.1.1"
+			}
 		}
 		
 		categories = {
@@ -74,8 +81,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2
-		start_year = 2273
+		research_cost = 1.5
+		start_year = 2275
 		
 		folder = {
 			name = fallout_engineering_folder
@@ -83,7 +90,15 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 7
+			factor = 1
+			modifier = {
+				factor = 10
+				date > "2275.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "2276.1.1"
+			}
 		}
 		
 		categories = {
@@ -103,7 +118,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 2275
+		start_year = 2276
 		
 		folder = {
 			name = fallout_engineering_folder
@@ -111,16 +126,14 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 6
-			
+			factor = 1
 			modifier = {
-				factor = 3
-				date > "2275.1.6"
-			}
-			
-			modifier = {
-				factor = 3
+				factor = 10
 				date > "2276.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "2277.1.1"
 			}
 		}
 		
@@ -158,15 +171,13 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 3
-			
+			factor = 1
 			modifier = {
-				factor = 3
-				date > "2277.1.6"
+				factor = 10
+				date > "2277.1.1"
 			}
-			
 			modifier = {
-				factor = 3
+				factor = 10
 				date > "2278.1.1"
 			}
 		}
@@ -196,15 +207,13 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 3
-			
+			factor = 1
 			modifier = {
-				factor = 3
-				date > "2278.1.6"
+				factor = 10
+				date > "2278.1.1"
 			}
-			
 			modifier = {
-				factor = 3
+				factor = 10
 				date > "2279.1.1"
 			}
 		}
@@ -235,15 +244,13 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 3
-			
+			factor = 1
 			modifier = {
-				factor = 3
-				date > "2280.1.6"
+				factor = 10
+				date > "2280.1.1"
 			}
-			
 			modifier = {
-				factor = 3
+				factor = 10
 				date > "2281.1.1"
 			}
 		}
@@ -278,15 +285,13 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 3
-			
+			factor = 1
 			modifier = {
-				factor = 3
-				date > "2281.1.6"
+				factor = 10
+				date > "2281.1.1"
 			}
-			
 			modifier = {
-				factor = 3
+				factor = 10
 				date > "2282.1.1"
 			}
 		}
@@ -312,15 +317,13 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 3
-			
+			factor = 1
 			modifier = {
-				factor = 3
-				date > "2282.1.6"
+				factor = 10
+				date > "2282.1.1"
 			}
-			
 			modifier = {
-				factor = 3
+				factor = 10
 				date > "2283.1.1"
 			}
 		}
@@ -352,8 +355,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2
-		start_year = 2270
+		research_cost = 1
+		start_year = 2275
 		
 		folder = {
 			name = fallout_engineering_folder
@@ -361,7 +364,19 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 30
+			factor = 1
+			modifier = {
+				factor = 10
+				date > "2275.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "2276.1.1"
+			}
+			modifier = {
+				factor = 5
+				has_tech = superior_firepower
+			}
 		}
 		
 		categories = {
@@ -390,8 +405,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2
-		start_year = 2273
+		research_cost = 1.5
+		start_year = 2276
 		
 		folder = {
 			name = fallout_engineering_folder
@@ -399,11 +414,18 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 3
-			
+			factor = 1
+			modifier = {
+				factor = 10
+				date > "2276.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "2277.1.1"
+			}
 			modifier = {
 				factor = 5
-				has_war = yes
+				has_tech = superior_firepower
 			}
 		}
 		
@@ -428,7 +450,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 2275
+		start_year = 2277
 		
 		folder = {
 			name = fallout_engineering_folder
@@ -436,11 +458,18 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 3
-			
+			factor = 1
+			modifier = {
+				factor = 10
+				date > "2277.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "2278.1.1"
+			}
 			modifier = {
 				factor = 5
-				has_war = yes
+				has_tech = superior_firepower
 			}
 		}
 		
@@ -475,7 +504,7 @@ technologies = {
         }
 		
 		research_cost = 2
-		start_year = 2277
+		start_year = 2278
 		
 		folder = {
 			name = fallout_engineering_folder
@@ -483,21 +512,18 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 3
-			
+			factor = 1
 			modifier = {
-				factor = 3
-				date > "2277.1.6"
-			}
-			
-			modifier = {
-				factor = 3
+				factor = 10
 				date > "2278.1.1"
 			}
-			
 			modifier = {
-				factor = 2
-				has_war = yes
+				factor = 10
+				date > "2279.1.1"
+			}
+			modifier = {
+				factor = 5
+				has_tech = superior_firepower
 			}
 		}
 		
@@ -528,7 +554,7 @@ technologies = {
 		}
 				
 		research_cost = 2
-		start_year = 2280
+		start_year = 2279
 		
 		folder = {
 			name = fallout_engineering_folder
@@ -536,21 +562,18 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 3
-			
+			factor = 1
 			modifier = {
-				factor = 3
-				date > "2280.1.6"
+				factor = 10
+				date > "2279.1.1"
 			}
-			
 			modifier = {
-				factor = 3
-				date > "2281.1.1"
+				factor = 10
+				date > "2280.1.1"
 			}
-			
 			modifier = {
-				factor = 2
-				has_war = yes
+				factor = 5
+				has_tech = superior_firepower
 			}
 		}
 		
@@ -589,21 +612,18 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 3
-			
+			factor = 1
 			modifier = {
-				factor = 3
-				date > "2281.1.6"
+				factor = 10
+				date > "2281.1.1"
 			}
-			
 			modifier = {
-				factor = 3
+				factor = 10
 				date > "2282.1.1"
 			}
-			
 			modifier = {
-				factor = 2
-				has_war = yes
+				factor = 5
+				has_tech = superior_firepower
 			}
 		}
 		
@@ -640,6 +660,14 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 10
+				date > "2277.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "2278.1.1"
+			}
 		}
 		
 		categories = {
@@ -667,6 +695,14 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 10
+				date > "2278.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "2279.1.1"
+			}
 		}
 		
 		categories = {
@@ -703,6 +739,14 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 10
+				date > "2280.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "2281.1.1"
+			}
 		}
 		
 		categories = {
@@ -738,6 +782,14 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 10
+				date > "2281.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "2282.1.1"
+			}
 		}
 		
 		categories = {
@@ -769,6 +821,14 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 10
+				date > "2282.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "2283.1.1"
+			}
 		}
 		
 		categories = {
@@ -795,6 +855,14 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 10
+				date > "2283.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "2284.1.1"
+			}
 		}
 		
 		categories = {
@@ -821,7 +889,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 5
 		}
 		
 		categories = {
@@ -844,7 +912,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 5
 		}
 		
 		categories = {
@@ -866,7 +934,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 5
 		}
 		
 		categories = {
@@ -889,7 +957,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 5
 		}
 		
 		categories = {
@@ -912,7 +980,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 5
 		}
 		
 		categories = {
@@ -936,7 +1004,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 5
 		}
 		
 		categories = {
@@ -958,7 +1026,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 5
 		}
 		
 		categories = {
@@ -980,7 +1048,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 5
 		}
 		
 		categories = {
@@ -1003,7 +1071,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 5
 		}
 		
 		categories = {
@@ -1026,7 +1094,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 5
 		}
 		
 		categories = {
@@ -1045,7 +1113,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2
+		research_cost = 1
 		start_year = 2270
 		
 		folder = {
@@ -1054,7 +1122,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 3
 		}
 		
 		categories = {
@@ -1073,7 +1141,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2
+		research_cost = 1.5
 		start_year = 2273
 		
 		folder = {
@@ -1082,7 +1150,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 3
 		}
 		
 		categories = {
@@ -1110,7 +1178,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 3
 		}
 		
 		categories = {
@@ -1143,6 +1211,10 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 3
+				date > "2277.1.1"
+			}
 		}
 		
 		categories = {
@@ -1170,6 +1242,10 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 3
+				date > "2281.1.1"
+			}
 		}
 		
 		categories = {
@@ -1195,7 +1271,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 2270
+		start_year = 2275
 		
 		folder = {
 			name = fallout_engineering_folder
@@ -1204,6 +1280,27 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 10
+				date > "2275.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "2276.1.1"
+			}
+			modifier = {
+				factor = 2
+				has_tech = settled_civilization
+			}
+			modifier = {
+				factor = 2
+				has_tech = scientific_civilization
+			}
+			modifier = {
+				factor = 0
+				has_tech = scavtool_engineering
+			}
+
 		}
 		
 		categories = {
@@ -1224,7 +1321,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 2275
+		start_year = 2276
 		
 		folder = {
 			name = fallout_engineering_folder
@@ -1233,6 +1330,22 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 10
+				date > "2276.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "2277.1.1"
+			}
+			modifier = {
+				factor = 2
+				has_tech = settled_civilization
+			}
+			modifier = {
+				factor = 2
+				has_tech = scientific_civilization
+			}
 		}
 		
 		categories = {
@@ -1266,6 +1379,22 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 10
+				date > "2277.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "2278.1.1"
+			}
+			modifier = {
+				factor = 2
+				has_tech = settled_civilization
+			}
+			modifier = {
+				factor = 2
+				has_tech = scientific_civilization
+			}
 		}
 		
 		categories = {
@@ -1286,7 +1415,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 2280
+		start_year = 2278
 		
 		folder = {
 			name = fallout_engineering_folder
@@ -1295,6 +1424,22 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 10
+				date > "2278.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "2279.1.1"
+			}
+			modifier = {
+				factor = 2
+				has_tech = settled_civilization
+			}
+			modifier = {
+				factor = 2
+				has_tech = scientific_civilization
+			}
 		}
 		
 		categories = {
@@ -1324,6 +1469,22 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 10
+				date > "2280.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "2281.1.1"
+			}
+			modifier = {
+				factor = 2
+				has_tech = settled_civilization
+			}
+			modifier = {
+				factor = 2
+				has_tech = scientific_civilization
+			}
 		}
 		
 		categories = {
@@ -1352,6 +1513,22 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 10
+				date > "2281.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "2282.1.1"
+			}
+			modifier = {
+				factor = 2
+				has_tech = settled_civilization
+			}
+			modifier = {
+				factor = 2
+				has_tech = scientific_civilization
+			}
 		}
 		
 		categories = {
@@ -1376,7 +1553,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 2270
+		start_year = 2275
 		
 		folder = {
 			name = fallout_engineering_folder
@@ -1385,6 +1562,26 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 10
+				date > "2275.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "2276.1.1"
+			}
+			modifier = {
+				factor = 0
+				has_tech = settled_civilization
+			}
+			modifier = {
+				factor = 0
+				has_tech = scientific_civilization
+			}
+			modifier = {
+				factor = 0
+				has_tech = maketool_engineering
+			}			
 		}
 		
 		categories = {
@@ -1405,7 +1602,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 2273
+		start_year = 2276
 		
 		folder = {
 			name = fallout_engineering_folder
@@ -1414,6 +1611,26 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 10
+				date > "2276.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "2277.1.1"
+			}
+			modifier = {
+				factor = 0
+				has_tech = settled_civilization
+			}
+			modifier = {
+				factor = 0
+				has_tech = scientific_civilization
+			}
+			modifier = {
+				factor = 0
+				has_tech = maketool_engineering
+			}			
 		}
 		
 		categories = {
@@ -1429,7 +1646,7 @@ technologies = {
 		production_factory_efficiency_gain_factor = 0.03
 		
 		research_cost = 2
-		start_year = 2275
+		start_year = 2277
 		
 		folder = {
 			name = fallout_engineering_folder
@@ -1438,6 +1655,26 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 10
+				date > "2277.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "2278.1.1"
+			}
+			modifier = {
+				factor = 0
+				has_tech = settled_civilization
+			}
+			modifier = {
+				factor = 0
+				has_tech = scientific_civilization
+			}
+			modifier = {
+				factor = 0
+				has_tech = maketool_engineering
+			}			
 		}
 		
 		categories = {
