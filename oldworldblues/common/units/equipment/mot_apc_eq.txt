@@ -10,6 +10,13 @@ equipments = {
 		
 		interface_category = interface_category_land
 		
+		upgrades = {
+			pa_redundancy_upgrade
+			pa_production_upgrade
+			pa_plating_upgrade
+			pa_shock_upgrade
+		}
+		
 		#Misc Abilities
 		maximum_speed = 8
 		reliability = 0.8
