@@ -10,14 +10,14 @@ technologies = {
 		}
 		
 		category_robots = {
-			breakthrough = 0.20
+			breakthrough = 0.1
 		}
 		
 		
-		planning_speed = 0.5
-		army_speed_factor = 0.05
+		planning_speed = 0.25
+		army_speed_factor = 0.025
 		enable_tactic = tactic_unexpected_thrust
-		org_loss_when_moving = -0.1
+		org_loss_when_moving = -0.15
 
 		doctrine = yes	
 		research_cost = 3
@@ -44,7 +44,7 @@ technologies = {
 	# Combat Protocols
 	delay = {
 
-		category_robots = {
+		category_army = {
 			max_organisation = 3
 		}
 		
@@ -84,7 +84,7 @@ technologies = {
 
 		land_reinforce_rate = 0.02
 
-		category_robots = {
+		category_army = {
 			max_organisation = 1
 			maximum_speed = 0.1
 		}
@@ -131,11 +131,7 @@ technologies = {
 		}
 		
 		supply_consumption_factor = -0.05
-		
-		category_robots = {
-			maximum_speed = 0.1
-			
-		}
+		attrition = -0.05
 
 		path = {
 			leads_to_tech = mass_motorization 
@@ -213,7 +209,7 @@ technologies = {
 	mechanised_offensive = {
 
 		category_robots = {
-			max_organisation = 2
+			max_organisation = 3
 		}
 		
         production_factory_max_efficiency_factor = 0.2
@@ -260,7 +256,6 @@ technologies = {
 		category_robots = {
 			max_organisation = 2
 			breakthrough = 0.10
-			
 		}
 		
 		supply_consumption_factor = -0.02
@@ -310,6 +305,9 @@ technologies = {
 		category_robots = {
 			max_organisation = 10
 		}
+		category_army = {
+			max_organisation = 2
+		}
 		
 		
 		path = {
@@ -345,7 +343,7 @@ technologies = {
 	#Refined Construction
 	blitzkrieg = {
 
-		category_robots = {
+		category_army = {
 			hardness = 0.05
 			armor_value = 0.05
 		}
@@ -387,7 +385,12 @@ technologies = {
 
 		# faster planning
 		planning_speed = 0.2
-		max_organisation = 5
+		max_planning = 0.25
+		
+		category_army = {
+			soft_attack = 0.1
+			hard_attack = 0.1
+		}
 		
 		enable_tactic = tactic_overwhelming_fire
 		
@@ -435,6 +438,7 @@ technologies = {
 			soft_attack = 0.1
 			hard_attack = 0.1
 			breakthrough = 0.1
+			defense = -0.25
 		}
 		
 		path = {
@@ -470,10 +474,17 @@ technologies = {
 	backhand_blow = {
 	
 		category_robots = {
-			soft_attack = 0.05
-			hard_attack = 0.05
-			breakthrough = 0.05
-			defense = -0.05
+			soft_attack = 0.1
+			hard_attack = 0.1
+			breakthrough = 0.1
+			defense = -0.1
+		}
+		
+		category_army = {
+			soft_attack = -0.05
+			hard_attack = -0.05
+			breakthrough = -0.05
+			defense = 0.2
 		}
 
 	
@@ -514,8 +525,8 @@ technologies = {
 		category_robots = {
 			max_organisation = 5
 			breakthrough = 0.10
-			soft_attack = 0.20
-			hard_attack = 0.20
+			soft_attack = 0.15
+			hard_attack = 0.15
 		}
 		
 		doctrine = yes	
@@ -585,8 +596,8 @@ technologies = {
 	# Networked Ai
 	nd_conscription = {
 
-		category_robots = {
-			max_organisation = 7
+		category_army = {
+			max_organisation = 5
 		}
 
 		path = {
@@ -623,12 +634,17 @@ technologies = {
 	
 	supply_consumption_factor = -0.1
 	
-		category_robots = {
+		category_army = {
 			hardness = 0.1
 			armor_value = 0.1
 			default_morale = 0.1
 		}
-
+		
+		category_robots = {
+			hardness = 0.1
+			armor_value = 0.1
+		}
+		
 		doctrine = yes	
 		research_cost = 3
 		
@@ -1473,7 +1489,7 @@ technologies = {
 			infantry_offensive
 		}
 	
-		category_vehicles = {
+		category_all_infantry = {
 			max_organisation = 5
 		}
 
@@ -1555,8 +1571,8 @@ technologies = {
 	# Old World Tactics
 	branch_interoperation = {
 
-		category_vehicles = {
-			max_organisation = 1
+		category_all_infantry = {
+			max_organisation = 3
 			maximum_speed = 0.1
 		}
 
@@ -1674,7 +1690,7 @@ technologies = {
 	
 		supply_consumption_factor = 0.04
 		
-		category_tanks = {
+		category_army = {
 			max_organisation = 4
 			soft_attack = 0.15
 			hard_attack = 0.15
@@ -1751,9 +1767,9 @@ technologies = {
 	# Concentration of Firepower
 	armored_operations = {
 
-		category_support_battalions = {
-			soft_attack = 0.15
-			hard_attack = 0.15
+		category_army = {
+			soft_attack = 0.10
+			hard_attack = 0.10
 		}
 		
 		enable_tactic = tactic_blitz
@@ -1827,10 +1843,10 @@ technologies = {
 	# Send in the next Wave
 	night_assault_tactics = {
 		
-		land_reinforce_rate = 0.02
+		land_reinforce_rate = 0.03
 		
 		category_light_infantry = {
-			default_morale = 0.2
+			default_morale = 0.25
 		}
 	
 		path = {
@@ -1869,9 +1885,7 @@ technologies = {
 
 		conscription = 0.05
 		
-		category_army = {
-			max_organisation = -1
-		}
+			army_org_Factor = -0.05
 	
 		path = {
 			leads_to_tech = infiltration_in_depth 
