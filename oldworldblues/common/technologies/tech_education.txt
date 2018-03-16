@@ -1585,8 +1585,10 @@ technologies = {
 
 	rite_of_plunder = {
 	
-	economy_cost_factor = -0.25
-			
+		category_army {
+			equipment_capture_factor = 0.05
+		}
+		
 		research_cost = 2
 		start_year = 2275
 		
@@ -1606,7 +1608,7 @@ technologies = {
 	
 	rite_of_ancestry = {
 	
-		research_time_factor = 0.05
+		research_time_factor = 0.025
 		political_power_gain = 0.5
 			
 		research_cost = 2
