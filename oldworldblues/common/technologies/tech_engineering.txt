@@ -236,7 +236,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 2280
+		start_year = 2279
 		
 		folder = {
 			name = fallout_engineering_folder
@@ -247,11 +247,11 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 10
-				date > "2280.1.1"
+				date > "2279.1.1"
 			}
 			modifier = {
 				factor = 10
-				date > "2281.1.1"
+				date > "2280.1.1"
 			}
 		}
 		
@@ -730,7 +730,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 2280
+		start_year = 2279
 		
 		folder = {
 			name = fallout_engineering_folder
@@ -741,11 +741,11 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 10
-				date > "2280.1.1"
+				date > "2279.1.1"
 			}
 			modifier = {
 				factor = 10
-				date > "2281.1.1"
+				date > "2280.1.1"
 			}
 		}
 		
