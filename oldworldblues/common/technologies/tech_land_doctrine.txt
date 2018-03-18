@@ -33,26 +33,10 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 100
 			modifier = {
-				factor = 0.2
-				has_tech = trench_warfare
-			}
-			modifier = {
-				factor = 0.2
-				has_tech = mass_assault
-			}
-			modifier = {
-				factor = 0.2
-				has_tech = outsider_warfare
-			}
-			modifier = {
-				factor = 0.2
-				has_tech = superior_firepower
-			}
-			modifier = {
-				factor = 100
-				has_country_flag = is_doctrine_robot
+				factor = 0
+				NOT = { has_country_flag = robot_doctrine_ai }
 			}
 		}
 		
@@ -91,7 +75,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = { has_country_flag = robot_doctrine_ai }
+			}
 		}
 		
 		ai_research_weights = {
@@ -135,7 +123,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = { has_country_flag = robot_doctrine_ai }
+			}
 		}
 		
 		ai_research_weights = {
@@ -173,7 +165,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = { has_country_flag = robot_doctrine_ai }
+			}
 		}
 		
 		ai_research_weights = {
@@ -213,7 +209,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = { has_country_flag = robot_doctrine_ai }
+			}
 		}
 		
 		ai_research_weights = {
@@ -259,7 +259,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = { has_country_flag = robot_doctrine_ai }
+			}
 		}
 		
 		ai_research_weights = {
@@ -306,7 +310,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = { has_country_flag = robot_doctrine_ai }
+			}
 		}
 		
 		ai_research_weights = {
@@ -345,7 +353,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = { has_country_flag = robot_doctrine_ai }
+			}
 		}
 		
 		ai_research_weights = {
@@ -384,7 +396,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = { has_country_flag = robot_doctrine_ai }
+			}
 		}
 		
 		ai_research_weights = {
@@ -431,7 +447,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = { has_country_flag = robot_doctrine_ai }
+			}
 		}
 		
 		ai_research_weights = {
@@ -474,7 +494,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = { has_country_flag = robot_doctrine_ai }
+			}
 		}
 		
 		ai_research_weights = {
@@ -523,7 +547,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = { has_country_flag = robot_doctrine_ai }
+			}
 		}
 		
 		ai_research_weights = {
@@ -556,7 +584,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = { has_country_flag = robot_doctrine_ai }
+			}
 		}
 		
 		ai_research_weights = {
@@ -597,7 +629,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = { has_country_flag = robot_doctrine_ai }
+			}
 		}
 		
 		ai_research_weights = {
@@ -633,7 +669,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = { has_country_flag = robot_doctrine_ai }
+			}
 		}
 		
 		ai_research_weights = {
@@ -672,7 +712,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = { has_country_flag = robot_doctrine_ai }
+			}
 		}
 		
 		ai_research_weights = {
@@ -715,27 +759,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 100
 			modifier = {
-				factor = 0.2
-				has_tech = trench_warfare
+				factor = 0
+				NOT = { has_country_flag = elite_doctrine_ai }
 			}
-			modifier = {
-				factor = 0.2
-				has_tech = mass_assault
-			}
-			modifier = {
-				factor = 0.2
-				has_tech = outsider_warfare
-			}
-			modifier = {
-				factor = 0.2
-				has_tech = mobile_warfare
-			}
-			modifier = {
-				factor = 100
-				has_country_flag = is_brotherhood_nation
-			}			
 		}
 		
 		ai_research_weights = {
@@ -772,7 +800,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = { has_country_flag = elite_doctrine_ai }
+			}
 		}
 		
 		ai_research_weights = {
@@ -815,7 +847,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = { has_country_flag = elite_doctrine_ai }
+			}
 		}
 		
 		ai_research_weights = {
@@ -860,14 +896,10 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
 			modifier = {
-				factor = 2
-				has_country_flag = is_brotherhood_nation
-			}
-			modifier = {
-				factor = 0.2 
-				has_tech = dispersed_support
+				factor = 0
+				NOT = { has_country_flag = elite_doctrine_ai }
 			}
 		}
 		
@@ -906,7 +938,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = { has_country_flag = elite_doctrine_ai }
+			}
 		}
 		
 		ai_research_weights = {
@@ -946,11 +982,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
-			modifier = {
-				factor = 0.2 
-				has_tech = intergrated_support
-			}
+			factor = 5
 		}
 		
 		ai_research_weights = {
@@ -992,7 +1024,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 5
 		}
 		
 		ai_research_weights = {
@@ -1042,7 +1074,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = { has_country_flag = elite_doctrine_ai }
+			}
 		}
 		
 		ai_research_weights = {
@@ -1089,11 +1125,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
-		modifier = {
-				factor = 0.2 
-				has_tech = centralized_fire_control
-			}
+			factor = 5
 		}
 		
 		ai_research_weights = {
@@ -1130,7 +1162,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 5
 		}
 		
 		ai_research_weights = {
@@ -1171,7 +1203,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 5
 		}
 		
 		ai_research_weights = {
@@ -1207,7 +1239,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 5
 		}
 		
 		ai_research_weights = {
@@ -1247,14 +1279,10 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
 			modifier = {
-				factor = 2
-				has_country_flag = is_brotherhood_nation
-			}
-			modifier = {
-				factor = 0.2 
-				has_tech = concentrated_fire_plans
+				factor = 0
+				NOT = { has_country_flag = elite_doctrine_ai }
 			}
 		}
 		
@@ -1295,7 +1323,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = { has_country_flag = elite_doctrine_ai }
+			}
 		}
 		
 		ai_research_weights = {
@@ -1340,7 +1372,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = { has_country_flag = elite_doctrine_ai }
+			}
 		}
 		
 		ai_research_weights = {
@@ -1375,7 +1411,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = { has_country_flag = elite_doctrine_ai }
+			}
 		}
 		
 		ai_research_weights = {
@@ -1412,28 +1452,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 100
 			modifier = {
-				factor = 0.2
-				has_tech = superior_firepower
+				factor = 0
+				NOT = { has_country_flag = grand_doctrine_ai }
 			}
-			modifier = {
-				factor = 0.2
-				has_tech = mass_assault
-			}
-			modifier = {
-				factor = 0.2
-				has_tech = outsider_warfare
-			}
-			modifier = {
-				factor = 0.2
-				has_tech = mobile_warfare
-			}
-			modifier = {
-				factor = 100
-				has_country_flag = is_settler_nation
-			}
-			
 		}
 		
 		ai_research_weights = {
@@ -1468,7 +1491,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = { has_country_flag = grand_doctrine_ai }
+			}
 		}
 		
 		ai_research_weights = {
@@ -1505,7 +1532,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = { has_country_flag = grand_doctrine_ai }
+			}
 		}
 		
 		ai_research_weights = {
@@ -1548,7 +1579,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = { has_country_flag = grand_doctrine_ai }
+			}
 		}
 		
 		ai_research_weights = {
@@ -1592,11 +1627,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
-			modifier = {
-				factor = 0.2
-				has_tech = infantry_offensive
-			}
+			factor = 5
 		}
 		
 		ai_research_weights = {
@@ -1636,7 +1667,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 5
 		}
 		
 		ai_research_weights = {
@@ -1674,7 +1705,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 5
 		}
 		
 		ai_research_weights = {
@@ -1714,7 +1745,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 5
 		}
 		
 		ai_research_weights = {
@@ -1753,7 +1784,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 5
 		}
 		
 		ai_research_weights = {
@@ -1789,7 +1820,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 5
 		}
 		
 		ai_research_weights = {
@@ -1832,14 +1863,10 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
 			modifier = {
-				factor = 2
-				has_country_flag = is_settler_nation
-			}
-			modifier = {
-				factor = 0.2
-				has_tech = grand_mechanized_offensive
+				factor = 0
+				NOT = { has_country_flag = grand_doctrine_ai }
 			}
 		}
 		
@@ -1881,7 +1908,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = { has_country_flag = grand_doctrine_ai }
+			}
 		}
 		
 		ai_research_weights = {
@@ -1916,7 +1947,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = { has_country_flag = grand_doctrine_ai }
+			}
 		}
 		
 		ai_research_weights = {
@@ -1956,7 +1991,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = { has_country_flag = grand_doctrine_ai }
+			}
 		}
 		
 		ai_research_weights = {
@@ -1992,7 +2031,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = { has_country_flag = grand_doctrine_ai }
+			}
 		}
 		
 		ai_research_weights = {
@@ -2029,7 +2072,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = { has_country_flag = grand_doctrine_ai }
+			}
 		}
 		
 		ai_research_weights = {
@@ -2066,34 +2113,13 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 100
 			modifier = {
-				factor = 0.2
-				has_tech = superior_firepower
-			}
-			modifier = {
-				factor = 0.2
-				has_tech = trench_warfare
-			}
-			modifier = {
-				factor = 0.2
-				has_tech = outsider_warfare
-			}
-			modifier = {
-				factor = 0.2
-				has_tech = mobile_warfare
-			}
-			modifier = {
-				factor = 100
-				has_country_flag = is_raider_nation
-			}
-			modifier = {
-				factor = 100
-				has_country_flag = is_tribal_nation
-			}
-			modifier = {
-				factor = 100
-				has_country_flag = is_doctrine_legion
+				factor = 0
+				OR = {
+				NOT = { has_country_flag = terror_doctrine_ai }
+				NOT = { has_country_flag = tribal_doctrine_ai }
+				}
 			}
 		}
 		
@@ -2131,7 +2157,14 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
+			modifier = {
+				factor = 0
+				OR = {
+				NOT = { has_country_flag = terror_doctrine_ai }
+				NOT = { has_country_flag = tribal_doctrine_ai }
+				}
+			}
 		}
 		
 		ai_research_weights = {
@@ -2174,7 +2207,14 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
+			modifier = {
+				factor = 0
+				OR = {
+				NOT = { has_country_flag = terror_doctrine_ai }
+				NOT = { has_country_flag = tribal_doctrine_ai }
+				}
+			}
 		}
 		
 		ai_research_weights = {
@@ -2222,14 +2262,10 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
 			modifier = {
-				factor = 0.2
-				has_tech = peoples_army
-			}
-			modifier = {
-				factor = 2
-				has_country_flag = is_doctrine_legion
+				factor = 0
+				NOT = { has_country_flag = terror_doctrine_ai }
 			}
 		}
 		
@@ -2273,7 +2309,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = { has_country_flag = terror_doctrine_ai }
+			}
 		}
 		
 		ai_research_weights = {
@@ -2316,7 +2356,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = { has_country_flag = terror_doctrine_ai }
+			}
 		}
 		
 		ai_research_weights = {
@@ -2352,7 +2396,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = { has_country_flag = terror_doctrine_ai }
+			}
 		}
 		
 		ai_research_weights = {
@@ -2390,7 +2438,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = { has_country_flag = terror_doctrine_ai }
+			}
 		}
 		
 		ai_research_weights = {
@@ -2428,7 +2480,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = { has_country_flag = terror_doctrine_ai }
+			}
 		}
 		
 		ai_research_weights = {
@@ -2463,7 +2519,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = { has_country_flag = terror_doctrine_ai }
+			}
 		}
 		
 		ai_research_weights = {
@@ -2509,18 +2569,10 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
 			modifier = {
-				factor = 2
-				has_country_flag = is_raider_nation
-			}
-			modifier = {
-				factor = 2
-				has_country_flag = is_tribal_nation
-			}
-			modifier = {
-				factor = 0.2
-				has_tech = large_front_operations
+				factor = 0
+				NOT = { has_country_flag = tribal_doctrine_ai }
 			}
 		}
 		
@@ -2561,7 +2613,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = { has_country_flag = tribal_doctrine_ai }
+			}
 		}
 		
 		ai_research_weights = {
@@ -2598,7 +2654,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = { has_country_flag = tribal_doctrine_ai }
+			}
 		}
 		
 		ai_research_weights = {
@@ -2638,7 +2698,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = { has_country_flag = tribal_doctrine_ai }
+			}
 		}
 		
 		ai_research_weights = {
@@ -2680,7 +2744,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = { has_country_flag = tribal_doctrine_ai }
+			}
 		}
 		
 		ai_research_weights = {
@@ -2719,7 +2787,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = { has_country_flag = tribal_doctrine_ai }
+			}
 		}
 		
 		ai_research_weights = {
@@ -2754,7 +2826,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = { has_country_flag = tribal_doctrine_ai }
+			}
 		}
 		
 		ai_research_weights = {
@@ -2798,30 +2874,13 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 100
 			modifier = {
-				factor = 0.2
-				has_tech = superior_firepower
-			}
-			modifier = {
-				factor = 0.2
-				has_tech = trench_warfare
-			}
-			modifier = {
-				factor = 0.2
-				has_tech = mass_assault
-			}
-			modifier = {
-				factor = 0.2
-				has_tech = mobile_warfare
-			}
-			modifier = {
-				factor = 100
-				has_country_flag = is_super_mutant
-			}
-			modifier = {
-				factor = 100
-				has_country_flag = is_ghoul_nation
+				factor = 0
+				OR = {
+				NOT = { has_country_flag = mutant_doctrine_ai }
+				NOT = { has_country_flag = ghoul_doctrine_ai }
+				}
 			}
 			
 		}
@@ -2861,7 +2920,14 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
+			modifier = {
+				factor = 0
+				OR = {
+				NOT = { has_country_flag = mutant_doctrine_ai }
+				NOT = { has_country_flag = ghoul_doctrine_ai }
+				}
+			}
 		}
 		
 		ai_research_weights = {
@@ -2916,7 +2982,14 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
+			modifier = {
+				factor = 0
+				OR = {
+				NOT = { has_country_flag = mutant_doctrine_ai }
+				NOT = { has_country_flag = ghoul_doctrine_ai }
+				}
+			}
 		}
 		
 		ai_research_weights = {
@@ -2961,10 +3034,17 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
 			modifier = {
-				factor = 0.2
+				factor = 0
 				has_tech = we_are_smart
+			}
+			modifier = {
+				factor = 0
+				OR = {
+				NOT = { has_country_flag = mutant_doctrine_ai }
+				NOT = { has_country_flag = ghoul_doctrine_ai }
+				}
 			}
 		}
 		
@@ -3010,10 +3090,17 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
 			modifier = {
-				factor = 0.2
+				factor = 0
 				has_tech = we_are_strong
+			}
+			modifier = {
+				factor = 0
+				OR = {
+				NOT = { has_country_flag = mutant_doctrine_ai }
+				NOT = { has_country_flag = ghoul_doctrine_ai }
+				}
 			}
 		}
 		
@@ -3059,10 +3146,17 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
 			modifier = {
-				factor = 0.2
+				factor = 0
 				has_tech = we_are_fast
+			}
+			modifier = {
+				factor = 0
+				OR = {
+				NOT = { has_country_flag = mutant_doctrine_ai }
+				NOT = { has_country_flag = ghoul_doctrine_ai }
+				}
 			}
 		}
 		
@@ -3108,10 +3202,17 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
 			modifier = {
-				factor = 0.2
+				factor = 0
 				has_tech = we_are_enduring
+			}
+			modifier = {
+				factor = 0
+				OR = {
+				NOT = { has_country_flag = mutant_doctrine_ai }
+				NOT = { has_country_flag = ghoul_doctrine_ai }
+				}
 			}
 		}
 		
@@ -3153,10 +3254,17 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
 			modifier = {
-				factor = 0.2
+				factor = 0
 				has_tech = we_are_perceptive
+			}
+			modifier = {
+				factor = 0
+				OR = {
+				NOT = { has_country_flag = mutant_doctrine_ai }
+				NOT = { has_country_flag = ghoul_doctrine_ai }
+				}
 			}
 		}
 		
@@ -3197,10 +3305,17 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
 			modifier = {
-				factor = 0.2
+				factor = 0
 				has_tech = we_are_beautiful
+			}
+			modifier = {
+				factor = 0
+				OR = {
+				NOT = { has_country_flag = mutant_doctrine_ai }
+				NOT = { has_country_flag = ghoul_doctrine_ai }
+				}
 			}
 		}
 		
@@ -3239,7 +3354,14 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
+			modifier = {
+				factor = 0
+				OR = {
+				NOT = { has_country_flag = mutant_doctrine_ai }
+				NOT = { has_country_flag = ghoul_doctrine_ai }
+				}
+			}
 		}
 		
 		ai_research_weights = {
@@ -3297,7 +3419,14 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
+			modifier = {
+				factor = 0
+				OR = {
+				NOT = { has_country_flag = mutant_doctrine_ai }
+				NOT = { has_country_flag = ghoul_doctrine_ai }
+				}
+			}
 		}
 		
 		ai_research_weights = {
@@ -3334,14 +3463,10 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
 			modifier = {
-				factor = 2
-				has_country_flag = is_super_mutant
-			}
-			modifier = {
-				factor = 0.2
-				has_tech = ageless_experience
+				factor = 0
+				NOT = { has_country_flag = mutant_doctrine_ai }
 			}
 		}
 		
@@ -3375,14 +3500,10 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
 			modifier = {
-				factor = 2
-				has_country_flag = is_ghoul_nation
-			}
-			modifier = {
-				factor = 0.2
-				has_tech = the_master_servant
+				factor = 0
+				NOT = { has_country_flag = ghoul_doctrine_ai }
 			}
 		}
 		
@@ -3430,7 +3551,14 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
+			modifier = {
+				factor = 0
+				OR = {
+				NOT = { has_country_flag = mutant_doctrine_ai }
+				NOT = { has_country_flag = ghoul_doctrine_ai }
+				}
+			}
 		}
 		
 		ai_research_weights = {
@@ -3464,14 +3592,10 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
 			modifier = {
-				factor = 2
-				has_country_flag = is_ghoul_nation
-			}
-			modifier = {
-				factor = 0.2
-				has_tech = master_race
+				factor = 0
+				NOT = { has_country_flag = ghoul_doctrine_ai }
 			}
 		}
 		
@@ -3509,14 +3633,10 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 60
+			factor = 100
 			modifier = {
-				factor = 2
-				has_country_flag = is_super_mutant
-			}
-			modifier = {
-				factor = 0.2
-				has_tech = mixed_army
+				factor = 0
+				NOT = { has_country_flag = mutant_doctrine_ai }
 			}
 		}
 		
