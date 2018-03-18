@@ -60,12 +60,13 @@ on_actions = {
 					original_tag = BAR
 					original_tag = BJS
 					original_tag = NMS
+					original_tag = NEW
 					}
 				}
 				set_country_flag = grand_doctrine_ai
 			}
 			
-			
+
 			every_country={
 				limit = {
 					OR = {
@@ -76,7 +77,7 @@ on_actions = {
 				set_country_flag = terror_doctrine_ai
 			}
 			
-			
+
 			every_country={
 				limit = {
 					OR = {

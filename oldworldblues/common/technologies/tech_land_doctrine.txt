@@ -2113,9 +2113,9 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 255
+			factor = 127
 			modifier = {
-				factor = 0
+				factor = 2
 				OR = {
 				NOT = { has_country_flag = terror_doctrine_ai }
 				NOT = { has_country_flag = tribal_doctrine_ai }
@@ -2157,9 +2157,9 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 255
+			factor = 127
 			modifier = {
-				factor = 0
+				factor = 2
 				OR = {
 				NOT = { has_country_flag = terror_doctrine_ai }
 				NOT = { has_country_flag = tribal_doctrine_ai }
@@ -2207,9 +2207,9 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 255
+			factor = 127
 			modifier = {
-				factor = 0
+				factor = 2
 				OR = {
 				NOT = { has_country_flag = terror_doctrine_ai }
 				NOT = { has_country_flag = tribal_doctrine_ai }
@@ -2874,15 +2874,18 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 255
+			factor = 127
 			modifier = {
 				factor = 0
+				has_tech = we_are_smart
+			}
+			modifier = {
+				factor = 2
 				OR = {
 				NOT = { has_country_flag = mutant_doctrine_ai }
 				NOT = { has_country_flag = ghoul_doctrine_ai }
 				}
 			}
-			
 		}
 		
 		ai_research_weights = {
@@ -2920,9 +2923,13 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 255
+			factor = 127
 			modifier = {
 				factor = 0
+				has_tech = we_are_smart
+			}
+			modifier = {
+				factor = 2
 				OR = {
 				NOT = { has_country_flag = mutant_doctrine_ai }
 				NOT = { has_country_flag = ghoul_doctrine_ai }
@@ -2982,9 +2989,13 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 255
+			factor = 127
 			modifier = {
 				factor = 0
+				has_tech = we_are_smart
+			}
+			modifier = {
+				factor = 2
 				OR = {
 				NOT = { has_country_flag = mutant_doctrine_ai }
 				NOT = { has_country_flag = ghoul_doctrine_ai }
@@ -3034,13 +3045,13 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 255
+			factor = 127
 			modifier = {
 				factor = 0
 				has_tech = we_are_smart
 			}
 			modifier = {
-				factor = 0
+				factor = 2
 				OR = {
 				NOT = { has_country_flag = mutant_doctrine_ai }
 				NOT = { has_country_flag = ghoul_doctrine_ai }
@@ -3090,13 +3101,13 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 255
+			factor = 127
 			modifier = {
 				factor = 0
 				has_tech = we_are_strong
 			}
 			modifier = {
-				factor = 0
+				factor = 2
 				OR = {
 				NOT = { has_country_flag = mutant_doctrine_ai }
 				NOT = { has_country_flag = ghoul_doctrine_ai }
@@ -3146,13 +3157,13 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 255
+			factor = 127
 			modifier = {
 				factor = 0
 				has_tech = we_are_fast
 			}
 			modifier = {
-				factor = 0
+				factor = 2
 				OR = {
 				NOT = { has_country_flag = mutant_doctrine_ai }
 				NOT = { has_country_flag = ghoul_doctrine_ai }
@@ -3202,13 +3213,13 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 255
+			factor = 127
 			modifier = {
 				factor = 0
 				has_tech = we_are_enduring
 			}
 			modifier = {
-				factor = 0
+				factor = 2
 				OR = {
 				NOT = { has_country_flag = mutant_doctrine_ai }
 				NOT = { has_country_flag = ghoul_doctrine_ai }
@@ -3254,13 +3265,13 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 255
+			factor = 127
 			modifier = {
 				factor = 0
 				has_tech = we_are_perceptive
 			}
 			modifier = {
-				factor = 0
+				factor = 2
 				OR = {
 				NOT = { has_country_flag = mutant_doctrine_ai }
 				NOT = { has_country_flag = ghoul_doctrine_ai }
@@ -3305,13 +3316,13 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 255
+			factor = 127
 			modifier = {
 				factor = 0
 				has_tech = we_are_beautiful
 			}
 			modifier = {
-				factor = 0
+				factor = 2
 				OR = {
 				NOT = { has_country_flag = mutant_doctrine_ai }
 				NOT = { has_country_flag = ghoul_doctrine_ai }
@@ -3354,9 +3365,9 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 255
+			factor = 127
 			modifier = {
-				factor = 0
+				factor = 2
 				OR = {
 				NOT = { has_country_flag = mutant_doctrine_ai }
 				NOT = { has_country_flag = ghoul_doctrine_ai }
@@ -3419,9 +3430,9 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 255
+			factor = 127
 			modifier = {
-				factor = 0
+				factor = 2
 				OR = {
 				NOT = { has_country_flag = mutant_doctrine_ai }
 				NOT = { has_country_flag = ghoul_doctrine_ai }
@@ -3551,9 +3562,9 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 255
+			factor = 127
 			modifier = {
-				factor = 0
+				factor = 2
 				OR = {
 				NOT = { has_country_flag = mutant_doctrine_ai }
 				NOT = { has_country_flag = ghoul_doctrine_ai }
