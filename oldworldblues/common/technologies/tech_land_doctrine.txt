@@ -33,7 +33,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = robot_doctrine_ai }
@@ -75,7 +75,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = robot_doctrine_ai }
@@ -123,7 +123,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = robot_doctrine_ai }
@@ -165,7 +165,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = robot_doctrine_ai }
@@ -209,7 +209,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = robot_doctrine_ai }
@@ -259,7 +259,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = robot_doctrine_ai }
@@ -310,7 +310,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = robot_doctrine_ai }
@@ -353,7 +353,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = robot_doctrine_ai }
@@ -396,7 +396,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = robot_doctrine_ai }
@@ -447,7 +447,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = robot_doctrine_ai }
@@ -494,7 +494,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = robot_doctrine_ai }
@@ -547,7 +547,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = robot_doctrine_ai }
@@ -584,7 +584,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = robot_doctrine_ai }
@@ -629,7 +629,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = robot_doctrine_ai }
@@ -669,7 +669,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = robot_doctrine_ai }
@@ -712,7 +712,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = robot_doctrine_ai }
@@ -759,7 +759,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = elite_doctrine_ai }
@@ -800,7 +800,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = elite_doctrine_ai }
@@ -847,7 +847,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = elite_doctrine_ai }
@@ -896,7 +896,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = elite_doctrine_ai }
@@ -938,7 +938,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = elite_doctrine_ai }
@@ -1074,7 +1074,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = elite_doctrine_ai }
@@ -1279,7 +1279,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = elite_doctrine_ai }
@@ -1323,7 +1323,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = elite_doctrine_ai }
@@ -1372,7 +1372,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = elite_doctrine_ai }
@@ -1411,7 +1411,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = elite_doctrine_ai }
@@ -1452,7 +1452,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = grand_doctrine_ai }
@@ -1491,7 +1491,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = grand_doctrine_ai }
@@ -1532,7 +1532,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = grand_doctrine_ai }
@@ -1579,7 +1579,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = grand_doctrine_ai }
@@ -1863,7 +1863,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = grand_doctrine_ai }
@@ -1908,7 +1908,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = grand_doctrine_ai }
@@ -1947,7 +1947,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = grand_doctrine_ai }
@@ -1991,7 +1991,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = grand_doctrine_ai }
@@ -2031,7 +2031,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = grand_doctrine_ai }
@@ -2072,7 +2072,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = grand_doctrine_ai }
@@ -2113,7 +2113,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				OR = {
@@ -2157,7 +2157,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				OR = {
@@ -2207,7 +2207,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				OR = {
@@ -2262,7 +2262,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = terror_doctrine_ai }
@@ -2309,7 +2309,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = terror_doctrine_ai }
@@ -2356,7 +2356,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = terror_doctrine_ai }
@@ -2396,7 +2396,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = terror_doctrine_ai }
@@ -2438,7 +2438,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = terror_doctrine_ai }
@@ -2480,7 +2480,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = terror_doctrine_ai }
@@ -2519,7 +2519,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = terror_doctrine_ai }
@@ -2569,7 +2569,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = tribal_doctrine_ai }
@@ -2613,7 +2613,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = tribal_doctrine_ai }
@@ -2654,7 +2654,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = tribal_doctrine_ai }
@@ -2698,7 +2698,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = tribal_doctrine_ai }
@@ -2744,7 +2744,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = tribal_doctrine_ai }
@@ -2787,7 +2787,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = tribal_doctrine_ai }
@@ -2826,7 +2826,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = tribal_doctrine_ai }
@@ -2874,7 +2874,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				OR = {
@@ -2920,7 +2920,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				OR = {
@@ -2982,7 +2982,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				OR = {
@@ -3034,7 +3034,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				has_tech = we_are_smart
@@ -3090,7 +3090,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				has_tech = we_are_strong
@@ -3146,7 +3146,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				has_tech = we_are_fast
@@ -3202,7 +3202,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				has_tech = we_are_enduring
@@ -3254,7 +3254,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				has_tech = we_are_perceptive
@@ -3305,7 +3305,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				has_tech = we_are_beautiful
@@ -3354,7 +3354,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				OR = {
@@ -3419,7 +3419,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				OR = {
@@ -3463,7 +3463,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = mutant_doctrine_ai }
@@ -3500,7 +3500,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = ghoul_doctrine_ai }
@@ -3551,7 +3551,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				OR = {
@@ -3592,7 +3592,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = ghoul_doctrine_ai }
@@ -3633,7 +3633,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 255
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = mutant_doctrine_ai }

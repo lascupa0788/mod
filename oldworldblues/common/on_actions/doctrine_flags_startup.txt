@@ -5,8 +5,10 @@ on_actions = {
 		
 			every_country={
 				limit = {
+					OR = {
 					original_tag = VEG
 					original_tag = VLT
+					}
 				}
 				set_country_flag = robot_doctrine_ai
 			}
@@ -14,10 +16,12 @@ on_actions = {
 			
 			every_country={
 				limit = {
+					OR = {
 					original_tag = BOS
 					original_tag = MOJ
 					original_tag = ENC
 					original_tag = WBH
+					}
 				}
 				set_country_flag = elite_doctrine_ai
 			}
@@ -25,6 +29,7 @@ on_actions = {
 			
 			every_country={
 				limit = {
+					OR = {
 					original_tag = NCR
 					original_tag = ARR
 					original_tag = ASH
@@ -42,7 +47,6 @@ on_actions = {
 					original_tag = KLA
 					original_tag = LGS
 					original_tag = MUR
-					original_tag = NBM
 					original_tag = NCN
 					original_tag = VIC
 					original_tag = PEC
@@ -56,6 +60,7 @@ on_actions = {
 					original_tag = BAR
 					original_tag = BJS
 					original_tag = NMS
+					}
 				}
 				set_country_flag = grand_doctrine_ai
 			}
@@ -63,8 +68,10 @@ on_actions = {
 			
 			every_country={
 				limit = {
+					OR = {
 					original_tag = CES
 					original_tag = BOM
+					}
 				}
 				set_country_flag = terror_doctrine_ai
 			}
@@ -72,6 +79,7 @@ on_actions = {
 			
 			every_country={
 				limit = {
+					OR = {
 					original_tag = ANT
 					original_tag = BLK
 					original_tag = BPT
@@ -119,7 +127,6 @@ on_actions = {
 					original_tag = JAC
 					original_tag = KHA
 					original_tag = MRA
-					original_tag = NBM
 					original_tag = FOR
 					original_tag = PMR
 					original_tag = RIP
@@ -129,6 +136,7 @@ on_actions = {
 					original_tag = THO
 					original_tag = VIP
 					original_tag = YKZ
+					}
 				}
 				set_country_flag = tribal_doctrine_ai
 			}
@@ -136,8 +144,10 @@ on_actions = {
 			
 			every_country={
 				limit = {
+					OR = {
 					original_tag = TRL
 					original_tag = THR
+					}
 				}
 				set_country_flag = mutant_doctrine_ai
 			}
