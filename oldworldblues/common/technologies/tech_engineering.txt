@@ -1297,7 +1297,7 @@ technologies = {
 				has_tech = scientific_civilization
 			}
 			modifier = {
-				factor = 0
+				factor = 0.2
 				has_tech = scavtool_engineering
 			}
 
@@ -1347,7 +1347,7 @@ technologies = {
 				has_tech = scientific_civilization
 			}
 			modifier = {
-				factor = 0
+				factor = 0.2
 				has_tech = scavtool_engineering
 			}
 		}
@@ -1400,7 +1400,7 @@ technologies = {
 				has_tech = scientific_civilization
 			}
 			modifier = {
-				factor = 0
+				factor = 0.2
 				has_tech = scavtool_engineering
 			}
 		}
@@ -1449,7 +1449,7 @@ technologies = {
 				has_tech = scientific_civilization
 			}
 			modifier = {
-				factor = 0
+				factor = 0.2
 				has_tech = scavtool_engineering
 			}
 		}
@@ -1498,7 +1498,7 @@ technologies = {
 				has_tech = scientific_civilization
 			}
 			modifier = {
-				factor = 0
+				factor = 0.2
 				has_tech = scavtool_engineering
 			}
 		}
@@ -1546,7 +1546,7 @@ technologies = {
 				has_tech = scientific_civilization
 			}
 			modifier = {
-				factor = 0
+				factor = 0.2
 				has_tech = scavtool_engineering
 			}
 		}
@@ -1591,15 +1591,15 @@ technologies = {
 				date > "2276.1.1"
 			}
 			modifier = {
-				factor = 0
+				factor = 0.2
 				has_tech = settled_civilization
 			}
 			modifier = {
-				factor = 0
+				factor = 0.2
 				has_tech = scientific_civilization
 			}
 			modifier = {
-				factor = 0
+				factor = 0.2
 				has_tech = maketool_engineering
 			}			
 		}
@@ -1640,15 +1640,15 @@ technologies = {
 				date > "2277.1.1"
 			}
 			modifier = {
-				factor = 0
+				factor = 0.2
 				has_tech = settled_civilization
 			}
 			modifier = {
-				factor = 0
+				factor = 0.2
 				has_tech = scientific_civilization
 			}
 			modifier = {
-				factor = 0
+				factor = 0.2
 				has_tech = maketool_engineering
 			}			
 		}
@@ -1684,15 +1684,15 @@ technologies = {
 				date > "2278.1.1"
 			}
 			modifier = {
-				factor = 0
+				factor = 0.2
 				has_tech = settled_civilization
 			}
 			modifier = {
-				factor = 0
+				factor = 0.2
 				has_tech = scientific_civilization
 			}
 			modifier = {
-				factor = 0
+				factor = 0.2
 				has_tech = maketool_engineering
 			}			
 		}

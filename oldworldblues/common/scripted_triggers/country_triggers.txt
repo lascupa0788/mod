@@ -122,3 +122,15 @@ is_brotherhood_nation = {
 		has_country_flag = is_brotherhood_nation
 	}
 }
+is_doctrine_legion = {
+	OR = {
+		original_tag = CES
+		has_country_flag = is_doctrine_legion
+	}
+}
+is_doctrine_robot = {
+	OR = {
+		original_tag = VEG
+		has_country_flag = is_doctrine_robot
+	}
+}
