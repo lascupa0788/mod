@@ -50,6 +50,10 @@ technologies = {
 				factor = 0
 				has_tech = superior_firepower
 			}
+			modifier = {
+				factor = 40
+				has_country_flag = is_doctrine_robot
+			}
 		}
 	}
 	
@@ -83,7 +87,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 	}
 	
@@ -123,7 +127,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 	}
 	
@@ -157,7 +161,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 	}
 	
@@ -193,7 +197,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 	}
 	
@@ -235,7 +239,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 	}
 	
@@ -278,7 +282,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 	}
 	
@@ -313,7 +317,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 	}
 	
@@ -348,7 +352,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 	}
 	
@@ -391,7 +395,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 	}
 	
@@ -430,7 +434,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 	}
 	
@@ -475,7 +479,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 	}
 	
@@ -504,7 +508,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 	}
 	
@@ -541,7 +545,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 	}
 	
@@ -573,7 +577,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 	}
 	
@@ -608,7 +612,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 	}
 	# Elite Forces
@@ -700,7 +704,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 	}
 	
@@ -739,7 +743,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 	}
 	
@@ -780,7 +784,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 			modifier = {
 				factor = 2
 				has_country_flag = is_brotherhood_nation
@@ -822,7 +826,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 	}
 	
@@ -858,7 +862,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 			modifier = {
 				factor = 0 
 				has_tech = intergrated_support
@@ -900,7 +904,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 	}
 	
@@ -946,7 +950,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 	}
 	
@@ -989,7 +993,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		modifier = {
 				factor = 0 
 				has_tech = centralized_fire_control
@@ -1026,7 +1030,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 	}
 	
@@ -1063,7 +1067,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 	}
 	
@@ -1095,7 +1099,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 	}
 	
@@ -1131,7 +1135,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 			modifier = {
 				factor = 2
 				has_country_flag = is_brotherhood_nation
@@ -1175,7 +1179,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 	}
 	
@@ -1216,7 +1220,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 	}
 	
@@ -1247,7 +1251,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 	}
 	
@@ -1297,6 +1301,11 @@ technologies = {
 				factor = 0
 				has_tech = mobile_warfare
 			}
+			modifier = {
+				factor = 40
+				has_country_flag = is_settler_nation
+			}
+			
 		}
 	}
 	
@@ -1327,7 +1336,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 	}
 	
@@ -1360,7 +1369,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 
 	}
@@ -1399,7 +1408,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 
 	}
@@ -1439,7 +1448,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
+			modifier = {
+				factor = 0
+				has_tech = infantry_offensive
+			}
 		}
 
 	}
@@ -1475,7 +1488,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 
 	}
@@ -1509,7 +1522,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 
 	}
@@ -1545,7 +1558,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 
 	}
@@ -1580,7 +1593,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 
 	}
@@ -1612,7 +1625,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 
 	}
@@ -1651,7 +1664,15 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
+			modifier = {
+				factor = 2
+				has_country_flag = is_settler_nation
+			}
+			modifier = {
+				factor = 0
+				has_tech = grand_mechanized_offensive
+			}
 		}
 
 	}
@@ -1688,7 +1709,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 
 	}
@@ -1719,7 +1740,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 
 	}
@@ -1755,7 +1776,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 
 	}
@@ -1787,7 +1808,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 
 	}
@@ -1820,7 +1841,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 
 	}
@@ -1870,6 +1891,18 @@ technologies = {
 				factor = 0
 				has_tech = mobile_warfare
 			}
+			modifier = {
+				factor = 40
+				has_country_flag = is_raider_nation
+			}
+			modifier = {
+				factor = 40
+				has_country_flag = is_tribal_nation
+			}
+			modifier = {
+				factor = 40
+				has_country_flag = is_doctrine_legion
+			}
 		}
 
 	}
@@ -1902,7 +1935,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 
 	}
@@ -1941,7 +1974,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 
 	}
@@ -1985,7 +2018,15 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
+			modifier = {
+				factor = 0
+				has_tech = peoples_army
+			}
+			modifier = {
+				factor = 2
+				has_country_flag = is_doctrine_legion
+			}
 		}
 
 	}
@@ -2025,7 +2066,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 
 	}
@@ -2064,7 +2105,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 
 	}
@@ -2096,7 +2137,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 
 	}
@@ -2130,7 +2171,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 
 	}
@@ -2164,7 +2205,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 
 	}
@@ -2195,7 +2236,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 
 	}
@@ -2237,7 +2278,19 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
+			modifier = {
+				factor = 2
+				has_country_flag = is_raider_nation
+			}
+			modifier = {
+				factor = 2
+				has_country_flag = is_tribal_nation
+			}
+			modifier = {
+				factor = 0
+				has_tech = large_front_operations
+			}
 		}
 
 	}
@@ -2273,7 +2326,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 
 	}
@@ -2306,7 +2359,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 
 	}
@@ -2342,7 +2395,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 
 	}
@@ -2380,7 +2433,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 
 	}
@@ -2415,7 +2468,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 
 	
@@ -2446,7 +2499,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 
 	}
@@ -2503,6 +2556,15 @@ technologies = {
 				factor = 0
 				has_tech = mobile_warfare
 			}
+			modifier = {
+				factor = 40
+				has_country_flag = is_super_mutant
+			}
+			modifier = {
+				factor = 40
+				has_country_flag = is_ghoul_nation
+			}
+			
 		}
 
 	}	
@@ -2536,7 +2598,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 
 	}	
@@ -2587,7 +2649,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 
 	}	
@@ -2628,7 +2690,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
+			modifier = {
+				factor = 0
+				has_tech = we_are_smart
+			}
 		}
 
 	}
@@ -2669,7 +2735,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
+			modifier = {
+				factor = 0
+				has_tech = we_are_strong
+			}
 		}
 
 	}	
@@ -2710,7 +2780,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
+			modifier = {
+				factor = 0
+				has_tech = we_are_fast
+			}
 		}
 
 	}
@@ -2751,7 +2825,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
+			modifier = {
+				factor = 0
+				has_tech = we_are_enduring
+			}
 		}
 
 	}
@@ -2788,7 +2866,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
+			modifier = {
+				factor = 0
+				has_tech = we_are_perceptive
+			}
 		}
 
 	}
@@ -2796,10 +2878,10 @@ technologies = {
 	we_are_perceptive = {
 	
 		ghoul_infantry = {
-			recon = 1
+			recon = 0.2
 		}
 		super_mutant_infantry = {
-			recon = 1
+			recon = 0.1
 		}	
 	
 		xor = { we_are_beautiful }
@@ -2824,7 +2906,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
+			modifier = {
+				factor = 0
+				has_tech = we_are_beautiful
+			}
 		}
 
 	}
@@ -2858,7 +2944,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 
 	}	
@@ -2912,7 +2998,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 
 	}	
@@ -2945,7 +3031,15 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
+			modifier = {
+				factor = 2
+				has_country_flag = is_super_mutant
+			}
+			modifier = {
+				factor = 0
+				has_tech = ageless_experience
+			}
 		}
 
 	}
@@ -2974,7 +3068,15 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
+			modifier = {
+				factor = 2
+				has_country_flag = is_ghoul_nation
+			}
+			modifier = {
+				factor = 0
+				has_tech = the_master_servant
+			}
 		}
 
 	}	
@@ -3017,7 +3119,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
 		}
 
 	}
@@ -3047,7 +3149,15 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
+			modifier = {
+				factor = 2
+				has_country_flag = is_ghoul_nation
+			}
+			modifier = {
+				factor = 0
+				has_tech = master_race
+			}
 		}
 	}
 
@@ -3080,7 +3190,16 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20
+			factor = 40
+			modifier = {
+				factor = 2
+				has_country_flag = is_super_mutant
+			}
+			modifier = {
+				factor = 0
+				has_tech = mixed_army
+			}
 		}
+		
 	}	
 }
