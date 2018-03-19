@@ -2,7 +2,7 @@ on_actions = {
     on_startup = {
         effect = {
 		
-		
+			# Automated warfare doctrine
 			every_country={
 				limit = {
 					OR = {
@@ -13,7 +13,7 @@ on_actions = {
 				set_country_flag = robot_doctrine_ai
 			}
 			
-			
+			# Elite Army, right branch
 			every_country={
 				limit = {
 					OR = {
@@ -26,7 +26,7 @@ on_actions = {
 				set_country_flag = elite_doctrine_ai
 			}
 			
-			
+			# Grand army doctrine infantry branch
 			every_country={
 				limit = {
 					OR = {
@@ -66,7 +66,7 @@ on_actions = {
 				set_country_flag = grand_doctrine_ai
 			}
 			
-
+			# Pick legion path of terror doctrine, also requires the tribal_doctrine_ai flag
 			every_country={
 				limit = {
 					OR = {
@@ -77,7 +77,7 @@ on_actions = {
 				set_country_flag = terror_doctrine_ai
 			}
 			
-
+			# Pick terror doctrine, tribal path
 			every_country={
 				limit = {
 					OR = {
@@ -137,23 +137,26 @@ on_actions = {
 					original_tag = THO
 					original_tag = VIP
 					original_tag = YKZ
+					original_tag = CES
+					original_tag = BOM
 					}
 				}
 				set_country_flag = tribal_doctrine_ai
 			}
 			
-			
+			# Pick Mutant path of the outsider Doctrine
 			every_country={
 				limit = {
 					OR = {
 					original_tag = TRL
 					original_tag = THR
+					original_tag = TOC
 					}
 				}
 				set_country_flag = mutant_doctrine_ai
 			}
 			
-			
+			# Pick ghoul branch of outsider doctrine. Requires the mutant flag as well
 			every_country={
 				limit = {
 					original_tag = TOC
