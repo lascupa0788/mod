@@ -1917,6 +1917,27 @@ guiTypes = {
 			}
             
             # Trees
+			
+			gridboxtype = {
+				name = "recycling_engineering_tree"
+				position = { x= 0 y=150 }
+				slotsize = { width=70 height= 70 }
+				format = "LEFT"
+			}
+			
+			gridboxtype = {
+				name = "scavtool_engineering_tree"
+				position = { x= 0 y=150 }
+				slotsize = { width=70 height= 70 }
+				format = "LEFT"
+			}
+			
+			gridboxtype = {
+				name = "maketool_engineering_tree"
+				position = { x= 0 y=150 }
+				slotsize = { width=70 height= 70 }
+				format = "LEFT"
+			}
             gridboxtype = {
 				name = "organised_tato_farming_tree"
 				position = { x = 0 y = 150 }
@@ -2080,53 +2101,7 @@ guiTypes = {
 					format = left
 					Orientation = "UPPER_LEFT"
 				}
-				
-                instantTextBoxType = {
-					name = "header_ressources"
-					position = { x = 50 y = 830 }  
-					textureFile = ""
-					font = "hoi_36header"
-					borderSize = { x = 0 y = 0}
-					text = "HEADER_RESSOURCES"
-					maxWidth = 600
-					maxHeight = 62
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
 
-                instantTextBoxType = {
-					name = "header_tools_production"
-					position = { x = 50 y = 970 }  
-					textureFile = ""
-					font = "hoi_36header"
-					borderSize = { x = 0 y = 0}
-					text = "HEADER_TOOLS_PRODUCTION"
-					maxWidth = 600
-					maxHeight = 62
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
-				
-				iconType = {
-					name ="exclusive_tech_icon"
-					spriteType = "GFX_exclusive_tech_icon"
-					position = { x=545 y=1028 }
-					allwaystransparent = yes
-				}
-                
-                instantTextBoxType = {
-					name = "header_tools_scavenging"
-					position = { x = 50 y = 1110 }     
-					textureFile = ""
-					font = "hoi_36header"
-					borderSize = { x = 0 y = 0}
-					text = "HEADER_TOOLS_SCAVENGING"
-					maxWidth = 600
-					maxHeight = 62
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
-                
                 # Column Headers
 				instantTextBoxType = {
 					name = "tribal_column_header"
@@ -2212,24 +2187,6 @@ guiTypes = {
 			}
 			gridboxtype = {
 				name = "electronic_engineering_tree"
-				position = { x= 0 y=150 }
-				slotsize = { width=70 height= 70 }
-				format = "LEFT"
-			}
-			gridboxtype = {
-				name = "recycling_engineering_tree"
-				position = { x= 0 y=150 }
-				slotsize = { width=70 height= 70 }
-				format = "LEFT"
-			}
-			gridboxtype = {
-				name = "scavtool_engineering_tree"
-				position = { x= 0 y=150 }
-				slotsize = { width=70 height= 70 }
-				format = "LEFT"
-			}
-			gridboxtype = {
-				name = "maketool_engineering_tree"
 				position = { x= 0 y=150 }
 				slotsize = { width=70 height= 70 }
 				format = "LEFT"
@@ -2453,31 +2410,6 @@ guiTypes = {
 				size = { width = 70 height = 70 }
 				format = "LEFT"
 			}
-			
-		#	gridboxtype = {
-		#		name = "electronic_engineering_tree"
-		#		position = { x= 0 y=150 }
-		#		slotsize = { width=70 height= 70 }
-		#		format = "LEFT"
-		#	}
-		#	gridboxtype = {
-		#		name = "recycling_engineering_tree"
-		#		position = { x= 0 y=150 }
-		#		slotsize = { width=70 height= 70 }
-		#		format = "LEFT"
-		#	}
-		#	gridboxtype = {
-		#		name = "scavtool_engineering_tree"
-		#		position = { x= 0 y=150 }
-		#		slotsize = { width=70 height= 70 }
-		#		format = "LEFT"
-		#	}
-		#	gridboxtype = {
-		#		name = "maketool_engineering_tree"
-		#		position = { x= 0 y=150 }
-		#		slotsize = { width=70 height= 70 }
-		#		format = "LEFT"
-		#	}
         }
         
         #------------------------------------------
