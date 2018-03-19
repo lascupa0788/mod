@@ -9,15 +9,9 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		category_robots = {
-			breakthrough = 0.1
-		}
-		
-		
-		planning_speed = 0.25
-		army_speed_factor = 0.025
 		enable_tactic = tactic_unexpected_thrust
-		org_loss_when_moving = -0.15
+		army_speed_factor = 0.05
+		org_loss_when_moving = -0.10
 
 		doctrine = yes	
 		research_cost = 3
@@ -48,11 +42,10 @@ technologies = {
 	# Combat Protocols
 	delay = {
 
-		category_army = {
-			max_organisation = 3
+		category_robots = {
+			breakthrough = 0.05
+			max_organisation = 2
 		}
-		
-		
 		enable_tactic = tactic_delay
 		
 		path = {
@@ -90,11 +83,14 @@ technologies = {
 	# Advanced Combat Protocols
 	elastic_defence = {
 
-		land_reinforce_rate = 0.02
+		land_reinforce_rate = 0.05
 
+		category_robots = {
+			breakthrough = 0.05
+		}
 		category_army = {
-			max_organisation = 1
-			maximum_speed = 0.1
+			max_organisation = 2
+			maximum_speed = 0.05
 		}
 	
 		enable_tactic = tactic_elastic_defense
@@ -180,14 +176,14 @@ technologies = {
 	# Rushed Production
 	mass_motorization = {
 		category_army = {
-			hardness = -0.02
-			soft_attack = -0.01
-			hard_attack = -0.01
+			hardness = -0.05
+			soft_attack = -0.03
+			hard_attack = -0.03
 		}
 
-	    industrial_capacity_factory = 0.05
-		production_factory_efficiency_gain_factor = 0.1
-		production_factory_max_efficiency_factor = 0.1
+	    industrial_capacity_factory = 0.025
+		production_factory_efficiency_gain_factor = 0.075
+		production_factory_max_efficiency_factor = 0.075
 		
 		path = {
 			leads_to_tech = mechanised_offensive 
@@ -225,14 +221,14 @@ technologies = {
 	mechanised_offensive = {
 
 		category_army = {
-			hardness = -0.02
-			soft_attack = -0.01
-			hard_attack = -0.01
+			hardness = -0.05
+			soft_attack = -0.02
+			hard_attack = -0.02
 		}
 
-	    industrial_capacity_factory = 0.05
-		production_factory_efficiency_gain_factor = 0.1
-		production_factory_max_efficiency_factor = 0.1
+	    industrial_capacity_factory = 0.025
+		production_factory_efficiency_gain_factor = 0.75
+		production_factory_max_efficiency_factor = 0.075
 	
 
 		enable_tactic = tactic_blitz
@@ -275,11 +271,9 @@ technologies = {
 	armored_spearhead = { #Branch focused on Tanks 
 	
 		category_robots = {
-			max_organisation = 2
-			breakthrough = 0.10
+			max_organisation = 4
+			supply_consumption_factor = -0.02
 		}
-		
-		supply_consumption_factor = -0.02
 		
 		enable_tactic = tactic_blitz
 		
@@ -326,10 +320,8 @@ technologies = {
 	schwerpunk = {
 
 		category_robots = {
-			max_organisation = 10
-		}
-		category_army = {
-			max_organisation = 2
+			max_organisation = 4
+			breakthrough = 0.10
 		}
 		
 		
@@ -412,12 +404,12 @@ technologies = {
 	kampfgruppe = {
 
 		# faster planning
-		planning_speed = 0.2
-		max_planning = 0.25
+		planning_speed = 0.1
+		max_planning = 0.15
 		
 		category_army = {
-			soft_attack = 0.1
-			hard_attack = 0.1
+			soft_attack = 0.05
+			hard_attack = 0.05
 		}
 		
 		enable_tactic = tactic_overwhelming_fire
@@ -467,10 +459,9 @@ technologies = {
 		}
 		
 		category_robots = {
-			soft_attack = 0.1
-			hard_attack = 0.1
-			breakthrough = 0.1
-			defense = -0.25
+			soft_attack = 0.05
+			hard_attack = 0.05
+			defense = -0.1
 		}
 		
 		path = {
@@ -510,17 +501,15 @@ technologies = {
 	backhand_blow = {
 	
 		category_robots = {
-			soft_attack = 0.1
-			hard_attack = 0.1
+			soft_attack = 0.05
+			hard_attack = 0.05
 			breakthrough = 0.1
 			defense = -0.1
 		}
 		
 		category_army = {
-			soft_attack = -0.05
-			hard_attack = -0.05
 			breakthrough = -0.05
-			defense = 0.2
+			defense = 0.1
 		}
 
 	
@@ -565,8 +554,8 @@ technologies = {
 		category_robots = {
 			max_organisation = 5
 			breakthrough = 0.10
-			soft_attack = 0.15
-			hard_attack = 0.15
+			soft_attack = 0.05
+			hard_attack = 0.05
 		}
 		
 		doctrine = yes	
@@ -603,10 +592,10 @@ technologies = {
 			firebrigades
 		}
 
-        industrial_capacity_factory = 0.08
+        industrial_capacity_factory = 0.05
         line_change_production_efficiency_factor = 0.05
-		production_factory_start_efficiency_factor = 0.1
-		production_factory_efficiency_gain_factor = 0.15
+		production_factory_start_efficiency_factor = 0.05
+		production_factory_efficiency_gain_factor = 0.10
 		
 		path = {
 			leads_to_tech = nd_conscription 
@@ -645,7 +634,10 @@ technologies = {
 	nd_conscription = {
 
 		category_army = {
-			max_organisation = 5
+		max_organisation = 10
+		}
+		category_army = {
+		max_organisation = 10
 		}
 
 		path = {
@@ -684,17 +676,18 @@ technologies = {
 	# Internal Replicators
 	werwolf_guerillas = {
 	
-	supply_consumption_factor = -0.1
 	
 		category_army = {
-			hardness = 0.1
-			armor_value = 0.1
-			default_morale = 0.1
+			hardness = 0.05
+			armor_value = 0.05
+			supply_consumption_factor = -0.05
 		}
 		
 		category_robots = {
 			hardness = 0.1
 			armor_value = 0.1
+			default_morale = 0.1
+			supply_consumption_factor = -0.1
 		}
 		
 		doctrine = yes	
