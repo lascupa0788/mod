@@ -138,9 +138,13 @@ technologies = {
 			armored_spearhead
 		}
 		
-		supply_consumption_factor = -0.05
 		attrition = -0.05
-
+		
+		category_army = {
+			supply_consumption = -0.06
+			
+		}
+		
 		path = {
 			leads_to_tech = mass_motorization 
 			research_cost_coeff = 1
@@ -270,9 +274,11 @@ technologies = {
 	#Field Maintenance
 	armored_spearhead = { #Branch focused on Tanks 
 	
+		
+	
 		category_robots = {
 			max_organisation = 4
-			supply_consumption_factor = -0.02
+			supply_consumption = -0.02
 		}
 		
 		enable_tactic = tactic_blitz
@@ -676,18 +682,18 @@ technologies = {
 	# Internal Replicators
 	werwolf_guerillas = {
 	
+		
 	
 		category_army = {
 			hardness = 0.05
 			armor_value = 0.05
-			supply_consumption_factor = -0.05
 		}
 		
 		category_robots = {
 			hardness = 0.1
 			armor_value = 0.1
 			default_morale = 0.1
-			supply_consumption_factor = -0.1
+			supply_consumption = -0.1
 		}
 		
 		doctrine = yes	
@@ -1088,13 +1094,14 @@ technologies = {
 
 		
 		MONTHLY_POPULATION = -0.02
-		supply_consumption_factor = 0.02
+		
 		conscription_factor = -0.1
 		category_army = {
 			hard_attack = 0.2
 			soft_attack = 0.2
 			default_morale = -0.1
 			max_organisation = -1
+			supply_consumption = 0.02
 		}
 		
 		path = {
@@ -1211,9 +1218,10 @@ technologies = {
 			max_organisation = 5
 			soft_attack = 0.15
 			hard_attack = 0.15
+			supply_consumption = 0.05
 		}
 		
-		supply_consumption_factor = 0.05			
+					
 		#combat advantage when air superior
 		army_bonus_air_superiority_factor = 0.15
 		
@@ -1288,11 +1296,12 @@ technologies = {
 	forward_observers = {
 
 		conscription_factor = 0.05
-		supply_consumption_factor = -0.01
+		
 		
 		category_army = {
 			soft_attack = 0.1
 			hard_attack = 0.1
+			supply_consumption = -0.01
 		}
 		
 		path = {
@@ -1632,10 +1641,11 @@ technologies = {
 	# Assault Concentration
 	assault_concentration = {
 	
-		supply_consumption_factor = 0.02
+		
 		
 		category_army = {
 			soft_attack = 0.15
+			supply_consumption = 0.02
 		}
 
 		enable_tactic = tactic_overwhelming_fire
@@ -1750,10 +1760,11 @@ technologies = {
 	# Old World Lightning
 	central_planning = {
 	
-		supply_consumption_factor = 0.02
+		
 		
 		category_army = {
 			maximum_speed = 0.1
+			supply_consumption = 0.02
 		}
 		
 		
@@ -1789,13 +1800,13 @@ technologies = {
 	# Mechanized Onslaught
 	c3i_theory = {
 	
-		supply_consumption_factor = 0.04
+		
 		
 		category_army = {
 			max_organisation = 4
 			soft_attack = 0.15
 			hard_attack = 0.15
-
+			supply_consumption = 0.04
 		}
 
 		doctrine = yes	
@@ -1917,8 +1928,9 @@ technologies = {
 	# New World Tactics
 	infiltration_assault = {
 
-	
-		supply_consumption_factor = -0.10
+	category_army = {
+		supply_consumption = -0.10
+		}
 		
 		path = {
 			leads_to_tech = night_assault_tactics 
@@ -2216,12 +2228,13 @@ technologies = {
 
 
 		conscription_factor = -0.1
-		supply_consumption_factor = -0.10
+		
 		
 		category_army = {
 			soft_attack = 0.1
 			hard_attack = 0.1
 			max_organisation = 2
+			supply_consumption = -0.10
 		}
 		
 		enable_tactic = tactic_relentless_assault
@@ -2438,10 +2451,11 @@ technologies = {
 	# Divide et Vincet
 	mechanized_wave = {
 		
-		supply_consumption_factor = -0.1	
+			
 		
 		category_army = {
 			maximum_speed = 0.1
+			supply_consumption = -0.1
 		}
 		
 		path = {
@@ -2787,12 +2801,13 @@ technologies = {
 	
 	the_deathclaws_might = {
 	
-		supply_consumption_factor = 0.1	
+		
 		category_light_infantry = {
 			breakthrough = 0.15
 			soft_attack = 0.2
 			hard_attack = 0.2
 			hardness = 0.05
+			supply_consumption = 0.1	
 		}
 
 		
