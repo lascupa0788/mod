@@ -66,7 +66,7 @@ spriteTypes = {
 		alwaystransparent = yes
 	}	
 	SpriteType = {
-		name = "GFX_concentrated_fire_plans_medium"
+		name = "GFX_non_discriminatory_targeting_medium"
 		texturefile = "gfx/interface/technologies/non_discriminatory.dds"
 		alwaystransparent = yes
 	}
@@ -116,7 +116,7 @@ spriteTypes = {
 		alwaystransparent = yes
 	}
 	SpriteType = {
-		name = "GFX_dispersed_support_medium"
+		name = "GFX_walking_fire_medium"
 		texturefile = "gfx/interface/technologies/walking_fire.dds"
 		alwaystransparent = yes
 	}
@@ -151,22 +151,22 @@ spriteTypes = {
 		alwaystransparent = yes
 	}
 	SpriteType = {
-		name = "GFX_shock_and_awe_medium"
+		name = "GFX_brigades_of_steel_medium"
 		texturefile = "gfx/interface/technologies/brigades_of_steel.dds"
 		alwaystransparent = yes
 	}
 	SpriteType = {
-		name = "GFX_sup_mechanized_offensive_medium"
+		name = "GFX_walking_tanks_medium"
 		texturefile = "gfx/interface/technologies/walking_tanks.dds"
 		alwaystransparent = yes
 	}
 	SpriteType = {
-		name = "GFX_forward_observers_medium"
+		name = "GFX_warrior_code_doctrine_medium"
 		texturefile = "gfx/interface/technologies/warrior_code.dds"
 		alwaystransparent = yes
 	}
 	SpriteType = {
-		name = "GFX_air_land_battle_medium"
+		name = "GFX_shock_and_awe_doctrine_medium"
 		texturefile = "gfx/interface/technologies/shock_and_awe.dds"
 		alwaystransparent = yes
 	}
@@ -191,12 +191,12 @@ spriteTypes = {
 		alwaystransparent = yes
 	}
 	SpriteType = {
-		name = "GFX_regimental_combat_teams_medium"
+		name = "GFX_adaptive_chain_of_command_medium"
 		texturefile = "gfx/interface/technologies/adaptive_chain_command.dds"
 		alwaystransparent = yes
 	}
 	SpriteType = {
-		name = "GFX_combined_arms_medium"
+		name = "GFX_airborne_assaults_medium"
 		texturefile = "gfx/interface/technologies/airborne_assaults.dds"
 		alwaystransparent = yes
 	}
@@ -212,17 +212,12 @@ spriteTypes = {
 		alwaystransparent = yes
 	}
 	SpriteType = {
-		name = "GFX_intergrated_support_medium"
-		texturefile = "gfx/interface/technologies/intergrated_support.dds"
-		alwaystransparent = yes
-	}
-	SpriteType = {
-		name = "GFX_tactical_control_medium"
+		name = "GFX_scorched_earth_medium"
 		texturefile = "gfx/interface/technologies/scorched_earth.dds"
 		alwaystransparent = yes
 	}
 	SpriteType = {
-		name = "GFX_centralized_fire_control_medium"
+		name = "GFX_recon_in_depth_medium"
 		texturefile = "gfx/interface/technologies/recon_in_depth.dds"
 		alwaystransparent = yes
 	}
@@ -232,12 +227,12 @@ spriteTypes = {
 		alwaystransparent = yes
 	}
 	SpriteType = {
-		name = "GFX_advanced_firebases_medium"
+		name = "GFX_combined_arms_doctrine_medium"
 		texturefile = "gfx/interface/technologies/combined_arms.dds"
 		alwaystransparent = yes
 	}
 	SpriteType = {
-		name = "GFX_overwhelming_firepower_medium"
+		name = "GFX_hit_and_run_medium"
 		texturefile = "gfx/interface/technologies/hit_and_run.dds"
 		alwaystransparent = yes
 	}
@@ -247,7 +242,7 @@ spriteTypes = {
 		alwaystransparent = yes
 	}
 	SpriteType = {
-		name = "GFX_intergrated_support_medium"
+		name = "GFX_intergrated_support_doctrine_medium"
 		texturefile = "gfx/interface/technologies/inte_grated_support.dds"
 		alwaystransparent = yes
 	}
