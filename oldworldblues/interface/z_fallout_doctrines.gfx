@@ -46,22 +46,22 @@ spriteTypes = {
 		alwaystransparent = yes
 	}
 	SpriteType = {
-		name = "GFX_armored_spearhead_medium"
+		name = "GFX_field_maintenance_medium"
 		texturefile = "gfx/interface/technologies/field_maintenance.dds"
 		alwaystransparent = yes
 	}
 	SpriteType = {
-		name = "GFX_elastic_defence_medium"
+		name = "GFX_advanced_combat_protocols_medium"
 		texturefile = "gfx/interface/technologies/advanced_combat_protocols.dds"
 		alwaystransparent = yes
 	}
 	SpriteType = {
-		name = "GFX_mechanised_offensive_medium"
+		name = "GFX_self_replicating_machinery_medium"
 		texturefile = "gfx/interface/technologies/self_replicating_machinery.dds"
 		alwaystransparent = yes
 	}
 	SpriteType = {
-		name = "GFX_schwerpunk_medium"
+		name = "GFX_the_flesh_is_weak_medium"
 		texturefile = "gfx/interface/technologies/the_flesh_is_weak.dds"
 		alwaystransparent = yes
 	}	
@@ -71,37 +71,37 @@ spriteTypes = {
 		alwaystransparent = yes
 	}
 	SpriteType = {
-		name = "GFX_modern_blitzkrieg_medium"
+		name = "GFX_age_of_the_machine_medium"
 		texturefile = "gfx/interface/technologies/age_of_the_machine.dds"
 		alwaystransparent = yes
 	}
 	SpriteType = {
-		name = "GFX_volkssturm_medium"
+		name = "GFX_standardised_blueprints_medium"
 		texturefile = "gfx/interface/technologies/blueprint_standard.dds"
 		alwaystransparent = yes
 	}
 	SpriteType = {
-		name = "GFX_mobile_infantry_medium"
+		name = "GFX_automated_distribution_medium"
 		texturefile = "gfx/interface/technologies/automated_distribution.dds"
 		alwaystransparent = yes
 	}
 	SpriteType = {
-		name = "GFX_firebrigades_medium"
+		name = "GFX_offensive_protocols_doctrine_medium"
 		texturefile = "gfx/interface/technologies/offensive_protocols.dds"
 		alwaystransparent = yes
 	}
 	SpriteType = {
-		name = "GFX_blitzkrieg_medium"
+		name = "GFX_refined_construction_medium"
 		texturefile = "gfx/interface/technologies/refined_construction.dds"
 		alwaystransparent = yes
 	}	
 	SpriteType = {
-		name = "GFX_mass_motorization_medium"
+		name = "GFX_rushed_production_medium"
 		texturefile = "gfx/interface/technologies/rushed_production.dds"
 		alwaystransparent = yes
 	}
 	SpriteType = {
-		name = "GFX_werwolf_guerillas_medium"
+		name = "GFX_internal_replicators_medium"
 		texturefile = "gfx/interface/technologies/internal_replicators.dds"
 		alwaystransparent = yes
 	}
@@ -111,7 +111,7 @@ spriteTypes = {
 		alwaystransparent = yes
 	}
 	SpriteType = {
-		name = "GFX_nd_conscription_medium"
+		name = "GFX_networked_ai_medium"
 		texturefile = "gfx/interface/technologies/networked_ai.dds"
 		alwaystransparent = yes
 	}
@@ -126,12 +126,12 @@ spriteTypes = {
 		alwaystransparent = yes
 	}
 	SpriteType = {
-		name = "GFX_kampfgruppe_medium"
+		name = "GFX_combat_simulations_medium"
 		texturefile = "gfx/interface/technologies/combat_simulations.dds"
 		alwaystransparent = yes
 	}
 	SpriteType = {
-		name = "GFX_backhand_blow_medium"
+		name = "GFX_iron_fist_medium"
 		texturefile = "gfx/interface/technologies/iron_fist.dds"
 		alwaystransparent = yes
 	}

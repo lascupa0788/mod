@@ -49,7 +49,7 @@ technologies = {
 		enable_tactic = tactic_delay
 		
 		path = {
-			leads_to_tech = elastic_defence 
+			leads_to_tech = advanced_combat_protocols 
 			research_cost_coeff = 1
 		}
 
@@ -81,7 +81,7 @@ technologies = {
 	}
 	
 	# Advanced Combat Protocols
-	elastic_defence = {
+	advanced_combat_protocols = {
 
 		land_reinforce_rate = 0.05
 
@@ -96,11 +96,11 @@ technologies = {
 		enable_tactic = tactic_elastic_defense
 		
 		path = {
-			leads_to_tech = mobile_infantry 
+			leads_to_tech = automated_distribution 
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = armored_spearhead 
+			leads_to_tech = field_maintenance 
 			research_cost_coeff = 1
 		}
 
@@ -132,10 +132,10 @@ technologies = {
 	}
 	
 	# Automated Distribution
-	mobile_infantry = { #Branch focuses on infantry, included Motorised and Mechanised.
+	automated_distribution = { 
 	
 		xor={
-			armored_spearhead
+			field_maintenance
 		}
 		
 		attrition = -0.05
@@ -146,7 +146,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = mass_motorization 
+			leads_to_tech = rushed_production 
 			research_cost_coeff = 1
 		}
 
@@ -178,7 +178,7 @@ technologies = {
 	}
 	
 	# Rushed Production
-	mass_motorization = {
+	rushed_production = {
 		category_army = {
 			hardness = -0.05
 			soft_attack = -0.03
@@ -190,7 +190,7 @@ technologies = {
 		production_factory_max_efficiency_factor = 0.075
 		
 		path = {
-			leads_to_tech = mechanised_offensive 
+			leads_to_tech = self_replicating_machinery 
 			research_cost_coeff = 1
 		}
 
@@ -222,7 +222,7 @@ technologies = {
 	}
 	
 	#Self Replicating Machinery
-	mechanised_offensive = {
+	self_replicating_machinery = {
 
 		category_army = {
 			hardness = -0.05
@@ -239,7 +239,7 @@ technologies = {
 		
 		
 		path = {
-			leads_to_tech = kampfgruppe 
+			leads_to_tech = combat_simulations 
 			research_cost_coeff = 1
 		}
 
@@ -272,7 +272,7 @@ technologies = {
 	}
 	
 	#Field Maintenance
-	armored_spearhead = { #Branch focused on Tanks 
+	field_maintenance = {
 	
 		
 	
@@ -285,11 +285,11 @@ technologies = {
 		
 	
 		xor = {
-			mobile_infantry
+			automated_distribution
 		}
 	
 		path = {
-			leads_to_tech = schwerpunk 
+			leads_to_tech = the_flesh_is_weak 
 			research_cost_coeff = 1
 		}
 
@@ -323,7 +323,7 @@ technologies = {
 	}
 	
 	#The Flesh is Weak
-	schwerpunk = {
+	the_flesh_is_weak = {
 
 		category_robots = {
 			max_organisation = 4
@@ -332,7 +332,7 @@ technologies = {
 		
 		
 		path = {
-			leads_to_tech = blitzkrieg 
+			leads_to_tech = refined_construction 
 			research_cost_coeff = 1
 		}
 
@@ -364,7 +364,7 @@ technologies = {
 	}
 	
 	#Refined Construction
-	blitzkrieg = {
+	refined_construction = {
 
 		category_army = {
 			hardness = 0.05
@@ -374,7 +374,7 @@ technologies = {
 		enable_tactic = tactic_breakthrough
 		
 		path = {
-			leads_to_tech = kampfgruppe 
+			leads_to_tech = combat_simulations 
 			research_cost_coeff = 1
 		}
 
@@ -407,7 +407,7 @@ technologies = {
 	}
 	
 	#Combat Simulations
-	kampfgruppe = {
+	combat_simulations = {
 
 		# faster planning
 		planning_speed = 0.1
@@ -421,11 +421,11 @@ technologies = {
 		enable_tactic = tactic_overwhelming_fire
 		
 		path = {
-			leads_to_tech = firebrigades 
+			leads_to_tech = offensive_protocols_doctrine 
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = volkssturm 
+			leads_to_tech = standardised_blueprints 
 			research_cost_coeff = 1
 		}
 
@@ -458,10 +458,10 @@ technologies = {
 	}
 	
 	# Offensive Protocols
-	firebrigades = { #Branch focused on mobile warfares
+	offensive_protocols_doctrine = { 
 	
 		xor={
-			volkssturm
+			standardised_blueprints
 		}
 		
 		category_robots = {
@@ -471,7 +471,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = backhand_blow 
+			leads_to_tech = iron_fist 
 			research_cost_coeff = 1
 		}
 
@@ -504,7 +504,7 @@ technologies = {
 	}
 	
 	# Iron Fist
-	backhand_blow = {
+	iron_fist = {
 	
 		category_robots = {
 			soft_attack = 0.05
@@ -522,7 +522,7 @@ technologies = {
 		enable_tactic = tactic_backhand_blow
 		
 		path = {
-			leads_to_tech = modern_blitzkrieg 
+			leads_to_tech = age_of_the_machine 
 			research_cost_coeff = 1
 		}
 
@@ -555,7 +555,7 @@ technologies = {
 	}
 	
 	# Age of the Machine
-	modern_blitzkrieg = {
+	age_of_the_machine = {
 
 		category_robots = {
 			max_organisation = 5
@@ -592,10 +592,10 @@ technologies = {
 	}
 	
 	# Standardised Blueprints
-	volkssturm = {
+	standardised_blueprints = {
 	
 		xor={
-			firebrigades
+			offensive_protocols_doctrine
 		}
 
         industrial_capacity_factory = 0.05
@@ -604,7 +604,7 @@ technologies = {
 		production_factory_efficiency_gain_factor = 0.10
 		
 		path = {
-			leads_to_tech = nd_conscription 
+			leads_to_tech = networked_ai 
 			research_cost_coeff = 1
 		}
 
@@ -637,7 +637,7 @@ technologies = {
 	}
 	
 	# Networked Ai
-	nd_conscription = {
+	networked_ai = {
 
 		category_army = {
 		max_organisation = 10
@@ -647,7 +647,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = werwolf_guerillas 
+			leads_to_tech = internal_replicators 
 			research_cost_coeff = 1
 		}
 
@@ -680,7 +680,7 @@ technologies = {
 	}
 	
 	# Internal Replicators
-	werwolf_guerillas = {
+	internal_replicators = {
 	
 		
 	
