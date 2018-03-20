@@ -1,11 +1,11 @@
 technologies = {
 	# Automated Warfare
-	mobile_warfare = {
+	automated_warfare = {
 		
-		xor = { superior_firepower trench_warfare mass_assault outsider_warfare } 
+		xor = { elite_army grand_army terror_tactics outsider_warfare } 
 
 		path = {
-			leads_to_tech = delay 
+			leads_to_tech = combat_protocols 
 			research_cost_coeff = 1
 		}
 		
@@ -23,7 +23,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
+			cat_automated_warfare
 		}
 		
 		ai_will_do = {
@@ -40,7 +40,7 @@ technologies = {
 	}
 	
 	# Combat Protocols
-	delay = {
+	combat_protocols = {
 
 		category_robots = {
 			breakthrough = 0.05
@@ -59,7 +59,7 @@ technologies = {
 
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
+			cat_automated_warfare
 		}
 		
 		folder = {
@@ -110,7 +110,7 @@ technologies = {
 
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
+			cat_automated_warfare
 		}	
 		
 		folder = {
@@ -156,7 +156,7 @@ technologies = {
 
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
+			cat_automated_warfare
 		}
 		
 		folder = {
@@ -200,7 +200,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
+			cat_automated_warfare
 		}
 		
 		folder = {
@@ -249,7 +249,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
+			cat_automated_warfare
 		}
 
 		
@@ -299,7 +299,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
+			cat_automated_warfare
 		}
 
 
@@ -342,7 +342,7 @@ technologies = {
 
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
+			cat_automated_warfare
 		}
 		
 		folder = {
@@ -384,7 +384,7 @@ technologies = {
 
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
+			cat_automated_warfare
 		}
 
 		
@@ -435,7 +435,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
+			cat_automated_warfare
 		}
 
 		
@@ -481,7 +481,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
+			cat_automated_warfare
 		}
 
 		
@@ -532,7 +532,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
+			cat_automated_warfare
 		}
 
 		
@@ -569,7 +569,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
+			cat_automated_warfare
 		}
 
 		
@@ -614,7 +614,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
+			cat_automated_warfare
 		}
 
 		
@@ -657,7 +657,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
+			cat_automated_warfare
 		}
 
 		
@@ -701,7 +701,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_mobile_warfare
+			cat_automated_warfare
 		}
 
 		
@@ -722,10 +722,11 @@ technologies = {
 			industry = 3.0
 		}
 	}
+	
 	# Elite Forces
-	superior_firepower = {
+	elite_army = {
 
-		xor = { mobile_warfare trench_warfare mass_assault outsider_warfare } 
+		xor = { automated_warfare grand_army terror_tactics outsider_warfare } 
 
 		path = {
 			leads_to_tech = sup_delay 
@@ -748,7 +749,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_superior_firepower
+			cat_elite_army
 		}
 
 		
@@ -790,7 +791,7 @@ technologies = {
 
 		categories = {
 			land_doctrine
-			cat_superior_firepower
+			cat_elite_army
 		}
 		
 		folder = {
@@ -836,7 +837,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_superior_firepower
+			cat_elite_army
 		}
 
 		
@@ -885,7 +886,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_superior_firepower
+			cat_elite_army
 		}
 
 		
@@ -927,7 +928,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_superior_firepower
+			cat_elite_army
 		}
 
 		
@@ -971,7 +972,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_superior_firepower
+			cat_elite_army
 		}
 
 		
@@ -1013,7 +1014,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_superior_firepower
+			cat_elite_army
 		}
 
 		
@@ -1063,7 +1064,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_superior_firepower
+			cat_elite_army
 		}
 
 		
@@ -1115,7 +1116,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_superior_firepower
+			cat_elite_army
 		}
 
 		
@@ -1152,7 +1153,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_superior_firepower
+			cat_elite_army
 		}
 
 		
@@ -1193,7 +1194,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_superior_firepower
+			cat_elite_army
 		}
 
 		
@@ -1230,7 +1231,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_superior_firepower
+			cat_elite_army
 		}
 
 		
@@ -1270,7 +1271,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_superior_firepower
+			cat_elite_army
 		}
 
 		
@@ -1315,7 +1316,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_superior_firepower
+			cat_elite_army
 		}
 
 		
@@ -1364,7 +1365,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_superior_firepower
+			cat_elite_army
 		}
 
 		
@@ -1403,7 +1404,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_superior_firepower
+			cat_elite_army
 		}
 
 		
@@ -1426,9 +1427,9 @@ technologies = {
 	}
 	
 	# Prepared Defense
-	trench_warfare = {
+	grand_army = {
 
-		xor = { mobile_warfare superior_firepower mass_assault outsider_warfare} 
+		xor = { automated_warfare elite_army terror_tactics outsider_warfare} 
 	
 		max_dig_in = 15
 		dig_in_speed_factor = 0.25 #25% bonus
@@ -1444,7 +1445,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_grand_battle_plan
+			cat_grand_army
 		}
 
 		
@@ -1483,7 +1484,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_grand_battle_plan
+			cat_grand_army
 		}
 
 		
@@ -1524,7 +1525,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_grand_battle_plan
+			cat_grand_army
 		}
 
 		
@@ -1571,7 +1572,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_grand_battle_plan
+			cat_grand_army
 		}
 
 		
@@ -1619,7 +1620,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_grand_battle_plan
+			cat_grand_army
 		}
 
 		
@@ -1660,7 +1661,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_grand_battle_plan
+			cat_grand_army
 		}
 
 		
@@ -1698,7 +1699,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_grand_battle_plan
+			cat_grand_army
 		}
 
 		
@@ -1738,7 +1739,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_grand_battle_plan
+			cat_grand_army
 		}
 
 		
@@ -1778,7 +1779,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_grand_battle_plan
+			cat_grand_army
 		}
 
 		
@@ -1814,7 +1815,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_grand_battle_plan
+			cat_grand_army
 		}
 
 		
@@ -1857,7 +1858,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_grand_battle_plan
+			cat_grand_army
 		}
 
 		
@@ -1902,7 +1903,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_grand_battle_plan
+			cat_grand_army
 		}
 
 		
@@ -1942,7 +1943,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_grand_battle_plan
+			cat_grand_army
 		}
 
 		
@@ -1986,7 +1987,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_grand_battle_plan
+			cat_grand_army
 		}
 
 		
@@ -2026,7 +2027,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_grand_battle_plan
+			cat_grand_army
 		}
 
 		
@@ -2067,7 +2068,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_grand_battle_plan
+			cat_grand_army
 		}
 
 		
@@ -2091,9 +2092,9 @@ technologies = {
 	}
 	
 	# Mass Assault
-	mass_assault = {
+	terror_tactics = {
 
-		xor = { mobile_warfare superior_firepower trench_warfare outsider_warfare} 
+		xor = { automated_warfare elite_army grand_army outsider_warfare} 
 
 		path = {
 			leads_to_tech = pocket_defence 
@@ -2108,7 +2109,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_mass_assault
+			cat_terror_tactics
 		}
 
 		
@@ -2149,7 +2150,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_mass_assault
+			cat_terror_tactics
 		}
 
 		
@@ -2196,7 +2197,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_mass_assault
+			cat_terror_tactics
 		}
 
 		
@@ -2249,7 +2250,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_mass_assault
+			cat_terror_tactics
 		}
 
 		
@@ -2296,7 +2297,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_mass_assault
+			cat_terror_tactics
 		}
 
 		
@@ -2343,7 +2344,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_mass_assault
+			cat_terror_tactics
 		}
 
 		
@@ -2383,7 +2384,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_mass_assault
+			cat_terror_tactics
 		}
 
 		
@@ -2425,7 +2426,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_mass_assault
+			cat_terror_tactics
 		}
 
 		
@@ -2468,7 +2469,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_mass_assault
+			cat_terror_tactics
 		}
 
 		
@@ -2507,7 +2508,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_mass_assault
+			cat_terror_tactics
 		}
 
 		
@@ -2557,7 +2558,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_mass_assault
+			cat_terror_tactics
 		}
 
 		
@@ -2601,7 +2602,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_mass_assault
+			cat_terror_tactics
 		}
 
 		
@@ -2642,7 +2643,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_mass_assault
+			cat_terror_tactics
 		}
 
 		
@@ -2686,7 +2687,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_mass_assault
+			cat_terror_tactics
 		}
 
 		
@@ -2733,7 +2734,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_mass_assault
+			cat_terror_tactics
 		}
 		
 		folder = {
@@ -2776,7 +2777,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_mass_assault
+			cat_terror_tactics
 		}
 		
 		folder = {
@@ -2816,7 +2817,7 @@ technologies = {
 		
 		categories = {
 			land_doctrine
-			cat_mass_assault
+			cat_terror_tactics
 		}
 		
 		folder = {
@@ -2851,7 +2852,7 @@ technologies = {
 			max_organisation = 2
 		}
 
-		xor = { mobile_warfare superior_firepower trench_warfare mass_assault } 
+		xor = { automated_warfare elite_army grand_army terror_tactics } 
 
 		path = {
 			leads_to_tech = we_are_different 

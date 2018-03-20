@@ -55,10 +55,10 @@ technology_categories = {
 	construction_tech
 	submarine_doctrine
 	air_equipment
-	cat_mobile_warfare
-	cat_superior_firepower
-	cat_grand_battle_plan
-	cat_mass_assault
+	cat_automated_warfare
+	cat_elite_army
+	cat_grand_army
+	cat_terror_tactics
 	cat_outsider_warfare
 	cat_base_strike
 	cat_trade_interdiction

@@ -1,14 +1,22 @@
 ﻿l_english:
 
- cat_mobile_warfare:0 "Automated Warfare Doctrine"
- cat_superior_firepower:0 "Elite Forces Doctrine"
- cat_grand_battle_plan:0 "Grand Battleplan Doctrine"
- cat_mass_assault:0 "Mass Assault Doctrine"
- cat_mobile_warfare_research:0 "Automated Warfare Doctrine"
- cat_superior_firepower_research:0 "Elite Forces Doctrine"
- cat_grand_battle_plan_research:0 "Grand Battleplan Doctrine"
- cat_mass_assault_research:0 "Mass Assault Doctrine"
 
+
+ # Categories Doctrine
+ cat_automated_warfare:0 "Automated Warfare Doctrine"
+ cat_elite_army:0 "Elite Forces Doctrine"
+ cat_grand_army:0 "Grand Army Doctrine"
+ cat_terror_tactics:0 "Terror Tactics Doctrine"
+ cat_outsider_warfare:0 "Outsider Warfare Doctrine"
+ 
+ cat_automated_warfare_research:0 "Automated Warfare Doctrine"
+ cat_superior_firepower_research:0 "Elite Forces Doctrine"
+ cat_grand_battle_plan_research:0 "Grand Army Doctrine"
+ cat_mass_assault_research:0 "Terror Tactics Doctrine"
+ cat_outsider_warfare_research:0 "Outsider Warfare Doctrine"
+
+ 
+ # Labels/headers Doctrine
  AUTOMATED_WARFARE_DOCTRINE_LABEL:0 "Automated Warfare"
  AUTOMATED_WARFARE_DOCTRINE_DESC:0 "Why waste precious lives if you can use Robots to crush the enemy under their tires, thrusters and tracks."
  ELITE_ARMY_DOCTRINE_LABEL:0 "Elite Army"
@@ -20,6 +28,7 @@
  OUTSIDER_WARFARE_DOCTRINE_LABEL:0 "Outsider Warfare"
  OUTSIDER_WARFARE_DOCTRINE_DESC:0 "Outcast from society, forced to forge their own fate. But also free from any and all restraint."
  
+ # sublabels/subheaders Doctrine
  AUTOMATED_WARFARE_LABEL:0 "Quantity"
  AUTOMATED_WARFARE_LABEL_TT:0 "Improve production of our robots"
  AUTOMATED_WARFARE_LABEL_1:0 "Quality"
@@ -28,7 +37,6 @@
  AUTOMATED_WARFARE_LABEL_2_TT:0 "Even more Robots."
  AUTOMATED_WARFARE_LABEL_3:0 "Steel Juggernauts"
  AUTOMATED_WARFARE_LABEL_3_TT:0 "An army of Liberty Primes."
-
  ELITE_ARMY_LABEL:0 "Hit and Run"
  ELITE_ARMY_LABEL_TT:0 "Speed is key to everything"
  ELITE_ARMY_LABEL_1:0 "Integrated Support"
@@ -37,22 +45,27 @@
  ELITE_ARMY_LABEL_2_TT:0 "The Enclave would be proud"
  ELITE_ARMY_LABEL_3:0 "Bonds of Steel"
  ELITE_ARMY_LABEL_3_TT:0 "We are Chivalrous after all"
-
- 
  GRAND_ARMY_LABEL:0 "Old World Glory"
  GRAND_ARMY_LABEL_TT:0 "Focus on armor and motorisation."
  GRAND_ARMY_LABEL_1:0 "Infantry"
  GRAND_ARMY_LABEL_1_TT:0 "Focus on Strong numerous infantry."
- 
  TERROR_TACTICS_LABEL:0 "Way of the Bull"
  TERROR_TACTICS_LABEL_TT:0 "We will give them no quarter."
  TERROR_TACTICS_LABEL_1:0 "Tribal ways"
  TERROR_TACTICS_LABEL_1_TT:0 "Ancient wisdom will show us the way."
 
- mobile_warfare:0 "Automated Warfare"
- mobile_warfare_desc:0 "Automated Warfare focuses on the mass use of automated weapon systems.\n\n"
- delay:0 "Combat Protocols"
- delay_desc:0 "Having predetermined patterns of combat can not only speed up calculation processes but also give automated units the ability to adapt far quicker to battlefield situations."
+ 
+ 
+ 
+ 
+ # Localisation Tech Doctrine Automated Warfare
+ automated_warfare:0 "Automated Warfare"
+ automated_warfare_desc:0 "Automated Warfare focuses on the mass use of automated weapon systems.\n\n"
+ 
+ 
+ 
+ combat_protocols:0 "Combat Protocols"
+ combat_protocols_desc:0 "Having predetermined patterns of combat can not only speed up calculation processes but also give automated units the ability to adapt far quicker to battlefield situations."
  elastic_defence:0 "Advanced Combat Protocols"
  elastic_defence_desc:0 "Further advances in prepared protocols allow for far quicker reaction to hostile incursions."
  mobile_infantry:0 "Automated Distribution"
@@ -81,8 +94,12 @@
  nd_conscription_desc:0 "How am I going to stop some big mean mother hubbard from tearing me a structurally superfluous new behind? Use a Robot. And if that don't work...use more Robot. "
  werwolf_guerillas:0 "Internal Replicators"
  werwolf_guerillas_desc:0 "What if I told you that our robots can repair themselves in the field. What if I told you that they can maintain themselves? Would you be scared?"
- superior_firepower:0 "Elite Forces"
- superior_firepower_desc:0 "Each of ours shall be like a million of them."
+ 
+ # Localisation Tech Doctrine Elite Forces
+ elite_army:0 "Elite Forces"
+ elite_army_desc:0 "Each of ours shall be like a million of them."
+ 
+ 
  sup_delay:0 "Concentration of Force"
  sup_delay_desc:0 "Fewer numbers mean that we have to choose where to fight. And if we fight, we have to hit hard and make it decisive."
  mobile_defence:0 "Speed of Movement"
@@ -115,8 +132,11 @@
  shock_and_awe_desc:0 ""We are the defenders of Humanity, a living weapon, the only bullwark between us and nuclear annihilation. Science has far too often run amok, we are here to make sure it never happens again. Brothers, are you with me?"  - High Elder John Maxson"
  grand_battle_plan:0 "Grand Battle Plan"
  grand_battle_plan_desc:0 "Extensive planning and preparation before engaging in battle is the key to success."
- trench_warfare:0 "Prepared Defense"
- trench_warfare_desc:0 "A shovel is often the best weapon of the infantryman. Units learn the value of entrenching in any position they take up."
+ 
+ # Localisation Tech Doctrine Grand Army
+ grand_army:0 "Prepared Defense"
+ grand_army_desc:0 "A shovel is often the best weapon of the infantryman. Units learn the value of entrenching in any position they take up."
+ 
  prepared_defense:0 "Fortified Positions"
  prepared_defense_desc:0 "More extensive systems of field fortification greatly improve a unit's defenses. They also allow us better firing positions from which to engage the enemy."
  grand_assault:0 "Grand Assault"
@@ -145,8 +165,11 @@
  attritional_containment_desc:0 "War is a hungry beast and it devours the best of us. If we can ensure a steady supply of new 'volunteers' then victory will be ours."
  infiltration_in_depth:0 "Ranger Infiltration"
  infiltration_in_depth_desc:0 "Rangers are a unique branch of our military, seeding them behind enemy lines will allow us to disrupt the enemy before we start our major offensives. A risky tactic, but it will pay off a thousandfold."
- mass_assault:0 "Mass Assault"
- mass_assault_desc:0 "'Perfect' weapons are overrated, a large number of 'good enough' weapons is the path to victory!"
+ 
+ # Localisation Tech Doctrine Terror Tactics
+ terror_tactics:0 "Mass Assault"
+ terror_tactics_desc:0 "'Perfect' weapons are overrated, a large number of 'good enough' weapons is the path to victory!"
+ 
  pocket_defence:0 "Pocket Defense"
  pocket_defence_desc:0 "It is possible that, while on the defensive, our troops may be caught in a pocket. In this case they must merely hold out until the inevitable counter-attack relieves them."
  defence_in_depth:0 "Terror Tactics"
@@ -180,7 +203,7 @@
  the_deathclaws_might:0"The Deathclaw's Might"
  the_deathclaws_might_desc:0"The Apex Predator of the wasteland. We can only hope to emulate its sheer rage and ferocity."
 
-
+ # Localisation Tech Doctrine Outsider Warfare
  outsider_warfare:0 "Outsider Warfare"
  outsider_warfare_desc:0 ""
  we_are_different:0 "We are Different"
@@ -213,6 +236,8 @@
  mixed_army_desc:0 ""
  master_race:0 "We are Masters"
  master_race_desc:0 ""
+ 
+ # Headers/labels Electronics
  HEADER_ENCRYPTION:0 "Encryption"
  HEADER_DECRYPTION:0 "Decryption"
  HEADER_COMMUNICATION:0 "Communication"
@@ -222,9 +247,8 @@
  HEADER_TOOLS_PRODUCTION:0 "Tool Production"
  HEADER_TOOLS_SCAVENGING:0 "Tool Scavenging"
  
- scientific_spirit_mali:0 "Advanced Civilization"
- scientific_spirit_mali_desc:0 "A mind that invents, does not fight. We need many to maintain our higher standard of living, so our military inevitably has to suffer."
- 
+
+ # Electronics Localisation
  electronic_engineering:0 "Ohm´s Law"
  electronic_engineering_desc:0 "Ohm's law states that the current through a conductor between two points is directly proportional to the voltage across the two points. It is quintessential for anything remotely related to electricity."
  electronic_engineering_1:0 "Resistor"
@@ -287,6 +311,14 @@
  advanced_centimetric_radar:0 "Advanced Centimetric Radar"
  advanced_centimetric_radar_desc:0 "Despite our advanced radars, there are still ways for the enemy to avoid detection. New developments like the Pulse-Doppler radar allows us to eliminate many of these limitations in our equipment."
 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ #  Industry Localisation
  recycling_engineering:0 "Scavengers"
  recycling_engineering_desc:0 ""
  recycling_engineering_1:0 "Salvage techniques"
@@ -318,6 +350,9 @@
  scavtool_engineering_2:0 "Search Patterns"
  scavtool_engineering_2_desc:0 ""
  
+ 
+ 
+ # Other
  education_theory:0 "Wall Paintings"
  education_theory_desc:0 ""
  education_theory_1:0 "Written Word"
@@ -448,5 +483,6 @@
  rite_of_commitment:0 "Rite of commitment"
  rite_of_commitment_desc:0 "We can ill afford to waste our limited resources. Everything has to be completed, even if somebody refuses."
  
- 
+ scientific_spirit_mali:0 "Advanced Civilization"
+ scientific_spirit_mali_desc:0 "A mind that invents, does not fight. We need many to maintain our higher standard of living, so our military inevitably has to suffer."
  

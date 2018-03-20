@@ -1,18 +1,47 @@
 spriteTypes = {
 
-	spriteType = {
+	# Folder Tabs
+	SpriteType = {
 		name = "GFX_education_folder_tab"
 		textureFile = "gfx//interface//techtree_education_tab.dds"
 		noOfFrames = 2		
 	}
 
+
+
+
+	# Backgrounds
 	SpriteType = {
-		name = "GFX_outsider_warfare_bg"
-		texturefile = "gfx//interface//outsider_warfare_bg.dds"
+		name = "GFX_automated_warfare_bg"
+		texturefile = "gfx/interface/techbackgrounds/automated_warfare_bg.dds"
 		alwaystransparent = yes
 	}
 	SpriteType = {
-		name = "GFX_delay_medium"
+		name = "GFX_elite_army_bg"
+		texturefile = "gfx/interface/techbackgrounds/elite_army_bg.dds"
+		alwaystransparent = yes
+	}
+	SpriteType = {
+		name = "GFX_grand_army_bg"
+		texturefile = "gfx/interface/techbackgrounds/grand_army_bg.dds"
+		alwaystransparent = yes
+	}
+	SpriteType = {
+		name = "GFX_terror_tactics_bg"
+		texturefile = "gfx/interface/techbackgrounds/terror_tactics_bg.dds"
+		alwaystransparent = yes
+	}
+	SpriteType = {
+		name = "GFX_outsider_warfare_bg"
+		texturefile = "gfx/interface/techbackgrounds/outsider_warfare_bg.dds"
+		alwaystransparent = yes
+	}
+
+	
+
+	
+	SpriteType = {
+		name = "GFX_combat_protocols_medium"
 		texturefile = "gfx/interface/technologies/combat_protocols.dds"
 		alwaystransparent = yes
 	}
@@ -92,7 +121,7 @@ spriteTypes = {
 		alwaystransparent = yes
 	}
 	SpriteType = {
-		name = "GFX_mobile_warfare_medium"
+		name = "GFX_automated_warfare_medium"
 		texturefile = "gfx/interface/technologies/automated_warfare.dds"
 		alwaystransparent = yes
 	}
@@ -107,7 +136,7 @@ spriteTypes = {
 		alwaystransparent = yes
 	}
 	SpriteType = {
-		name = "GFX_superior_firepower_medium"
+		name = "GFX_elite_army_medium"
 		texturefile = "gfx/interface/technologies/elite_army.dds"
 		alwaystransparent = yes
 	}
@@ -176,8 +205,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/concentration_of_firepower.dds"
 		alwaystransparent = yes
 	}
+	
 	SpriteType = {
-		name = "GFX_prepared_defense_medium"
+		name = "GFX_grand_army_medium"
 		texturefile = "gfx/interface/technologies/fortified_positions.dds"
 		alwaystransparent = yes
 	}
@@ -257,7 +287,7 @@ spriteTypes = {
 		alwaystransparent = yes
 	}
 	SpriteType = {
-		name = "GFX_mass_assault_medium"
+		name = "GFX_terror_tactics_medium"
 		texturefile = "gfx/interface/technologies/mass_assault.dds"
 		alwaystransparent = yes
 	}
