@@ -1,7 +1,5 @@
 ﻿l_english:
 
-
-
  # Categories Doctrine
  cat_automated_warfare:0 "Automated Warfare Doctrine"
  cat_elite_army:0 "Elite Forces Doctrine"
@@ -15,7 +13,6 @@
  cat_mass_assault_research:0 "Terror Tactics Doctrine"
  cat_outsider_warfare_research:0 "Outsider Warfare Doctrine"
 
- 
  # Labels/headers Doctrine
  AUTOMATED_WARFARE_DOCTRINE_LABEL:0 "Automated Warfare"
  AUTOMATED_WARFARE_DOCTRINE_DESC:0 "Why waste precious lives if you can use Robots to crush the enemy under their tires, thrusters and tracks."
@@ -54,16 +51,9 @@
  TERROR_TACTICS_LABEL_1:0 "Tribal ways"
  TERROR_TACTICS_LABEL_1_TT:0 "Ancient wisdom will show us the way."
 
- 
- 
- 
- 
  # Localisation Tech Doctrine Automated Warfare
  automated_warfare:0 "Automated Warfare"
  automated_warfare_desc:0 "Automated Warfare focuses on the mass use of automated weapon systems.\n\n"
- 
- 
- 
  combat_protocols:0 "Combat Protocols"
  combat_protocols_desc:0 "Having predetermined patterns of combat can not only speed up calculation processes but also give automated units the ability to adapt far quicker to battlefield situations."
  advanced_combat_protocols:0 "Advanced Combat Protocols"
@@ -98,12 +88,13 @@
  # Localisation Tech Doctrine Elite Forces
  elite_army:0 "Elite Forces"
  elite_army_desc:0 "Each of ours shall be like a million of them."
+ concentration_of_force:0 "Concentration of Force"
+ concentration_of_force_desc:0 "Fewer numbers mean that we have to choose where to fight. And if we fight, we have to hit hard and make it decisive."
+ speed_of_movement:0 "Speed of Movement"
+ speed_of_movement_desc:0 "How can one win against a hundred? Easily, he just has to be in a hundred places at the same time."
  
  
- sup_delay:0 "Concentration of Force"
- sup_delay_desc:0 "Fewer numbers mean that we have to choose where to fight. And if we fight, we have to hit hard and make it decisive."
- mobile_defence:0 "Speed of Movement"
- mobile_defence_desc:0 "How can one win against a hundred? Easily, he just has to be in a hundred places at the same time."
+ 
  intergrated_support:0 "Integrated Support"
  intergrated_support_desc:0 "Closely integrating support forces with combat troops results in divisions which are stronger on the field of battle."
  regimental_combat_teams:0 "Adaptive Chain of Command"

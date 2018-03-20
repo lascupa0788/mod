@@ -106,7 +106,7 @@ spriteTypes = {
 		alwaystransparent = yes
 	}
 	SpriteType = {
-		name = "GFX_mobile_defence_medium"
+		name = "GFX_speed_of_movement_medium"
 		texturefile = "gfx/interface/technologies/speed_of_movement.dds"
 		alwaystransparent = yes
 	}
@@ -141,7 +141,7 @@ spriteTypes = {
 		alwaystransparent = yes
 	}
 	SpriteType = {
-		name = "GFX_sup_delay_medium"
+		name = "GFX_concentration_of_force_medium"
 		texturefile = "gfx/interface/technologies/concentrated_force.dds"
 		alwaystransparent = yes
 	}

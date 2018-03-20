@@ -729,7 +729,7 @@ technologies = {
 		xor = { automated_warfare grand_army terror_tactics outsider_warfare } 
 
 		path = {
-			leads_to_tech = sup_delay 
+			leads_to_tech = concentration_of_force 
 			research_cost_coeff = 1
 		}
 		
@@ -772,7 +772,7 @@ technologies = {
 	}
 	
 	# Concentration of Force
-	sup_delay = {
+	concentration_of_force = {
 
 		category_all_infantry = {
 			max_organisation = 5
@@ -782,7 +782,7 @@ technologies = {
 		enable_tactic = tactic_delay
 		
 		path = {
-			leads_to_tech = mobile_defence 
+			leads_to_tech = speed_of_movement 
 			research_cost_coeff = 1
 		}
 		
@@ -813,7 +813,7 @@ technologies = {
 	}
 	
 	# Speed of Movement
-	mobile_defence = {
+	speed_of_movement = {
 
 		category_all_infantry = {
 			maximum_speed = 0.1

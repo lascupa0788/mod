@@ -485,12 +485,11 @@ technologies = {
 	
 	
 	generalized_industry_tech = {
-		global_building_slots_factor = 0.08
-        industrial_capacity_factory = 0.05
-        line_change_production_efficiency_factor = 0.025
-		production_factory_start_efficiency_factor = 0.025
+		global_building_slots_factor = 0.15
+        industrial_capacity_factory = 0.1
+        line_change_production_efficiency_factor = 0.05
+		production_factory_start_efficiency_factor = 0.05
         conscription_factor = 0.02
-		MONTHLY_POPULATION = 0.02 
 		
 		xor = {
 			specialized_industry_tech
@@ -526,12 +525,11 @@ technologies = {
 	}
 
 	generalized_industry_tech_1 = {
-		global_building_slots_factor = 0.08
-        industrial_capacity_factory = 0.05
-        line_change_production_efficiency_factor = 0.025
-		production_factory_start_efficiency_factor = 0.025
+		global_building_slots_factor = 0.15
+        industrial_capacity_factory = 0.1
+        line_change_production_efficiency_factor = 0.05
+		production_factory_start_efficiency_factor = 0.05
         conscription_factor = 0.02
-		MONTHLY_POPULATION = 0.02 
          
 		path = {
 			leads_to_tech = generalized_industry_tech_2
@@ -563,12 +561,11 @@ technologies = {
 	}
 
 	generalized_industry_tech_2 = {
-		global_building_slots_factor = 0.08
-        industrial_capacity_factory = 0.05
-        line_change_production_efficiency_factor = 0.025
-		production_factory_start_efficiency_factor = 0.025
+		global_building_slots_factor = 0.15
+        industrial_capacity_factory = 0.1
+        line_change_production_efficiency_factor = 0.05
+		production_factory_start_efficiency_factor = 0.05
         conscription_factor = 0.02
-		MONTHLY_POPULATION = 0.02 
          
 		path = {
 			leads_to_tech = generalized_industry_tech_3
@@ -600,12 +597,11 @@ technologies = {
 	}
 
 	generalized_industry_tech_3 = {
-		global_building_slots_factor = 0.08
-        industrial_capacity_factory = 0.05
-        line_change_production_efficiency_factor = 0.025
-		production_factory_start_efficiency_factor = 0.025
+		global_building_slots_factor = 0.15
+        industrial_capacity_factory = 0.1
+        line_change_production_efficiency_factor = 0.05
+		production_factory_start_efficiency_factor = 0.05
         conscription_factor = 0.02
-		MONTHLY_POPULATION = 0.02 
          
 		path = {
 			leads_to_tech = generalized_industry_tech_4
@@ -637,12 +633,11 @@ technologies = {
 	}
 
 	generalized_industry_tech_4 = {
-		global_building_slots_factor = 0.08
-        industrial_capacity_factory = 0.05
-        line_change_production_efficiency_factor = 0.025
-		production_factory_start_efficiency_factor = 0.025
+		global_building_slots_factor = 0.15
+        industrial_capacity_factory = 0.1
+        line_change_production_efficiency_factor = 0.05
+		production_factory_start_efficiency_factor = 0.05
         conscription_factor = 0.02
-		MONTHLY_POPULATION = 0.02 
          
 		path = {
 			leads_to_tech = generalized_industry_tech_5
@@ -674,15 +669,14 @@ technologies = {
 	}	
 
 	generalized_industry_tech_5 = {
-		global_building_slots_factor = 0.08
-        industrial_capacity_factory = 0.05
-        line_change_production_efficiency_factor = 0.025
-		production_factory_start_efficiency_factor = 0.025
+		global_building_slots_factor = 0.15
+        industrial_capacity_factory = 0.1
+        line_change_production_efficiency_factor = 0.05
+		production_factory_start_efficiency_factor = 0.05
         conscription_factor = 0.02
-		MONTHLY_POPULATION = 0.02 
          
 		path = {
-			leads_to_tech = generalized_industry_tech_9
+			leads_to_tech = generalized_industry_tech_6
 			research_cost_coeff = 1
 		}
 
@@ -711,12 +705,11 @@ technologies = {
 	}
 	
 	generalized_industry_tech_6 = {
-		global_building_slots_factor = 0.08
-        industrial_capacity_factory = 0.05
-        line_change_production_efficiency_factor = 0.025
-		production_factory_start_efficiency_factor = 0.025
+		global_building_slots_factor = 0.15
+        industrial_capacity_factory = 0.1
+        line_change_production_efficiency_factor = 0.05
+		production_factory_start_efficiency_factor = 0.05
         conscription_factor = 0.02
-		MONTHLY_POPULATION = 0.02 
 
 		research_cost = 2.0
 		start_year = 2276
@@ -742,7 +735,249 @@ technologies = {
 		}
 	}
 	
+	specialized_industry_tech = {
+        industrial_capacity_factory = 0.2
+        global_building_slots_factor = 0.2
+		production_factory_max_efficiency_factor = 0.05
+		production_factory_efficiency_gain_factor = -0.05
+        equipment_conversion_speed = 0.1
+		
+		xor = {
+			generalized_industry_tech
+		}
+        
+		path = {
+			leads_to_tech = specialized_industry_tech_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+		start_year = 2276
+		folder = {
+			name = fallout_industry_folder
+			position = { x = @Row_4 y = @Col_1 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 25
+			modifier = {
+				factor = 5
+				date > "2276.1.1"
+			}
+		}
+		ai_research_weights = {
+			offensive = -1.0
+		}
+	}
 	
+	specialized_industry_tech_1 = {
+        industrial_capacity_factory = 0.2
+        global_building_slots_factor = 0.2
+		production_factory_max_efficiency_factor = 0.05
+		production_factory_efficiency_gain_factor = -0.05
+        equipment_conversion_speed = 0.1
+        
+		path = {
+			leads_to_tech = specialized_industry_tech_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+		start_year = 2276
+		folder = {
+			name = fallout_industry_folder
+			position = { x = @Row_4 y = @Col_3 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 25
+			modifier = {
+				factor = 5
+				date > "2276.1.1"
+			}
+		}
+		ai_research_weights = {
+			offensive = -1.0
+		}
+	}
+	
+	specialized_industry_tech_2 = {
+        industrial_capacity_factory = 0.2
+        global_building_slots_factor = 0.2
+		production_factory_max_efficiency_factor = 0.05
+		production_factory_efficiency_gain_factor = -0.05
+        equipment_conversion_speed = 0.1
+
+		path = {
+			leads_to_tech = specialized_industry_tech_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+		start_year = 2276
+		folder = {
+			name = fallout_industry_folder
+			position = { x = @Row_4 y = @Col_5 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 25
+			modifier = {
+				factor = 5
+				date > "2276.1.1"
+			}
+		}
+		ai_research_weights = {
+			offensive = -1.0
+		}
+	}
+	
+	specialized_industry_tech_3 = {
+        industrial_capacity_factory = 0.2
+        global_building_slots_factor = 0.2
+		production_factory_max_efficiency_factor = 0.05
+		production_factory_efficiency_gain_factor = -0.05
+        equipment_conversion_speed = 0.1
+        
+		path = {
+			leads_to_tech = specialized_industry_tech_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+		start_year = 2276
+		folder = {
+			name = fallout_industry_folder
+			position = { x = @Row_4 y = @Col_6 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 25
+			modifier = {
+				factor = 5
+				date > "2276.1.1"
+			}
+		}
+		ai_research_weights = {
+			offensive = -1.0
+		}
+	}
+	
+	specialized_industry_tech_4 = {
+        industrial_capacity_factory = 0.2
+        global_building_slots_factor = 0.2
+		production_factory_max_efficiency_factor = 0.05
+		production_factory_efficiency_gain_factor = -0.05
+        equipment_conversion_speed = 0.1
+
+		path = {
+			leads_to_tech = specialized_industry_tech_5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+		start_year = 2276
+		folder = {
+			name = fallout_industry_folder
+			position = { x = @Row_4 y = @Col_7 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 25
+			modifier = {
+				factor = 5
+				date > "2276.1.1"
+			}
+		}
+		ai_research_weights = {
+			offensive = -1.0
+		}
+	}
+	
+	specialized_industry_tech_5 = {
+        industrial_capacity_factory = 0.2
+        global_building_slots_factor = 0.2
+		production_factory_max_efficiency_factor = 0.05
+		production_factory_efficiency_gain_factor = -0.05
+        equipment_conversion_speed = 0.1
+
+		path = {
+			leads_to_tech = specialized_industry_tech_6
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+		start_year = 2276
+		folder = {
+			name = fallout_industry_folder
+			position = { x = @Row_4 y = @Col_9 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 25
+			modifier = {
+				factor = 5
+				date > "2276.1.1"
+			}
+		}
+		ai_research_weights = {
+			offensive = -1.0
+		}
+	}
+	
+	specialized_industry_tech_6 = {
+        industrial_capacity_factory = 0.2
+        global_building_slots_factor = 0.2
+		production_factory_max_efficiency_factor = 0.05
+		production_factory_efficiency_gain_factor = -0.05
+        equipment_conversion_speed = 0.1
+		
+		research_cost = 2.0
+		start_year = 2276
+		folder = {
+			name = fallout_industry_folder
+			position = { x = @Row_4 y = @Col_10 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 25
+			modifier = {
+				factor = 5
+				date > "2276.1.1"
+			}
+		}
+		ai_research_weights = {
+			offensive = -1.0
+		}
+	}
 	
 # Scavengers
 	recycling_engineering = {
@@ -896,45 +1131,6 @@ technologies = {
 		}
 	}
 	
-	specialized_industry_tech = {
-        industrial_capacity_factory = 0.1
-        global_building_slots_factor = 0.12
-		production_factory_max_efficiency_factor = 0.03
-		production_factory_efficiency_gain_factor = -0.05
-        equipment_conversion_speed = 0.1
-		
-		xor = {
-			generalized_industry_tech
-		}
-        
-		path = {
-			leads_to_tech = specialized_industry_tech_1
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2.0
-		start_year = 2276
-		folder = {
-			name = fallout_industry_folder
-			position = { x = @Row_4 y = @Col_1 }
-		}
-		
-		categories = {
-			industry
-		}
-		
-		ai_will_do = {
-			factor = 25
-			modifier = {
-				factor = 5
-				date > "2276.1.1"
-			}
-		}
-		ai_research_weights = {
-			offensive = -1.0
-		}
-	}
-
     #-------------------------
     # Extraction
     #-------------------------
