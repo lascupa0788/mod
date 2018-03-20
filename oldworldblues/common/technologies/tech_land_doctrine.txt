@@ -1436,7 +1436,7 @@ technologies = {
 		
 		
 		path = {
-			leads_to_tech = grand_battle_plan 
+			leads_to_tech = grand_battle_plan_owb 
 			research_cost_coeff = 1
 		}
 
@@ -1468,11 +1468,11 @@ technologies = {
 	}
 	
 	# Grand Battle Plan
-	grand_battle_plan = {
+	grand_battle_plan_owb = {
 	
 
 		path = {
-			leads_to_tech = prepared_defense 
+			leads_to_tech = fortified_positions_doctrine 
 			research_cost_coeff = 1
 		}
 		
@@ -1508,7 +1508,7 @@ technologies = {
 	
 
 	# Fortified Positions
-	prepared_defense = {
+	fortified_positions_doctrine = {
 
 		category_all_infantry = {
 			defense = 0.15
@@ -1516,7 +1516,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = grand_assault 
+			leads_to_tech = grand_assault_doctrine 
 			research_cost_coeff = 1
 		}
 
@@ -1549,7 +1549,7 @@ technologies = {
 	}
 	
 	# Grand Assault
-	grand_assault = {
+	grand_assault_doctrine = {
 
 		category_army = {
 			breakthrough = 0.10
@@ -1559,11 +1559,11 @@ technologies = {
 		enable_tactic = tactic_planned_attack
 		
 		path = {
-			leads_to_tech = grand_mechanized_offensive 
+			leads_to_tech = mechanized_offensive_doctrine 
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = infantry_offensive 
+			leads_to_tech = hold_the_line 
 			research_cost_coeff = 1
 		}
 
@@ -1596,10 +1596,10 @@ technologies = {
 	}
 	
 	# Mechanized Offensive
-	grand_mechanized_offensive = {
+	mechanized_offensive_doctrine = {
 	
 		xor = {
-			infantry_offensive
+			hold_the_line
 		}
 	
 		category_all_infantry = {
@@ -1611,7 +1611,7 @@ technologies = {
 		
 		
 		path = {
-			leads_to_tech = assault_concentration 
+			leads_to_tech = assault_concentration_doctrine 
 			research_cost_coeff = 1
 		}
 
@@ -1640,7 +1640,7 @@ technologies = {
 	}
 	
 	# Assault Concentration
-	assault_concentration = {
+	assault_concentration_doctrine = {
 	
 		
 		
@@ -1652,7 +1652,7 @@ technologies = {
 		enable_tactic = tactic_overwhelming_fire
 		
 		path = {
-			leads_to_tech = branch_interoperation 
+			leads_to_tech = old_world_tactics 
 			research_cost_coeff = 1
 		}
 
@@ -1681,7 +1681,7 @@ technologies = {
 	}
 	
 	# Old World Tactics
-	branch_interoperation = {
+	old_world_tactics = {
 
 		category_all_infantry = {
 			max_organisation = 3
@@ -1690,7 +1690,7 @@ technologies = {
 
 		
 		path = {
-			leads_to_tech = assault_breakthrough 
+			leads_to_tech = old_world_thunder 
 			research_cost_coeff = 1
 		}
 
@@ -1719,7 +1719,7 @@ technologies = {
 	}
 	
 	# Old World Thunder
-	assault_breakthrough = {
+	old_world_thunder = {
 
 		category_tanks = {
 			breakthrough = 0.2
@@ -1730,7 +1730,7 @@ technologies = {
 	
 
 		path = {
-			leads_to_tech = central_planning 
+			leads_to_tech = old_world_lightning 
 			research_cost_coeff = 1
 		}
 
@@ -1759,7 +1759,7 @@ technologies = {
 	}
 	
 	# Old World Lightning
-	central_planning = {
+	old_world_lightning = {
 	
 		
 		
@@ -1770,7 +1770,7 @@ technologies = {
 		
 		
 		path = {
-			leads_to_tech = c3i_theory 
+			leads_to_tech = mechanized_onslaught 
 			research_cost_coeff = 1
 		}
 
@@ -1799,7 +1799,7 @@ technologies = {
 	}
 	
 	# Mechanized Onslaught
-	c3i_theory = {
+	mechanized_onslaught = {
 	
 		
 		
@@ -1835,10 +1835,10 @@ technologies = {
 	}
 	
 	# Hold the Line
-	infantry_offensive = {
+	hold_the_line = {
 	
 		xor = {
-			grand_mechanized_offensive
+			mechanized_offensive_doctrine
 		}
 		category_light_infantry = {
 			defense = 0.2
@@ -1849,7 +1849,7 @@ technologies = {
 		enable_tactic = tactic_infantry_charge
 		
 		path = {
-			leads_to_tech = armored_operations 
+			leads_to_tech = concentration_of_firepower 
 			research_cost_coeff = 1
 		}
 
@@ -1882,7 +1882,7 @@ technologies = {
 	}
 	
 	# Concentration of Firepower
-	armored_operations = {
+	concentration_of_firepower = {
 
 		category_army = {
 			soft_attack = 0.10
@@ -1894,7 +1894,7 @@ technologies = {
 		
 		
 		path = {
-			leads_to_tech = infiltration_assault 
+			leads_to_tech = new_world_tactics 
 			research_cost_coeff = 1
 		}
 
@@ -1927,14 +1927,14 @@ technologies = {
 	}
 	
 	# New World Tactics
-	infiltration_assault = {
+	new_world_tactics = {
 
 	category_army = {
 		supply_consumption = -0.10
 		}
 		
 		path = {
-			leads_to_tech = night_assault_tactics 
+			leads_to_tech = send_in_the_next_wave 
 			research_cost_coeff = 1
 		}
 
@@ -1967,7 +1967,7 @@ technologies = {
 	}
 	
 	# Send in the next Wave
-	night_assault_tactics = {
+	send_in_the_next_wave = {
 		
 		land_reinforce_rate = 0.03
 		
@@ -1976,7 +1976,7 @@ technologies = {
 		}
 	
 		path = {
-			leads_to_tech = attritional_containment 
+			leads_to_tech = mass_conscription 
 			research_cost_coeff = 1
 		}
 		
@@ -2011,14 +2011,14 @@ technologies = {
 	}
 	
 	# Mass Conscription
-	attritional_containment = {
+	mass_conscription = {
 
 		conscription = 0.05
 		
 			army_org_Factor = -0.05
 	
 		path = {
-			leads_to_tech = infiltration_in_depth 
+			leads_to_tech = ranger_infiltration 
 			research_cost_coeff = 1
 		}
 
@@ -2051,7 +2051,7 @@ technologies = {
 	}
 	
 	# Ranger Infiltration
-	infiltration_in_depth = {
+	ranger_infiltration = {
 
 		category_light_infantry = {
 			recon = 0.5
@@ -2097,7 +2097,7 @@ technologies = {
 		xor = { automated_warfare elite_army grand_army outsider_warfare} 
 
 		path = {
-			leads_to_tech = pocket_defence 
+			leads_to_tech = pocket_defence_doctrine 
 			research_cost_coeff = 1
 		}
 		
@@ -2133,7 +2133,7 @@ technologies = {
 	}
 	
 	# Pocket Defense
-	pocket_defence = {
+	pocket_defence_doctrine = {
 
 
 		#reduced pocketed combat penalty and/or reduces the out of supply penalty or increases time before moving to worse penalty
@@ -2141,7 +2141,7 @@ technologies = {
 		out_of_supply_factor = -0.10
 				
 		path = {
-			leads_to_tech = defence_in_depth
+			leads_to_tech = terror_tactics_actual
 			research_cost_coeff = 1
 		}
 
@@ -2174,7 +2174,7 @@ technologies = {
 	}
 	
 	# Terror Tactics
-	defence_in_depth = {
+	terror_tactics_actual = {
 
 		max_dig_in = 5
 
@@ -2184,11 +2184,11 @@ technologies = {
 		
 		
 		path = {
-			leads_to_tech = large_front_operations
+			leads_to_tech = decimato_doctrine
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = peoples_army
+			leads_to_tech = tribal_wisdom_doctrine
 			research_cost_coeff = 1
 		}
 
@@ -2221,10 +2221,10 @@ technologies = {
 	}
 	
 	# Decimato
-	large_front_operations = {
+	decimato_doctrine = {
 	
 		xor = {
-			peoples_army
+			tribal_wisdom_doctrine
 		}
 
 
@@ -2241,7 +2241,7 @@ technologies = {
 		enable_tactic = tactic_relentless_assault
 		
 		path = {
-			leads_to_tech = deep_operations
+			leads_to_tech = ego_gloriam_nominis
 			research_cost_coeff = 1
 		}
 
@@ -2273,7 +2273,7 @@ technologies = {
 	}
 	
 	# Ego Gloriam Nominis
-	deep_operations = {
+	ego_gloriam_nominis = {
 	
 		conscription_factor = -0.05
 
@@ -2288,7 +2288,7 @@ technologies = {
 		
 		
 		path = {
-			leads_to_tech = operational_concentration
+			leads_to_tech = prae_timore_mortis
 			research_cost_coeff = 1
 		}
 
@@ -2321,7 +2321,7 @@ technologies = {
 	}
 	
 	# Prae Timore Mortis
-	operational_concentration = {
+	prae_timore_mortis = {
 
 		conscription_factor = -0.05
 
@@ -2335,7 +2335,7 @@ technologies = {
 		enable_tactic = tactic_elastic_defense
 		
 		path = {
-			leads_to_tech = vast_offensives
+			leads_to_tech = exitum
 			research_cost_coeff = 1
 		}
 
@@ -2368,14 +2368,14 @@ technologies = {
 	}
 	
 	# Exitum
-	vast_offensives = {
+	exitum = {
 
 		partisan_effect = 0.25
 	
 		enable_tactic = tactic_overwhelming_fire
 		
 		path = {
-			leads_to_tech = breakthrough_priority
+			leads_to_tech = invisibilia_mortem
 			research_cost_coeff = 1
 		}
 
@@ -2408,7 +2408,7 @@ technologies = {
 	}
 	
 	# Invisibilia Mortem
-	breakthrough_priority = {
+	invisibilia_mortem = {
 
 		category_all_infantry = {
 			breakthrough = 0.25
@@ -2417,7 +2417,7 @@ technologies = {
 		enable_tactic = tactic_breakthrough
 		
 		path = {
-			leads_to_tech = mechanized_wave
+			leads_to_tech = divide_et_vincet
 			research_cost_coeff = 1
 		}
 
@@ -2450,7 +2450,7 @@ technologies = {
 	}
 	
 	# Divide et Vincet
-	mechanized_wave = {
+	divide_et_vincet = {
 		
 			
 		
@@ -2460,7 +2460,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = continuous_offensive
+			leads_to_tech = summa_bellum
 			research_cost_coeff = 1
 		}
 
@@ -2493,7 +2493,7 @@ technologies = {
 	}
 	
 	# Summa Bellum
-	continuous_offensive = {
+	summa_bellum = {
 
 		org_loss_when_moving = -0.3
 		
@@ -2532,10 +2532,10 @@ technologies = {
 	}
 	
 	# Tribal Wisdom
-	peoples_army = {
+	tribal_wisdom_doctrine = {
 	
 		xor = {
-			large_front_operations
+			decimato_doctrine
 		}
 
 		land_reinforce_rate = 0.02
@@ -2549,7 +2549,7 @@ technologies = {
 		
 		
 		path = {
-			leads_to_tech = human_infantry_offensive
+			leads_to_tech = the_dog_barks
 			research_cost_coeff = 1
 		}
 
@@ -2582,7 +2582,7 @@ technologies = {
 	}
 	
 	# The Dog Barks
-	human_infantry_offensive = {
+	the_dog_barks = {
 
 		land_reinforce_rate = 0.02
 		
@@ -2593,7 +2593,7 @@ technologies = {
 		
 		
 		path = {
-			leads_to_tech = large_front_offensive
+			leads_to_tech = the_wolf_pack
 			research_cost_coeff = 1
 		}
 
@@ -2626,7 +2626,7 @@ technologies = {
 	}
 	
 	# The Wolf Pack
-	large_front_offensive = {
+	the_wolf_pack = {
 
 		infantry = {
 			combat_width = -0.2
@@ -2634,7 +2634,7 @@ technologies = {
 		
 		
 		path = {
-			leads_to_tech = human_wave_offensive
+			leads_to_tech = the_mirelurk_pincer
 			research_cost_coeff = 1
 		}
 
@@ -2667,7 +2667,7 @@ technologies = {
 	}
 	
 	# The Mirelurks Pincer
-	human_wave_offensive = {
+	the_mirelurk_pincer = {
 
 
 		category_army = {
@@ -2678,7 +2678,7 @@ technologies = {
 		
 		
 		path = {
-			leads_to_tech = guerilla_warfare
+			leads_to_tech = the_nightstalkers_bite
 			research_cost_coeff = 1
 		}
 
@@ -2711,7 +2711,7 @@ technologies = {
 	}
 	
 	# The Nightstalkers Bite
-	guerilla_warfare = {
+	the_nightstalkers_bite = {
 
 		out_of_supply_factor = -0.4
 		
