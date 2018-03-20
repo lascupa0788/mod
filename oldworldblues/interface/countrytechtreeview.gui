@@ -2529,12 +2529,12 @@ guiTypes = {
 			}			
 			
 			instantTextBoxType = {
-				name = "mob_warfare_title"
+				name = "automated_warfare_title"
 				position = { x = 120 y = 35 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
-				text = "MOBILE_WARFARE_DOCTRINE_LABEL"
+				text = "AUTOMATED_WARFARE_DOCTRINE_LABEL"
 				maxWidth = 400
 				maxHeight = 122
 				format = center
@@ -2542,12 +2542,12 @@ guiTypes = {
 			}			
 
 			instantTextBoxType = {
-				name = "superior_firepower_title"
+				name = "elite_army_title"
 				position = { x = 600 y = 35 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
-				text = "SUPERIOR_FIREPOWER_DOCTRINE_LABEL"
+				text = "ELITE_ARMY_DOCTRINE_LABEL"
 				maxWidth = 400
 				maxHeight = 122
 				format = center
@@ -2555,12 +2555,12 @@ guiTypes = {
 			}
 
 			instantTextBoxType = {
-				name = "grand_battleplan_title"
+				name = "grand_army_title"
 				position = { x = 1080 y = 35 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
-				text = "GRAND_BATTLEPLAN_DOCTRINE_LABEL"
+				text = "GRAND_ARMY_DOCTRINE_LABEL"
 				maxWidth = 400
 				maxHeight = 122
 				format = center
@@ -2568,12 +2568,12 @@ guiTypes = {
 			}
 			
 			instantTextBoxType = {
-				name = "mass_assault_title"
+				name = "terror_tactics_title"
 				position = { x = 1560 y = 35 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
-				text = "MASS_ASSAULT_DOCTRINE_LABEL"
+				text = "TERROR_TACTICS_DOCTRINE_LABEL"
 				maxWidth = 400
 				maxHeight = 122
 				format = center
@@ -2594,12 +2594,12 @@ guiTypes = {
 			}			
 
 			instantTextBoxType = {
-				name = "mob_warfare_desc"
+				name = "automated_warfare_desc"
 				position = { x = 140 y = 90 }
 				textureFile = ""
 				font = "hoi_20b"
 				borderSize = {x = 0 y = 4}
-				text = "MOBILE_WARFARE_DOCTRINE_DESC"
+				text = "AUTOMATED_WARFARE_DOCTRINE_DESC"
 				maxWidth = 350
 				maxHeight = 122
 				format = center
@@ -2607,12 +2607,12 @@ guiTypes = {
 			}
 
 			instantTextBoxType = {
-				name = "superior_firepower_desc"
+				name = "elite_army_desc"
 				position = { x = 600 y = 90 }
 				textureFile = ""
 				font = "hoi_20b"
 				borderSize = {x = 0 y = 4}
-				text = "SUPERIOR_FIREPOWER_DOCTRINE_DESC"
+				text = "ELITE_ARMY_DOCTRINE_DESC"
 				maxWidth = 400
 				maxHeight = 122
 				format = center
@@ -2620,12 +2620,12 @@ guiTypes = {
 			}
 
 			instantTextBoxType = {
-				name = "grand_battleplan_desc"
+				name = "grand_army_desc"
 				position = { x = 1100 y = 90 }
 				textureFile = ""
 				font = "hoi_20b"
 				borderSize = {x = 0 y = 4}
-				text = "GRAND_BATTLEPLAN_DOCTRINE_DESC"
+				text = "GRAND_ARMY_DOCTRINE_DESC"
 				maxWidth = 350
 				maxHeight = 122
 				format = center
@@ -2633,12 +2633,12 @@ guiTypes = {
 			}
 			
 			instantTextBoxType = {
-				name = "mass assault_desc"
+				name = "terror_tactics_desc"
 				position = { x = 1606 y = 80 }
 				textureFile = ""
 				font = "hoi_20b"
 				borderSize = {x = 0 y = 4}
-				text = "MASS_ASSAULT_DOCTRINE_DESC"
+				text = "TERROR_TACTICS_DOCTRINE_DESC"
 				maxWidth = 300
 				maxHeight = 122
 				format = center
@@ -2658,18 +2658,19 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 			}
 			
+			# Subtitles
 			instantTextBoxType = {
 				name = "mob_warfare_subtitle1"
 				position = { x = 110 y = 455 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
-				text = "MOBILE_INFANTRY_LABEL"
+				text = "AUTOMATED_WARFARE_LABEL"
 				maxWidth = 150
 				maxHeight = 122
 				format = center
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "MOBILE_INFANTRY_LABEL_TT"
+				pdx_tooltip = "AUTOMATED_WARFARE_LABEL_TT"
 			}
 
 			instantTextBoxType = {
@@ -2678,12 +2679,12 @@ guiTypes = {
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
-				text = "BLITZKRIEG_LABEL"
+				text = "AUTOMATED_WARFARE_LABEL_1"
 				maxWidth = 200
 				maxHeight = 122
 				format = center
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "BLITZKRIEG_LABEL_TT"
+				pdx_tooltip = "AUTOMATED_WARFARE_LABEL_1_TT"
 			}
 			
 			instantTextBoxType = {
@@ -2692,12 +2693,12 @@ guiTypes = {
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
-				text = "DESPERATE_DEFENSE_LABEL"
+				text = "AUTOMATED_WARFARE_LABEL_2"
 				maxWidth = 150
 				maxHeight = 122
 				format = center
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "DESPERATE_DEFENSE_LABEL_TT"
+				pdx_tooltip = "AUTOMATED_WARFARE_LABEL_2_TT"
 			}
 
 			instantTextBoxType = {
@@ -2706,125 +2707,130 @@ guiTypes = {
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
-				text = "MODERN_BLITZKRIEG_LABEL"
+				text = "AUTOMATED_WARFARE_LABEL_3"
 				maxWidth = 180
 				maxHeight = 122
 				format = center
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "MODERN_BLITZKRIEG_LABEL_TT"
+				pdx_tooltip = "AUTOMATED_WARFARE_LABEL_3_TT"
 			}				
 			
+			
+			
+			
 			instantTextBoxType = {
-				name = "sup_firepower_subtitle1"
+				name = "elite_army_subtitle1"
 				position = { x = 600 y = 435 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
-				text = "DISPERSED_SUPPORT_LABEL"
+				text = "ELITE_ARMY_LABEL"
 				maxWidth = 150
 				maxHeight = 122
 				format = center
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "DISPERSED_SUPPORT_LABEL_TT"
+				pdx_tooltip = "ELITE_ARMY_LABEL_TT"
 			}				
 
 			instantTextBoxType = {
-				name = "sup_firepower_subtitle2"
+				name = "elite_army_subtitle2"
 				position = { x = 850 y = 435 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
-				text = "INTEGRATED_SUPPORT_LABEL"
+				text = "ELITE_ARMY_LABEL_1"
 				maxWidth = 170
 				maxHeight = 122
 				format = center
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "INTEGRATED_SUPPORT_LABEL_TT"
+				pdx_tooltip = "ELITE_ARMY_LABEL_1_TT"
 			}
 			
 			instantTextBoxType = {
-				name = "sup_firepower_subtitle3"
+				name = "elite_army_subtitle3"
 				position = { x = 600 y = 795 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
-				text = "AIRLAND_BATTLE_LABEL"
+				text = "ELITE_ARMY_LABEL_2"
 				maxWidth = 150
 				maxHeight = 122
 				format = center
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "AIRLAND_BATTLE_LABEL_TT"
+				pdx_tooltip = "ELITE_ARMY_LABEL_2_TT"
 			}				
 
 			instantTextBoxType = {
-				name = "sup_firepower_subtitle4"
+				name = "elite_army_subtitle4"
 				position = { x = 840 y = 795 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
-				text = "SHOCK_AND_AWE_LABEL"
+				text = "ELITE_ARMY_LABEL_3"
 				maxWidth = 170
 				maxHeight = 122
 				format = center
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "SHOCK_AND_AWE_LABEL_TT"
+				pdx_tooltip = "ELITE_ARMY_LABEL_3_TT"
 			}				
 			
 			instantTextBoxType = {
-				name = "grand_battleplan_subtitle1"
+				name = "grand_army_subtitle1"
 				position = { x = 1070 y = 575 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
-				text = "ASSAULT_LABEL"
+				text = "GRAND_ARMY_LABEL"
 				maxWidth = 170
 				maxHeight = 122
 				format = center
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "ASSAULT_LABEL_TT"
+				pdx_tooltip = "GRAND_ARMY_LABEL_TT"
 			}
 
 			instantTextBoxType = {
-				name = "grand_battleplan_subtitle2"
+				name = "grand_army_subtitle2"
 				position = { x = 1310 y = 575 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
-				text = "INFILTRATION_LABEL"
+				text = "GRAND_ARMY_LABEL_1"
 				maxWidth = 200
 				maxHeight = 122
 				format = center
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "INFILTRATION_LABEL_TT"
+				pdx_tooltip = "GRAND_ARMY_LABEL_1_TT"
 			}
 			
 			instantTextBoxType = {
-				name = "mass_assault_subtitle1"
+				name = "terror_tactics_subtitle1"
 				position = { x = 1560 y = 435 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
-				text = "DEEP_BATTLE_LABEL"
+				text = "TERROR_TACTICS_LABEL"
 				maxWidth = 150
 				maxHeight = 122
 				format = center
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "DEEP_BATTLE_LABEL_TT"
+				pdx_tooltip = "TERROR_TACTICS_LABEL"
 			}				
 
 			instantTextBoxType = {
-				name = "mass_assault_subtitle2"
+				name = "terror_tactics_subtitle2"
 				position = { x = 1816 y = 435 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
-				text = "MASS_MOBILIZATION_LABEL"
+				text = "TERROR_TACTICS_LABEL_1"
 				maxWidth = 150
 				maxHeight = 122
 				format = center
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "MASS_MOBILIZATION_LABEL_TT"
+				pdx_tooltip = "TERROR_TACTICS_LABEL_1_TT"
 			}
+			
+			
 				
 			gridboxtype = {
 				name = "mobile_warfare_tree"
