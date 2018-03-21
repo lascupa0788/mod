@@ -4264,6 +4264,7 @@ guiTypes = {
 			name = "Icon"
 			position = { x=8 y=3 }
 			spriteType = "GFX_technology_medium"
+			centerposition = yes
 			alwaystransparent = yes
 		}	
 		
