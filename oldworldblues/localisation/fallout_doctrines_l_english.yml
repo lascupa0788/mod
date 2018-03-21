@@ -302,10 +302,11 @@
  advanced_centimetric_radar_desc:0 "Despite our advanced radars, there are still ways for the enemy to avoid detection. New developments like the Pulse-Doppler radar allows us to eliminate many of these limitations in our equipment."
 
  
- 
- 
- 
- 
+ # Industry Headers/Labels
+ HEADER_RECYCLING:0 "Recycling"
+ HEADER_AGRICULTURE:0 "Agricultual"
+ HEADER_GENERALIZED_PRODUCTION:0 "Generalized Production"
+ HEADER_SPECIALIZED_PRODUCTION:0 "Specialized Production"
  
  
  #  Industry Localisation
@@ -443,7 +444,6 @@
  
  fallout_education_folder:0 "Scientific pursuits"
  fallout_education_folder_desc:0 "The Wastes are a harsh place, yet the smart mind plans ahead. Having the right technology at the right moment is half, if not the full battle."
- HEADER_AGRICULTURE:0 "Agricultual Advancements"
  HEADER_DATASTORAGE:0 "Data Storage"
  HEADER_EDUCATION:0 "Education"
  HEADER_MEDICINAL:0 "Medical Treatments"
