@@ -2402,7 +2402,7 @@ technologies = {
     #-------------------------
     # Metal
     #-------------------------
-	
+	basic_smeltery = {
 	on_research_complete = {
 			modify_building_resources = {
 				building = metal_generator
