@@ -2020,26 +2020,26 @@ guiTypes = {
 			}
 			
 			gridboxtype = {
+				name = "construction_industry_tech_tree"
+				position = { x = 0 y = 150 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			
+			gridboxtype = {
+				name = "agriculture_industry_tech_tree"
+				position = { x= 0 y=150 }
+				slotsize = { width=70 height= 70 }
+				format = "LEFT"
+			}
+			
+			gridboxtype = {
 				name = "recycling_engineering_tree"
 				position = { x= 0 y=150 }
 				slotsize = { width=70 height= 70 }
 				format = "LEFT"
 			}
-            
-            gridboxtype = {
-				name = "basic_forges_tree"
-				position = { x = 0 y = 150 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-            
-            gridboxtype = {
-				name = "woodworking_tree"
-				position = { x = 0 y = 150 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-            
+
             gridboxtype = {
 				name = "basic_well_pump_tree"
 				position = { x = 0 y = 150 }

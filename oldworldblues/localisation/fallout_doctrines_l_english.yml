@@ -304,23 +304,12 @@
  
  # Industry Headers/Labels
  HEADER_RECYCLING:0 "Recycling"
- HEADER_AGRICULTURE:0 "Agricultual"
+ HEADER_AGRICULTURE:0 "Agriculture"
  HEADER_GENERALIZED_PRODUCTION:0 "Generalized Production"
  HEADER_SPECIALIZED_PRODUCTION:0 "Specialized Production"
  
  
  #  Industry Localisation
- recycling_engineering:0 "Scavengers"
- recycling_engineering_desc:0 ""
- recycling_engineering_1:0 "Salvage techniques"
- recycling_engineering_1_desc:0 ""
- recycling_engineering_2:0 "Thorough Salvage"
- recycling_engineering_2_desc:0 ""
- recycling_engineering_3:0 "Recycling"
- recycling_engineering_3_desc:0 ""
- recycling_engineering_4:0 "Advanced Recycling"
- recycling_engineering_4_desc:0 ""
- 
  maketool_engineering:0 "Improvised Tools"
  maketool_engineering_desc:0 ""
  maketool_engineering_1:0 "Basic Tools"
@@ -341,7 +330,29 @@
  scavtool_engineering_2:0 "Search Patterns"
  scavtool_engineering_2_desc:0 ""
  
+ agriculture_industry_tech:0 "Seed selection" 
+ agriculture_industry_tech_desc:0 ""
+ agriculture_industry_tech_1:0 "Plant Cultivation" 
+ agriculture_industry_tech_1_desc:0 ""
+ agriculture_industry_tech_2:0 "Crop Rotation" 
+ agriculture_industry_tech_2_desc:0 ""
+ agriculture_industry_tech_3:0 "Irrigation" 
+ agriculture_industry_tech_3_desc:0 ""
+ agriculture_industry_tech_4:0 "Industrial Fertilizer" 
+ agriculture_industry_tech_4_desc:0 ""
+ agriculture_industry_tech_5:0 "Automated Harvesting" 
+ agriculture_industry_tech_5_desc:0 ""
  
+ recycling_engineering:0 "Scavengers"
+ recycling_engineering_desc:0 ""
+ recycling_engineering_1:0 "Salvage techniques"
+ recycling_engineering_1_desc:0 ""
+ recycling_engineering_2:0 "Thorough Salvage"
+ recycling_engineering_2_desc:0 ""
+ recycling_engineering_3:0 "Recycling"
+ recycling_engineering_3_desc:0 ""
+ recycling_engineering_4:0 "Advanced Recycling"
+ recycling_engineering_4_desc:0 ""
  
  # Other
  education_theory:0 "Wall Paintings"
@@ -380,17 +391,6 @@
  teaching_methods_7:0 "Individual Education"
  teaching_methods_7_desc:0 ""
 
- food_theory:0 "Seed selection" 
- food_theory_desc:0 ""
- food_theory_1:0 "Plant Cultivation" 
- food_theory_1_desc:0 ""
- food_theory_2:0 "Crop Rotation" 
- food_theory_2_desc:0 ""
- food_theory_3:0 "Irrigation" 
- food_theory_3_desc:0 ""
- food_theory_4:0 "Industrial Fertilizer" 
- food_theory_4_desc:0 ""
- 
  medic_methods:0 "Amputation"
  medic_methods_desc:0 "Amputation is the removal of a limb by trauma, medical illness, or surgery. As a surgical measure, it is used to control pain or a disease process in the affected limb, such as malignancy or gangrene. In some cases, it is carried out on individuals as a preventative surgery for such problems."
  medic_methods_1:0 "Disinfection"
