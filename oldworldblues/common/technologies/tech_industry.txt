@@ -2019,10 +2019,14 @@ technologies = {
 	}
     
     advanced_well_pump = {
-        enable_building = {
-            building = water_generator
-            level = 2
-        }
+  	
+		on_research_complete = {
+			modify_building_resources = {
+				building = water_generator
+				resource = water
+				amount = 2
+			}
+		}
         
         path = {
 			leads_to_tech = basic_aquifer
@@ -2047,10 +2051,14 @@ technologies = {
 	}
     
     basic_aquifer = {
-        enable_building = {
-            building = water_generator
-            level = 3
-        }
+ 		
+		on_research_complete = {
+			modify_building_resources = {
+				building = water_generator
+				resource = water
+				amount = 2
+			}
+		}
         
         path = {
 			leads_to_tech = advanced_aquifer
@@ -2079,10 +2087,14 @@ technologies = {
 	}
     
     advanced_aquifer = {
-        enable_building = {
-            building = water_generator
-            level = 4
-        }
+		
+		on_research_complete = {
+			modify_building_resources = {
+				building = water_generator
+				resource = water
+				amount = 2
+			}
+		}
         
         path = {
 			leads_to_tech = purified_aquifer
@@ -2111,10 +2123,14 @@ technologies = {
 	}
     
     purified_aquifer = {
-        enable_building = {
-            building = water_generator
-            level = 5
-        }
+		
+		on_research_complete = {
+			modify_building_resources = {
+				building = water_generator
+				resource = water
+				amount = 2
+			}
+		}
         
         dependencies = {
             scientific_civilization = 1
@@ -2185,10 +2201,14 @@ technologies = {
 	}
     
     advanced_generator = {
-        enable_building = {
-            building = electricity_generator
-            level = 2
-        }
+		
+		on_research_complete = {
+			modify_building_resources = {
+				building = electricity_generator
+				resource = electricity
+				amount = 1
+			}
+		}
         
         path = {
 			leads_to_tech = basic_power_plant
@@ -2229,10 +2249,14 @@ technologies = {
 	}
     
     basic_power_plant = {
-        enable_building = {
-            building = electricity_generator
-            level = 3
-        }
+		
+		on_research_complete = {
+			modify_building_resources = {
+				building = electricity_generator
+				resource = electricity
+				amount = 1
+			}
+		}
         
         path = {
 			leads_to_tech = advanced_power_plant
@@ -2277,10 +2301,14 @@ technologies = {
 	}
     
     advanced_power_plant = {
-        enable_building = {
-            building = electricity_generator
-            level = 4
-        }
+    	
+		on_research_complete = {
+			modify_building_resources = {
+				building = electricity_generator
+				resource = electricity
+				amount = 1
+			}
+		}
         
         path = {
 			leads_to_tech = nuclear_reactor
@@ -2325,10 +2353,14 @@ technologies = {
 	}
     
     nuclear_reactor = {
-        enable_building = {
-            building = electricity_generator
-            level = 5
-        }
+       
+		on_research_complete = {
+			modify_building_resources = {
+				building = electricity_generator
+				resource = electricity
+				amount = 1
+			}
+		}
         
         dependencies = {
             scientific_civilization = 1
@@ -2370,12 +2402,15 @@ technologies = {
     #-------------------------
     # Metal
     #-------------------------
-    basic_smeltery = {
-        enable_building = {
-            building = metal_generator
-            level = 1
-        }
-        
+	
+	on_research_complete = {
+			modify_building_resources = {
+				building = metal_generator
+				resource = metal
+				amount = 2
+			}
+		}
+	
         path = {
 			leads_to_tech = advanced_smeltery
 			research_cost_coeff = 1
@@ -2415,10 +2450,14 @@ technologies = {
 	}
     
     advanced_smeltery = {
-        enable_building = {
-            building = metal_generator
-            level = 2
-        }
+		
+		on_research_complete = {
+			modify_building_resources = {
+				building = metal_generator
+				resource = metal
+				amount = 2
+			}
+		}
         
         path = {
 			leads_to_tech = basic_foundry
@@ -2459,10 +2498,14 @@ technologies = {
 	}
     
     basic_foundry = {
-        enable_building = {
-            building = metal_generator
-            level = 3
-        }
+       
+		on_research_complete = {
+			modify_building_resources = {
+				building = metal_generator
+				resource = metal
+				amount = 2
+			}
+		}
         
         path = {
 			leads_to_tech = advanced_foundry
@@ -2507,10 +2550,14 @@ technologies = {
 	}
     
     advanced_foundry = {
-        enable_building = {
-            building = metal_generator
-            level = 4
-        }
+        
+		on_research_complete = {
+			modify_building_resources = {
+				building = metal_generator
+				resource = metal
+				amount = 2
+			}
+		}
         
         path = {
 			leads_to_tech = autonomous_foundry
@@ -2555,10 +2602,14 @@ technologies = {
 	}
     
     autonomous_foundry = {
-        enable_building = {
-            building = metal_generator
-            level = 5
-        }
+        
+		on_research_complete = {
+			modify_building_resources = {
+				building = metal_generator
+				resource = metal
+				amount = 2
+			}
+		}
         
         dependencies = {
             scientific_civilization = 1
