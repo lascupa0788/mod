@@ -36,11 +36,11 @@ technologies = {
 	# Improvised Tools
 	maketool_engineering = {
 		
-		xor = {
+		XOR = {
 			scavtool_engineering
 		}
 
-	    industrial_capacity_factory = 0.07
+	    production_factory_max_efficiency_factor = 0.07 
 		production_factory_efficiency_gain_factor = 0.025
 		
 		path = {
@@ -90,7 +90,7 @@ technologies = {
 	# Basic Tools
 	maketool_engineering_1 = {
 
-	    industrial_capacity_factory = 0.07
+	    production_factory_max_efficiency_factor = 0.07
 		production_factory_efficiency_gain_factor = 0.025
 		
 		path = {
@@ -139,7 +139,7 @@ technologies = {
 	# Manufactured Tools
 	maketool_engineering_2 = {
 
-	    industrial_capacity_factory = 0.07
+	    production_factory_max_efficiency_factor = 0.07
 		production_factory_efficiency_gain_factor = 0.025
 		
 		dependencies = {
@@ -192,7 +192,7 @@ technologies = {
 	# Refined Tools
 	maketool_engineering_3 = {
 
-	    industrial_capacity_factory = 0.07
+	    production_factory_max_efficiency_factor = 0.07
 		production_factory_efficiency_gain_factor = 0.025
 		
 		path = {
@@ -241,7 +241,7 @@ technologies = {
 	# Advanced Tools
 	maketool_engineering_4 = {
 
-	    industrial_capacity_factory = 0.07
+	    production_factory_max_efficiency_factor = 0.07
 		production_factory_efficiency_gain_factor = 0.025
 		
 		research_cost = 2
@@ -290,7 +290,7 @@ technologies = {
 	# Power Tools
 	maketool_engineering_5 = {
 
-	    industrial_capacity_factory = 0.07
+	    production_factory_max_efficiency_factor = 0.07
 		production_factory_efficiency_gain_factor = 0.025
 		
 		research_cost = 2
@@ -338,11 +338,11 @@ technologies = {
 	# Scavenged Tools
 	scavtool_engineering = {
 	
-		xor = {
+		XOR = {
 			maketool_engineering
 		}
 
-	    industrial_capacity_factory = 0.10
+	    production_factory_max_efficiency_factor = 0.10
 		production_factory_efficiency_gain_factor = 0.03
 		
 		path = {
@@ -391,7 +391,7 @@ technologies = {
 	# Tracking Dogs
 	scavtool_engineering_1 = {
 
-	    industrial_capacity_factory = 0.10
+	    production_factory_max_efficiency_factor = 0.10
 		production_factory_efficiency_gain_factor = 0.03
 		
 		path = {
@@ -440,7 +440,7 @@ technologies = {
 	# Search Patterns
 	scavtool_engineering_2 = {
 
-	    industrial_capacity_factory = 0.10
+	    production_factory_max_efficiency_factor = 0.10
 		production_factory_efficiency_gain_factor = 0.03
 		
 		research_cost = 2
@@ -491,7 +491,7 @@ technologies = {
 		production_factory_start_efficiency_factor = 0.05
         conscription_factor = 0.02
 		
-		xor = {
+		XOR = {
 			specialized_industry_tech
 		}
          
@@ -570,6 +570,10 @@ technologies = {
 		path = {
 			leads_to_tech = generalized_industry_tech_3
 			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+			settled_civilization = 1
 		}
 
 		research_cost = 2.0
@@ -679,6 +683,10 @@ technologies = {
 			leads_to_tech = generalized_industry_tech_6
 			research_cost_coeff = 1
 		}
+		
+		dependencies = {
+			scientific_civilization = 1
+		}
 
 		research_cost = 2.0
 		start_year = 2276
@@ -738,11 +746,10 @@ technologies = {
 	specialized_industry_tech = {
         industrial_capacity_factory = 0.2
         global_building_slots_factor = 0.2
-		production_factory_max_efficiency_factor = 0.05
+		production_factory_max_efficiency_factor = 0.03
 		production_factory_efficiency_gain_factor = -0.05
-        equipment_conversion_speed = 0.1
 		
-		xor = {
+		XOR = {
 			generalized_industry_tech
 		}
         
@@ -777,9 +784,8 @@ technologies = {
 	specialized_industry_tech_1 = {
         industrial_capacity_factory = 0.2
         global_building_slots_factor = 0.2
-		production_factory_max_efficiency_factor = 0.05
+		production_factory_max_efficiency_factor = 0.03
 		production_factory_efficiency_gain_factor = -0.05
-        equipment_conversion_speed = 0.1
         
 		path = {
 			leads_to_tech = specialized_industry_tech_2
@@ -812,13 +818,16 @@ technologies = {
 	specialized_industry_tech_2 = {
         industrial_capacity_factory = 0.2
         global_building_slots_factor = 0.2
-		production_factory_max_efficiency_factor = 0.05
+		production_factory_max_efficiency_factor = 0.03
 		production_factory_efficiency_gain_factor = -0.05
-        equipment_conversion_speed = 0.1
 
 		path = {
 			leads_to_tech = specialized_industry_tech_3
 			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+			settled_civilization = 1
 		}
 
 		research_cost = 2.0
@@ -847,9 +856,8 @@ technologies = {
 	specialized_industry_tech_3 = {
         industrial_capacity_factory = 0.2
         global_building_slots_factor = 0.2
-		production_factory_max_efficiency_factor = 0.05
+		production_factory_max_efficiency_factor = 0.03
 		production_factory_efficiency_gain_factor = -0.05
-        equipment_conversion_speed = 0.1
         
 		path = {
 			leads_to_tech = specialized_industry_tech_4
@@ -882,9 +890,8 @@ technologies = {
 	specialized_industry_tech_4 = {
         industrial_capacity_factory = 0.2
         global_building_slots_factor = 0.2
-		production_factory_max_efficiency_factor = 0.05
+		production_factory_max_efficiency_factor = 0.03
 		production_factory_efficiency_gain_factor = -0.05
-        equipment_conversion_speed = 0.1
 
 		path = {
 			leads_to_tech = specialized_industry_tech_5
@@ -917,13 +924,16 @@ technologies = {
 	specialized_industry_tech_5 = {
         industrial_capacity_factory = 0.2
         global_building_slots_factor = 0.2
-		production_factory_max_efficiency_factor = 0.05
+		production_factory_max_efficiency_factor = 0.03
 		production_factory_efficiency_gain_factor = -0.05
-        equipment_conversion_speed = 0.1
 
 		path = {
 			leads_to_tech = specialized_industry_tech_6
 			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+			scientific_civilization = 1
 		}
 
 		research_cost = 2.0
@@ -952,9 +962,8 @@ technologies = {
 	specialized_industry_tech_6 = {
         industrial_capacity_factory = 0.2
         global_building_slots_factor = 0.2
-		production_factory_max_efficiency_factor = 0.05
+		production_factory_max_efficiency_factor = 0.03
 		production_factory_efficiency_gain_factor = -0.05
-        equipment_conversion_speed = 0.1
 		
 		research_cost = 2.0
 		start_year = 2276
@@ -980,13 +989,19 @@ technologies = {
 	}
 
 	extraction_industry_tech = {
-        local_resources_factor = 0.1
+        local_resources_factor = 0.06
         
 		research_cost = 2.0
 		start_year = 2275
+		
 		folder = {
 			name = fallout_industry_folder
 			position = { x = @Row_5 y = @Col_1 }
+		}
+		
+		path = {
+			leads_to_tech = extraction_industry_tech_1 
+			research_cost_coeff = 0.8
 		}
 		
 		categories = {
@@ -1022,13 +1037,23 @@ technologies = {
 	}
 	
 	extraction_industry_tech_1 = {
-        local_resources_factor = 0.1
+        local_resources_factor = 0.08
         
 		research_cost = 2.0
 		start_year = 2275
+		
 		folder = {
 			name = fallout_industry_folder
 			position = { x = @Row_5 y = @Col_3 }
+		}
+		
+		path = {
+			leads_to_tech = extraction_industry_tech_2 
+			research_cost_coeff = 0.8
+		}
+		
+		dependencies = {
+			construction_industry_tech_1 = 1
 		}
 		
 		categories = {
@@ -1068,9 +1093,20 @@ technologies = {
         
 		research_cost = 2.0
 		start_year = 2275
+		
 		folder = {
 			name = fallout_industry_folder
 			position = { x = @Row_5 y = @Col_5 }
+		}
+		
+		path = {
+			leads_to_tech = extraction_industry_tech_3 
+			research_cost_coeff = 0.8
+		}
+		
+		dependencies = {
+			settled_civilization = 1
+			construction_industry_tech_2 = 1
 		}
 		
 		categories = {
@@ -1106,13 +1142,23 @@ technologies = {
 	}
 	
 	extraction_industry_tech_3 = {
-        local_resources_factor = 0.1
+        local_resources_factor = 0.12
         
 		research_cost = 2.0
 		start_year = 2275
+		
 		folder = {
 			name = fallout_industry_folder
 			position = { x = @Row_5 y = @Col_7 }
+		}
+		
+		path = {
+			leads_to_tech = extraction_industry_tech_4 
+			research_cost_coeff = 0.8
+		}
+		
+		dependencies = {
+			construction_industry_tech_3 = 1
 		}
 		
 		categories = {
@@ -1148,13 +1194,19 @@ technologies = {
 	}
 	
 	extraction_industry_tech_4 = {
-        local_resources_factor = 0.1
+        local_resources_factor = 0.14
         
 		research_cost = 2.0
 		start_year = 2275
+		
 		folder = {
 			name = fallout_industry_folder
 			position = { x = @Row_5 y = @Col_9 }
+		}
+
+		dependencies = {
+			construction_industry_tech_4 = 1
+			scientific_civilization = 1
 		}
 		
 		categories = {
@@ -1279,6 +1331,10 @@ technologies = {
 			leads_to_tech = construction_industry_tech_3
 			research_cost_coeff = 1
 		}
+		
+		dependencies = {
+			settled_civilization = 1
+		}
         
 		research_cost = 2.0
 		start_year = 2275
@@ -1353,6 +1409,10 @@ technologies = {
 			leads_to_tech = construction_industry_tech_5
 			research_cost_coeff = 1
 		}
+		
+		dependencies = {
+			scientific_civilization = 1
+		}
         
 		research_cost = 2.0
 		start_year = 2275
@@ -1382,6 +1442,10 @@ technologies = {
 			leads_to_tech = habitation_industry_tech_5
 			research_cost_coeff = 1
 		}
+		
+		dependencies = {
+			scientific_civilization = 1
+		}
         
 		research_cost = 2.0
 		start_year = 2275
@@ -1404,15 +1468,25 @@ technologies = {
 	}
 
 	habitation_industry_tech = {
-        conversion_cost_mil_to_civ_factor = -0.1
-		conversion_cost_civ_to_mil_factor = -0.1
-		industry_air_damage_factor = -0.1
+        conversion_cost_mil_to_civ_factor = -0.06
+		conversion_cost_civ_to_mil_factor = -0.06
+		industry_air_damage_factor = -0.04
 
 		research_cost = 1.0
 		start_year = 2275
+		
 		folder = {
 			name = fallout_industry_folder
 			position = { x = @Row_7 y = @Col_1 }
+		}
+		
+		path = {
+			leads_to_tech = habitation_industry_tech_1 
+			research_cost_coeff = 0.8
+		}
+		
+		dependencies = {
+			construction_industry_tech = 1
 		}
 		
 		categories = {
@@ -1425,15 +1499,25 @@ technologies = {
 	}
 	
 	habitation_industry_tech_1 = {
-        conversion_cost_mil_to_civ_factor = -0.1
-		conversion_cost_civ_to_mil_factor = -0.1
-		industry_air_damage_factor = -0.1
+        conversion_cost_mil_to_civ_factor = -0.08
+		conversion_cost_civ_to_mil_factor = -0.08
+		industry_air_damage_factor = -0.06
 
 		research_cost = 1.0
 		start_year = 2275
+		
 		folder = {
 			name = fallout_industry_folder
 			position = { x = @Row_7 y = @Col_3 }
+		}
+		
+		path = {
+			leads_to_tech = habitation_industry_tech_2 
+			research_cost_coeff = 0.8
+		}
+		
+		dependencies = {
+			construction_industry_tech_1 = 1
 		}
 		
 		categories = {
@@ -1448,13 +1532,24 @@ technologies = {
 	habitation_industry_tech_2 = {
         conversion_cost_mil_to_civ_factor = -0.1
 		conversion_cost_civ_to_mil_factor = -0.1
-		industry_air_damage_factor = -0.1
+		industry_air_damage_factor = -0.08
 
 		research_cost = 1.0
 		start_year = 2275
+		
 		folder = {
 			name = fallout_industry_folder
 			position = { x = @Row_7 y = @Col_5 }
+		}
+		
+		path = {
+			leads_to_tech = habitation_industry_tech_3 
+			research_cost_coeff = 0.8
+		}
+		
+		dependencies = {
+			construction_industry_tech_2 = 1
+			settled_civilization = 1
 		}
 		
 		categories = {
@@ -1467,15 +1562,25 @@ technologies = {
 	}
 	
 	habitation_industry_tech_3 = {
-        conversion_cost_mil_to_civ_factor = -0.1
-		conversion_cost_civ_to_mil_factor = -0.1
-		industry_air_damage_factor = -0.1
+        conversion_cost_mil_to_civ_factor = -0.12
+		conversion_cost_civ_to_mil_factor = -0.12
+		industry_air_damage_factor = -0.10
 
 		research_cost = 1.0
 		start_year = 2275
+		
 		folder = {
 			name = fallout_industry_folder
 			position = { x = @Row_7 y = @Col_7 }
+		}
+		
+		path = {
+			leads_to_tech = habitation_industry_tech_4 
+			research_cost_coeff = 0.8
+		}
+		
+		dependencies = {
+			construction_industry_tech_3 = 1
 		}
 		
 		categories = {
@@ -1488,15 +1593,26 @@ technologies = {
 	}
 	
 	habitation_industry_tech_4 = {
-        conversion_cost_mil_to_civ_factor = -0.1
-		conversion_cost_civ_to_mil_factor = -0.1
-		industry_air_damage_factor = -0.1
+        conversion_cost_mil_to_civ_factor = -0.14
+		conversion_cost_civ_to_mil_factor = -0.14
+		industry_air_damage_factor = -0.12
 
 		research_cost = 1.0
 		start_year = 2275
+		
 		folder = {
 			name = fallout_industry_folder
 			position = { x = @Row_7 y = @Col_9 }
+		}
+		
+		path = {
+			leads_to_tech = habitation_industry_tech_5 
+			research_cost_coeff = 0.8
+		}
+		
+		dependencies = {
+			construction_industry_tech_4 = 1
+			scientific_civilization = 1
 		}
 		
 		categories = {
@@ -1509,15 +1625,21 @@ technologies = {
 	}
 	
 	habitation_industry_tech_5 = {
-        conversion_cost_mil_to_civ_factor = -0.1
-		conversion_cost_civ_to_mil_factor = -0.1
-		industry_air_damage_factor = -0.1
+        conversion_cost_mil_to_civ_factor = -0.16
+		conversion_cost_civ_to_mil_factor = -0.16
+		industry_air_damage_factor = -0.14
 
 		research_cost = 1.0
 		start_year = 2275
+		
 		folder = {
 			name = fallout_industry_folder
 			position = { x = @Row_7 y = @Col_11 }
+		}
+		
+		dependencies = {
+			construction_industry_tech_5 = 1
+			scientific_civilization = 1
 		}
 		
 		categories = {
@@ -1531,8 +1653,8 @@ technologies = {
 	
 	agriculture_industry_tech = {
 	
-		MONTHLY_POPULATION = 0.02
-		conscription_factor = 0.005
+		MONTHLY_POPULATION = 0.03
+		conscription_factor = 0.01
 		
 		path = {
 			leads_to_tech = agriculture_industry_tech_1
@@ -1561,8 +1683,8 @@ technologies = {
 	
     agriculture_industry_tech_1 = {
 	
-		MONTHLY_POPULATION = 0.02
-		conscription_factor = 0.005
+		MONTHLY_POPULATION = 0.03
+		conscription_factor = 0.01
 		
 		path = {
 			leads_to_tech = agriculture_industry_tech_2
@@ -1591,8 +1713,8 @@ technologies = {
 
 	agriculture_industry_tech_2 = {
 	
-		MONTHLY_POPULATION = 0.02
-		conscription_factor = 0.005
+		MONTHLY_POPULATION = 0.03
+		conscription_factor = 0.01
 		
 		path = {
 			leads_to_tech = agriculture_industry_tech_3
@@ -1625,8 +1747,8 @@ technologies = {
 	
     agriculture_industry_tech_3 = {
 	
-		MONTHLY_POPULATION = 0.02
-		conscription_factor = 0.005
+		MONTHLY_POPULATION = 0.03
+		conscription_factor = 0.01
 		
 		path = {
 			leads_to_tech = agriculture_industry_tech_4
@@ -1655,8 +1777,8 @@ technologies = {
 	
     agriculture_industry_tech_4 = {
 	
-		MONTHLY_POPULATION = 0.02
-		conscription_factor = 0.005
+		MONTHLY_POPULATION = 0.03
+		conscription_factor = 0.01
 		
 		path = {
 			leads_to_tech = agriculture_industry_tech_5
@@ -1685,14 +1807,18 @@ technologies = {
 
 	agriculture_industry_tech_5 = {
 	
-		MONTHLY_POPULATION = 0.02
-		conscription_factor = 0.005
+		MONTHLY_POPULATION = 0.03
+		conscription_factor = 0.01
 		        
 		research_cost = 2.0
 		start_year = 2278
 		folder = {
 			name = fallout_industry_folder
 			position = { x = @Row_8 y = @Col_9 }
+		}
+		
+		dependencies = {
+			scientific_civilization = 1
 		}
 		
 		categories = {
@@ -1707,27 +1833,11 @@ technologies = {
 			}
 		}
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	
 # Scavengers
 	recycling_engineering = {
 
-		local_resources_factor = 0.05
+		equipment_conversion_speed = 0.1
 		
 		path = {
 			leads_to_tech = recycling_engineering_1 
@@ -1755,7 +1865,7 @@ technologies = {
 	# Salvage techniques
 	recycling_engineering_1 = {
 
-		local_resources_factor = 0.05
+		equipment_conversion_speed = 0.1
 
 		path = {
 			leads_to_tech = recycling_engineering_2 
@@ -1783,7 +1893,7 @@ technologies = {
 	# Thorough Salvage
 	recycling_engineering_2 = {
 
-		local_resources_factor = 0.05
+		equipment_conversion_speed = 0.1
 		
 		path = {
 			leads_to_tech = recycling_engineering_3 
@@ -1811,7 +1921,7 @@ technologies = {
 	# Recycling
 	recycling_engineering_3 = {
 
-		local_resources_factor = 0.05
+		equipment_conversion_speed = 0.1
 		
 		path = {
 			leads_to_tech = recycling_engineering_4
@@ -1847,7 +1957,7 @@ technologies = {
 	# Advanced Recycling
 	recycling_engineering_4 = {
 
-		local_resources_factor = 0.05
+		equipment_conversion_speed = 0.1
 		
 		dependencies = {
 			scientific_civilization = 1

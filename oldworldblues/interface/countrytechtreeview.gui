@@ -1869,9 +1869,16 @@ guiTypes = {
 		#		}
 								
 				iconType = {
-					name ="exclusive_tech_icon"
+					name ="exclusive_tech_icon_tool"
 					spriteType = "GFX_exclusive_tech_icon"
-					position = { x=545 y=1028 }
+					position = { x=545 y=188 }
+					allwaystransparent = yes
+				}
+				
+				iconType = {
+					name ="exclusive_tech_icon_industry"
+					spriteType = "GFX_exclusive_tech_icon"
+					position = { x=545 y=468 }
 					allwaystransparent = yes
 				}
                 
@@ -4252,7 +4259,7 @@ guiTypes = {
     containerWindowType = {
 		name = "techtree_fallout_industry_folder_small_item"
 		position = { x=0 y=0 }
-		size = { width = 72 height = 72 }
+		size = { width = 70 height = 70 }
 		clipping = no
 
 		background = {
@@ -4262,7 +4269,7 @@ guiTypes = {
 
 		iconType = {
 			name = "Icon"
-			position = { x=8 y=3 }
+			position = { x=35 y=35 }
 			spriteType = "GFX_technology_medium"
 			centerposition = yes
 			alwaystransparent = yes
@@ -4299,7 +4306,7 @@ guiTypes = {
 
 		iconType = {
 			name = "Icon"
-			position = { x=91 y=50 }
+			position = { x=35 y=35 }
 			spriteType = "GFX_technology_medium"
 			centerposition = yes
 			alwaystransparent = yes
