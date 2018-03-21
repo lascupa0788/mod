@@ -1696,33 +1696,60 @@ guiTypes = {
 					position = { x=0 y=0 }
 					allwaystransparent = yes
 				}
-                
+				
                 # Row Headers
-				instantTextBoxType = {
-					name = "header_farming"
+				
+                instantTextBoxType = {
+					name = "header_tools_production"
 					position = { x = 50 y = 130 }   # 150
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "HEADER_FARMING"
+					text = "HEADER_TOOLS_PRODUCTION"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				
+				#instantTextBoxType = {
+				#	name = "header_farming"
+				#	position = { x = 50 y = 130 }   # 150
+				#	textureFile = ""
+				#	font = "hoi_36header"
+				#	borderSize = { x = 0 y = 0}
+				#	text = "HEADER_FARMING"
+				#	maxWidth = 600
+				#	maxHeight = 62
+				#	format = left
+				#	Orientation = "UPPER_LEFT"
+				#}
+				
+				instantTextBoxType = {
+					name = "header_tools_scavenging"
+					position = { x = 50 y = 270 }     
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "HEADER_TOOLS_SCAVENGING"
 					maxWidth = 600
 					maxHeight = 62
 					format = left
 					Orientation = "UPPER_LEFT"
 				}
                 
-                instantTextBoxType = {
-					name = "header_production"
-					position = { x = 50 y = 270 }   # 300
-					textureFile = ""
-					font = "hoi_36header"
-					borderSize = { x = 0 y = 0}
-					text = "HEADER_PRODUCTION"
-					maxWidth = 600
-					maxHeight = 62
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
+               # instantTextBoxType = {
+				#	name = "header_production"
+				#	position = { x = 50 y = 270 }   # 300
+				#	textureFile = ""
+				#	font = "hoi_36header"
+				#	borderSize = { x = 0 y = 0}
+				#	text = "HEADER_PRODUCTION"
+				#	maxWidth = 600
+				#	maxHeight = 62
+				#	format = left
+				#	Orientation = "UPPER_LEFT"
+				#}
 				      
                 instantTextBoxType = {
 					name = "header_extraction"
@@ -1803,38 +1830,12 @@ guiTypes = {
 				}
 				
 				instantTextBoxType = {
-					name = "header_tools_scavenging"
-					position = { x = 50 y = 1110 }     
-					textureFile = ""
-					font = "hoi_36header"
-					borderSize = { x = 0 y = 0}
-					text = "HEADER_TOOLS_SCAVENGING"
-					maxWidth = 600
-					maxHeight = 62
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
-
-				instantTextBoxType = {
 					name = "header_ressources"
 					position = { x = 50 y = 830 }  
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = "HEADER_RESSOURCES"
-					maxWidth = 600
-					maxHeight = 62
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
-
-                instantTextBoxType = {
-					name = "header_tools_production"
-					position = { x = 50 y = 970 }  
-					textureFile = ""
-					font = "hoi_36header"
-					borderSize = { x = 0 y = 0}
-					text = "HEADER_TOOLS_PRODUCTION"
 					maxWidth = 600
 					maxHeight = 62
 					format = left
