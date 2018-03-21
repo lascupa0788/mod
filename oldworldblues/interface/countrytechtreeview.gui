@@ -1712,19 +1712,6 @@ guiTypes = {
 					Orientation = "UPPER_LEFT"
 				}
 				
-				#instantTextBoxType = {
-				#	name = "header_farming"
-				#	position = { x = 50 y = 130 }   # 150
-				#	textureFile = ""
-				#	font = "hoi_36header"
-				#	borderSize = { x = 0 y = 0}
-				#	text = "HEADER_FARMING"
-				#	maxWidth = 600
-				#	maxHeight = 62
-				#	format = left
-				#	Orientation = "UPPER_LEFT"
-				#}
-				
 				instantTextBoxType = {
 					name = "header_tools_scavenging"
 					position = { x = 50 y = 270 }     
@@ -1737,23 +1724,36 @@ guiTypes = {
 					format = left
 					Orientation = "UPPER_LEFT"
 				}
+				
+				instantTextBoxType = {
+					name = "header_generalized_production"
+					position = { x = 50 y = 410 }   # 600
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "HEADER_GENERALIZED_PRODUCTION"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+			
+				instantTextBoxType = {
+					name = "header_specialized_production"
+					position = { x = 50 y = 550 }   # 750
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "HEADER_SPECIALIZED_PRODUCTION"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
                 
-               # instantTextBoxType = {
-				#	name = "header_production"
-				#	position = { x = 50 y = 270 }   # 300
-				#	textureFile = ""
-				#	font = "hoi_36header"
-				#	borderSize = { x = 0 y = 0}
-				#	text = "HEADER_PRODUCTION"
-				#	maxWidth = 600
-				#	maxHeight = 62
-				#	format = left
-				#	Orientation = "UPPER_LEFT"
-				#}
-				      
                 instantTextBoxType = {
 					name = "header_extraction"
-					position = { x = 50 y = 410 }   # 600
+					position = { x = 50 y = 690 }   # 900
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
@@ -1763,10 +1763,10 @@ guiTypes = {
 					format = left
 					Orientation = "UPPER_LEFT"
 				}
-                
-                instantTextBoxType = {
+				
+				instantTextBoxType = {
 					name = "header_construction"
-					position = { x = 50 y = 555 }   # 750
+					position = { x = 50 y = 830 }   # 750
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
@@ -1776,10 +1776,10 @@ guiTypes = {
 					format = left
 					Orientation = "UPPER_LEFT"
 				}
-                
-                instantTextBoxType = {
+				
+				instantTextBoxType = {
 					name = "header_habitation"
-					position = { x = 50 y = 690 }   # 900
+					position = { x = 50 y = 970 }   # 900
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
@@ -1789,10 +1789,36 @@ guiTypes = {
 					format = left
 					Orientation = "UPPER_LEFT"
 				}
+				
+				instantTextBoxType = {
+					name = "header_agriculture"
+					position = { x = 50 y = 1110 }   # 900
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "HEADER_AGRICULTURE"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				
+				instantTextBoxType = {
+					name = "header_recycling"
+					position = { x = 50 y = 1250 }   # 900
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "HEADER_RECYCLING"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
 
                 instantTextBoxType = {
 					name = "header_water"
-					position = { x = 50 y = 830 }  # 1200
+					position = { x = 50 y = 1390 }  # 1200
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
@@ -1805,7 +1831,7 @@ guiTypes = {
                 
                 instantTextBoxType = {
 					name = "header_electricity"
-					position = { x = 50 y = 970 }
+					position = { x = 50 y = 1530 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
@@ -1818,7 +1844,7 @@ guiTypes = {
                 
                 instantTextBoxType = {
 					name = "header_metal"
-					position = { x = 50 y = 1110 }
+					position = { x = 50 y = 1670 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
@@ -1829,18 +1855,18 @@ guiTypes = {
 					Orientation = "UPPER_LEFT"
 				}
 				
-				instantTextBoxType = {
-					name = "header_ressources"
-					position = { x = 50 y = 830 }  
-					textureFile = ""
-					font = "hoi_36header"
-					borderSize = { x = 0 y = 0}
-					text = "HEADER_RESSOURCES"
-					maxWidth = 600
-					maxHeight = 62
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
+		#		instantTextBoxType = {
+		#			name = "header_ressources"
+		#			position = { x = 50 y = 830 }  
+		#			textureFile = ""
+		#			font = "hoi_36header"
+		#			borderSize = { x = 0 y = 0}
+		#			text = "HEADER_RESSOURCES"
+		#			maxWidth = 600
+		#			maxHeight = 62
+		#			format = left
+		#			Orientation = "UPPER_LEFT"
+		#		}
 								
 				iconType = {
 					name ="exclusive_tech_icon"
