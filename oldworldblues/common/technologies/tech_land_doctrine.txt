@@ -730,8 +730,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		training_time_factor = 0.05
-		land_reinforce_rate = -0.04
+		training_time_factor = 0.09
 		minimum_training_level = 0.1
 		
 		category_army = {
@@ -1109,7 +1108,7 @@ technologies = {
 
 		
 		MONTHLY_POPULATION = -0.02
-		land_reinforce_rate = -0.02
+		land_reinforce_rate = -0.05
 		conscription_factor = -0.05
 		
 		category_army = {
@@ -1191,7 +1190,7 @@ technologies = {
 	scorched_earth = {
 
 		MONTHLY_POPULATION = -0.01
-		land_reinforce_rate = -0.02
+		land_reinforce_rate = -0.03
 		conscription_factor = -0.05
 		
 		category_army = {
@@ -1992,7 +1991,7 @@ technologies = {
 	# Send in the next Wave
 	send_in_the_next_wave = {
 		
-		land_reinforce_rate = 0.02
+		land_reinforce_rate = 0.05
 		
 		category_light_infantry = {
 			default_morale = 0.12
@@ -2124,7 +2123,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		land_reinforce_rate = 0.02
+		land_reinforce_rate = 0.05
 		minimum_training_level = -0.15		
 
 		doctrine = yes	
@@ -2559,7 +2558,7 @@ technologies = {
 			decimato_doctrine
 		}
 
-		land_reinforce_rate = 0.01
+		land_reinforce_rate = 0.05
 		
 		category_army = {
 			default_morale = 0.05
@@ -2605,7 +2604,7 @@ technologies = {
 	# The Dog Barks
 	the_dog_barks = {
 
-		land_reinforce_rate = 0.01
+		land_reinforce_rate = 0.05
 		
 		infantry = {
 			default_morale = 0.05
