@@ -306,7 +306,7 @@ technologies = {
 	electronic_engineering_7 = {
 
 		# small boost to research speed
-		research_time_factor = -0.08
+		research_time_factor = -0.06
 				
 		research_cost = 2
 		start_year = 2282
