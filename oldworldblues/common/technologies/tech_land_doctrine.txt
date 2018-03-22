@@ -730,8 +730,9 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		conscription_factor = -0.02
+		training_time_factor = 0.05
 		land_reinforce_rate = -0.04
+		minimum_training_level = 0.1
 		
 		category_army = {
 			 soft_attack = 0.08
@@ -771,7 +772,7 @@ technologies = {
 	# Concentration of Force
 	concentration_of_force = {
 	
-	conscription_factor = -0.02
+	conscription_factor = -0.03
 
 		category_all_infantry = {
 			max_organisation = 5
@@ -814,7 +815,7 @@ technologies = {
 	# Speed of Movement
 	speed_of_movement = {
 	
-	conscription_factor = -0.02
+	conscription_factor = -0.03
 
 		category_all_infantry = {
 			maximum_speed = 0.1
@@ -863,7 +864,7 @@ technologies = {
 	
 	intergrated_support_doctrine = {
 	
-		conscription_factor = -0.02
+		training_time_factor = 0.03
 	
 		xor={
 			walking_fire
@@ -914,7 +915,7 @@ technologies = {
 	# Adaptive Chain of Command
 	adaptive_chain_of_command = {
 	
-		conscription_factor = -0.02
+		conscription_factor = -0.03
 
 		land_reinforce_rate = 0.04
 	
@@ -959,7 +960,7 @@ technologies = {
 	# Walking Fire
 	walking_fire = { 
 	
-		conscription_factor = -0.02
+		training_time_factor = 0.03
 		
 		xor = {
 			intergrated_support_doctrine
@@ -1002,7 +1003,7 @@ technologies = {
 	# Hit and Run
 	hit_and_run = {
 	
-		conscription_factor = -0.02
+		conscription_factor = -0.03
 	
 		org_loss_when_moving = -0.05
 		max_dig_in = -0.25
@@ -1045,7 +1046,7 @@ technologies = {
 	# Walking Tanks
 	walking_tanks = {
 	
-		conscription_factor = -0.02
+		training_time_factor = 0.03
 	
 			dig_in_speed_factor = -0.5
 			max_dig_in = -0.5
@@ -1150,7 +1151,7 @@ technologies = {
 	# Airborne Assaults
 	airborne_assaults = {
 	
-		conscription_factor = -0.02
+		conscription_factor = -0.03
 
 		no_supply_grace = 56		
 		army_bonus_air_superiority_factor = 0.05
@@ -1232,7 +1233,7 @@ technologies = {
 	# Shock and Awe
 	shock_and_awe_doctrine = {
 	
-		conscription_factor = -0.02
+		training_time_factor = 0.03
 		
 		category_army = {
 			soft_attack = 0.15
@@ -1268,7 +1269,7 @@ technologies = {
 	# Recon in Depth
 	recon_in_depth = {
 	
-		conscription_factor = -0.02
+		conscription_factor = -0.03
 	
 		xor = {
 			non_discriminatory_targeting
@@ -1358,7 +1359,7 @@ technologies = {
 	#Combined Arms
 	combined_arms_doctrine = {
 	
-		conscription_factor = -0.02
+		conscription_factor = -0.03
 
 		category_all_infantry = {
 			max_organisation = 10
@@ -1405,7 +1406,7 @@ technologies = {
 	#Brigades of Steel
 	brigades_of_steel = {
 	
-		conscription_factor = -0.02
+		training_time_factor = 0.03
 
 		no_supply_grace = 24
 		
