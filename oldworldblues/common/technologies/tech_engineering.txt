@@ -110,7 +110,7 @@ technologies = {
 	electronic_engineering_2 = {
 
 		# small boost to research speed
-		research_time_factor = -0.025
+		research_time_factor = -0.03
 		
 		path = {
 			leads_to_tech = electronic_engineering_3 
@@ -146,7 +146,7 @@ technologies = {
 	electronic_engineering_3 = {
 
 		# small boost to research speed
-		research_time_factor = -0.025
+		research_time_factor = -0.04
 		
 		path = {
 			leads_to_tech = electronic_engineering_4 
@@ -191,7 +191,7 @@ technologies = {
 	electronic_engineering_4 = {
 
 		# small boost to research speed
-		research_time_factor = -0.025
+		research_time_factor = -0.05
 		
 		path = {
 			leads_to_tech = electronic_engineering_5 
@@ -228,7 +228,7 @@ technologies = {
 	electronic_engineering_5 = {
 
 		# small boost to research speed
-		research_time_factor = -0.025
+		research_time_factor = -0.06
 		
 		path = {
 			leads_to_tech = electronic_engineering_6 
@@ -265,7 +265,7 @@ technologies = {
 	electronic_engineering_6 = {
 
 		# small boost to research speed
-		research_time_factor = -0.025
+		research_time_factor = -0.07
 		
 		path = {
 			leads_to_tech = electronic_engineering_7 
@@ -306,7 +306,7 @@ technologies = {
 	electronic_engineering_7 = {
 
 		# small boost to research speed
-		research_time_factor = -0.07
+		research_time_factor = -0.08
 				
 		research_cost = 2
 		start_year = 2282
@@ -587,7 +587,7 @@ technologies = {
 
 		# units with radios can more efficiently join combats when there is room
 		land_reinforce_rate = 0.04
-		research_time_factor = -0.025
+		research_time_factor = -0.02
 				
 		path = {
 			leads_to_tech = encryption_4
