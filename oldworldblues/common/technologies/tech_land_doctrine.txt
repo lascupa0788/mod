@@ -44,7 +44,7 @@ technologies = {
 
 		category_robots = {
 			breakthrough = 0.05
-			max_organisation = 2
+			max_organisation = 3
 		}
 		enable_tactic = tactic_delay
 		
@@ -88,7 +88,7 @@ technologies = {
 			breakthrough = 0.05
 		}
 		category_army = {
-			max_organisation = 2
+			max_organisation = 3
 			maximum_speed = 0.05
 		}
 	
@@ -726,8 +726,8 @@ technologies = {
 		minimum_training_level = 0.1
 		
 		category_army = {
-			 soft_attack = 0.05
-			 hard_attack = 0.05
+			 soft_attack = 0.07
+			 hard_attack = 0.07
 		}
 		
 		enable_tactic = tactic_barrage
@@ -863,10 +863,9 @@ technologies = {
 	
 		category_support_battalions = {
 			max_organisation = 10
-			soft_attack = 0.05
+			soft_attack = 0.10
 			defense = 0.10
-			hard_attack = 0.1
-			
+			hard_attack = 0.15
 		}
 		
 		path = {
@@ -1042,9 +1041,9 @@ technologies = {
 			max_dig_in = -0.5
 
 		category_power_armor = {
-			breakthrough = 0.05
-			hard_attack = 0.05
-			soft_attack = 0.05
+			breakthrough = 0.07
+			hard_attack = 0.07
+			soft_attack = 0.07
 			org_loss_when_moving = -0.15
 		}
 		
@@ -1101,8 +1100,8 @@ technologies = {
 		conscription_factor = -0.05
 		
 		category_army = {
-			hard_attack = 0.05
-			soft_attack = 0.05
+			hard_attack = 0.06
+			soft_attack = 0.06
 			default_morale = -0.05
 			supply_consumption = 0.02
 		}
@@ -1307,8 +1306,8 @@ technologies = {
 		
 		
 		category_army = {
-			soft_attack = 0.05
-			hard_attack = 0.05
+			soft_attack = 0.07
+			hard_attack = 0.07
 		}
 		
 		path = {
@@ -1352,8 +1351,8 @@ technologies = {
 		category_all_infantry = {
 			max_organisation = 2
 			default_morale = 0.05
-			soft_attack = 0.05
-			hard_attack = 0.05
+			soft_attack = 0.07
+			hard_attack = 0.07
 		}
 		
 		enable_tactic = tactic_tactical_withdrawal
@@ -1402,8 +1401,8 @@ technologies = {
 		max_organisation = 3
 		default_morale = 0.1
 		defense = 0.10
-		soft_attack = 0.05
-		hard_attack = 0.05
+		soft_attack = 0.07
+		hard_attack = 0.07
 		}
 		
 		enable_tactic = tactic_breakthrough
@@ -2812,7 +2811,6 @@ technologies = {
 		category_light_infantry = {
 			breakthrough = 0.05
 			hard_attack = 0.05
-			supply_consumption = 0.1	
 		}
 
 		
