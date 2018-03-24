@@ -83,7 +83,6 @@ technologies = {
 	# Advanced Combat Protocols
 	advanced_combat_protocols = {
 
-		land_reinforce_rate = 0.05
 
 		category_robots = {
 			breakthrough = 0.05
@@ -141,7 +140,7 @@ technologies = {
 		attrition = -0.05
 		
 		category_army = {
-			supply_consumption = -0.06
+			supply_consumption = -0.05
 			
 		}
 		
@@ -180,12 +179,10 @@ technologies = {
 	# Rushed Production
 	rushed_production = {
 		category_army = {
-			hardness = -0.05
-			soft_attack = -0.03
-			hard_attack = -0.03
+			soft_attack = -0.05
+			hard_attack = -0.05
 		}
 
-	    industrial_capacity_factory = 0.025
 		production_factory_efficiency_gain_factor = 0.075
 		production_factory_max_efficiency_factor = 0.075
 		
@@ -225,12 +222,10 @@ technologies = {
 	self_replicating_machinery = {
 
 		category_army = {
-			hardness = -0.05
-			soft_attack = -0.02
-			hard_attack = -0.02
+			soft_attack = -0.05
+			hard_attack = -0.05
 		}
 
-	    industrial_capacity_factory = 0.025
 		production_factory_efficiency_gain_factor = 0.075
 		production_factory_max_efficiency_factor = 0.075
 	
@@ -277,8 +272,7 @@ technologies = {
 		
 	
 		category_robots = {
-			max_organisation = 4
-			supply_consumption = -0.02
+			supply_consumption = -0.05
 		}
 		
 		enable_tactic = tactic_blitz
@@ -326,8 +320,7 @@ technologies = {
 	the_flesh_is_weak = {
 
 		category_robots = {
-			max_organisation = 4
-			breakthrough = 0.10
+			breakthrough = 0.05
 		}
 		
 		
@@ -411,7 +404,7 @@ technologies = {
 
 		# faster planning
 		planning_speed = 0.1
-		max_planning = 0.15
+		max_planning = 0.10
 		
 		category_army = {
 			soft_attack = 0.05
@@ -509,7 +502,7 @@ technologies = {
 		category_robots = {
 			soft_attack = 0.05
 			hard_attack = 0.05
-			breakthrough = 0.1
+			breakthrough = 0.05
 			defense = -0.1
 		}
 		
@@ -558,8 +551,7 @@ technologies = {
 	age_of_the_machine = {
 
 		category_robots = {
-			max_organisation = 5
-			breakthrough = 0.10
+			breakthrough = 0.05
 			soft_attack = 0.05
 			hard_attack = 0.05
 		}
@@ -601,7 +593,7 @@ technologies = {
         industrial_capacity_factory = 0.05
         line_change_production_efficiency_factor = 0.05
 		production_factory_start_efficiency_factor = 0.05
-		production_factory_efficiency_gain_factor = 0.10
+		production_factory_efficiency_gain_factor = 0.05
 		
 		path = {
 			leads_to_tech = networked_ai 
@@ -640,7 +632,7 @@ technologies = {
 	networked_ai = {
 
 		category_army = {
-		max_organisation = 10
+		max_organisation = 5
 		}
 
 		path = {
@@ -734,9 +726,8 @@ technologies = {
 		minimum_training_level = 0.1
 		
 		category_army = {
-			 soft_attack = 0.08
-			 hard_attack = 0.08
-			 max_organisation = 2
+			 soft_attack = 0.05
+			 hard_attack = 0.05
 		}
 		
 		enable_tactic = tactic_barrage
@@ -872,7 +863,7 @@ technologies = {
 	
 		category_support_battalions = {
 			max_organisation = 10
-			soft_attack = 0.10
+			soft_attack = 0.05
 			defense = 0.10
 			hard_attack = 0.1
 			
@@ -916,7 +907,7 @@ technologies = {
 	
 		conscription_factor = -0.03
 
-		land_reinforce_rate = 0.04
+		land_reinforce_rate = 0.02
 	
 		category_army = {
 			default_morale = 0.1
@@ -967,7 +958,7 @@ technologies = {
 		
 		org_loss_when_moving = -0.03
 		category_army = {
-			breakthrough = 0.10
+			breakthrough = 0.05
 		}
 		
 		path = {
@@ -1052,10 +1043,9 @@ technologies = {
 
 		category_power_armor = {
 			breakthrough = 0.05
-			hard_attack = 0.08
-			soft_attack = 0.08
+			hard_attack = 0.05
+			soft_attack = 0.05
 			org_loss_when_moving = -0.15
-			hardness = 0.05
 		}
 		
 		
@@ -1107,13 +1097,12 @@ technologies = {
 		}
 
 		
-		MONTHLY_POPULATION = -0.02
 		land_reinforce_rate = -0.05
 		conscription_factor = -0.05
 		
 		category_army = {
-			hard_attack = 0.1
-			soft_attack = 0.1
+			hard_attack = 0.05
+			soft_attack = 0.05
 			default_morale = -0.05
 			supply_consumption = 0.02
 		}
@@ -1190,12 +1179,12 @@ technologies = {
 	scorched_earth = {
 
 		MONTHLY_POPULATION = -0.01
-		land_reinforce_rate = -0.03
+		land_reinforce_rate = -0.02
 		conscription_factor = -0.05
 		
 		category_army = {
 			soft_attack = 0.05
-			breakthrough = 0.1
+			breakthrough = 0.05
 		}
 	
 		enable_tactic = tactic_tactical_withdrawal
@@ -1235,8 +1224,8 @@ technologies = {
 		training_time_factor = 0.03
 		
 		category_army = {
-			soft_attack = 0.15
-			hard_attack = 0.15
+			soft_attack = 0.10
+			hard_attack = 0.10
 			supply_consumption = 0.05
 		}
 		
@@ -1275,7 +1264,7 @@ technologies = {
 		}
 
 		category_light_infantry = {
-			recon = 1.5
+			recon = 1
 		}
 		
 		path = {
@@ -1361,10 +1350,10 @@ technologies = {
 		conscription_factor = -0.03
 
 		category_all_infantry = {
-			max_organisation = 10
+			max_organisation = 2
 			default_morale = 0.05
-			soft_attack = 0.04
-			hard_attack = 0.04
+			soft_attack = 0.05
+			hard_attack = 0.05
 		}
 		
 		enable_tactic = tactic_tactical_withdrawal
@@ -1410,9 +1399,9 @@ technologies = {
 		no_supply_grace = 24
 		
 		category_power_armor = { 
-		max_organisation = 5
+		max_organisation = 3
 		default_morale = 0.1
-		defense = 0.15
+		defense = 0.10
 		soft_attack = 0.05
 		hard_attack = 0.05
 		}
@@ -1451,7 +1440,7 @@ technologies = {
 
 		xor = { automated_warfare elite_army terror_tactics outsider_warfare} 
 	
-		max_dig_in = 15
+		max_dig_in = 10
 		dig_in_speed_factor = 0.25 
 		
 		
@@ -1496,7 +1485,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		max_planning = 0.5
+		max_planning = 0.2
 
 		doctrine = yes	
 		research_cost = 3
@@ -1530,7 +1519,7 @@ technologies = {
 	fortified_positions_doctrine = {
 
 		category_all_infantry = {
-			defense = 0.15
+			defense = 0.10
 			max_organisation = 4
 		}
 		
@@ -1702,7 +1691,7 @@ technologies = {
 	old_world_tactics = {
 
 		category_all_infantry = {
-			maximum_speed = 0.08
+			maximum_speed = 0.05
 		}
 
 		
@@ -1739,7 +1728,7 @@ technologies = {
 	old_world_thunder = {
 
 		category_tanks = {
-			breakthrough = 0.1
+			breakthrough = 0.05
 			armor_value = 0.1
 		}
 		
@@ -1781,7 +1770,7 @@ technologies = {
 		
 		
 		category_army = {
-			maximum_speed = 0.08
+			maximum_speed = 0.05
 			supply_consumption = 0.02
 		}
 		
@@ -1822,9 +1811,9 @@ technologies = {
 		
 		category_army = {
 			max_organisation = 5
-			soft_attack = 0.08
-			hard_attack = 0.08
-			supply_consumption = 0.03
+			soft_attack = 0.05
+			hard_attack = 0.05
+			supply_consumption = 0.02
 		}
 
 		doctrine = yes	
@@ -1903,8 +1892,7 @@ technologies = {
 	concentration_of_firepower = {
 
 		category_army = {
-			soft_attack = 0.03
-			hard_attack = 0.02
+			hard_attack = 0.05
 		}
 		
 		enable_tactic = tactic_blitz
@@ -1952,7 +1940,7 @@ technologies = {
 		}
 		
 		militia = {
-			supply_consumption = 0.04
+			supply_consumption = 0.05
 		}
 		
 		path = {
@@ -2081,8 +2069,8 @@ technologies = {
 
 
 		category_army = {  
-			soft_attack = 0.06
-			hard_attack = 0.06
+			soft_attack = 0.05
+			hard_attack = 0.05
 		} 
 
 		doctrine = yes	
@@ -2124,7 +2112,7 @@ technologies = {
 		}
 		
 		land_reinforce_rate = 0.05
-		minimum_training_level = -0.15		
+		minimum_training_level = -0.10		
 
 		doctrine = yes	
 		research_cost = 3
@@ -2254,7 +2242,7 @@ technologies = {
 		category_army = {
 			soft_attack = 0.05
 			hard_attack = 0.05
-			max_organisation = 10
+			max_organisation = 5
 			supply_consumption = -0.10
 		}
 		
@@ -2300,8 +2288,7 @@ technologies = {
 
 		category_all_infantry = {
 			breakthrough = 0.05
-			soft_attack = 0.04
-			hard_attack = 0.04
+			soft_attack = 0.05
 		}
 
 		enable_tactic = tactic_blitz
@@ -2431,7 +2418,7 @@ technologies = {
 	invisibilia_mortem = {
 
 		category_all_infantry = {
-			breakthrough = 0.15
+			breakthrough = 0.10
 		}
 		
 		enable_tactic = tactic_breakthrough
@@ -2692,7 +2679,6 @@ technologies = {
 
 		category_army = {
 			maximum_speed = 0.05
-			breakthrough = 0.05
 		}
 
 		
@@ -2733,7 +2719,7 @@ technologies = {
 	# The Nightstalkers Bite
 	the_nightstalkers_bite = {
 
-		out_of_supply_factor = -0.4
+		out_of_supply_factor = -0.2
 		
 		category_army = {
 			default_morale = 0.05
@@ -2825,9 +2811,7 @@ technologies = {
 		
 		category_light_infantry = {
 			breakthrough = 0.05
-			soft_attack = 0.1
-			hard_attack = 0.1
-			hardness = 0.05
+			hard_attack = 0.05
 			supply_consumption = 0.1	
 		}
 
