@@ -1,0 +1,46 @@
+ideas = {
+	country = {
+		bnc_bread_and_circuses = {
+			picture = sparticus
+			allowed = {
+			
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+			}
+		}
+		bnc_modoc_1 = {
+			picture = sparticus
+			allowed = {
+			
+			}
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = 0.025
+			}
+		}
+		bnc_modoc_2 = {
+			picture = sparticus
+			allowed = {
+			
+			}
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = 0.05
+			}
+		}
+		bnc_modoc_3 = {
+			picture = sparticus
+			allowed = {
+			
+			}
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = 0.075
+			}
+		}
+		
+	
+	}
+}

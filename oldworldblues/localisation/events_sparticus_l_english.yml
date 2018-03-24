@@ -1,0 +1,17 @@
+﻿l_english:
+ nf_sparticus.1.t:0 "Buying Slaves from Reno"
+ nf_sparticus.1.d:0 "Reno has recently opened up their slave trade, our fighting pits call out for more capable warriors."
+ nf_sparticus.1.a:0 "Buy only a couple slaves."
+ nf_sparticus.1.b:0 "Buy some slaves."
+ nf_sparticus.1.b:0 "Buy them all."
+ 
+ 
+ 
+ 
+ bread_and_circuses:0 "Bread and Circuses"
+ 
+ bnc_bread_and_circuses:0 "Opened the Fighting Pits"
+ bnc_hairs:0 "Fighters from Dry Wells."
+ bnc_dogs:0 "Fighters from Denver"
+ bnc_circus:0 "Open the Fighting Pits"
+ bnc_fight:0 "Organize a Grand Combat"
