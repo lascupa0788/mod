@@ -19,7 +19,7 @@ technologies = {
 
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = 0 y = 0 }
+			position = { x = 0 y = 1 }
 		}
 		
 		categories = {
@@ -64,7 +64,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = 0 y = 2 }
+			position = { x = 0 y = 3 }
 		}
 		
 		ai_will_do = {
@@ -112,7 +112,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = 0 y = 4 }
+			position = { x = 0 y = 5 }
 		}
 		
 		ai_will_do = {
@@ -158,7 +158,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = -2 y = 6 }
+			position = { x = -2 y = 7 }
 		}
 		
 		ai_will_do = {
@@ -200,7 +200,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = -2 y = 8 }
+			position = { x = -2 y = 9 }
 		}
 		
 		ai_will_do = {
@@ -245,7 +245,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = -2 y = 10 }
+			position = { x = -2 y = 11 }
 		}
 		
 		ai_will_do = {
@@ -293,7 +293,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = 2 y = 6 }
+			position = { x = 2 y = 7 }
 		}
 		
 		ai_will_do = {
@@ -334,7 +334,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = 2 y = 8 }
+			position = { x = 2 y = 9 }
 		}
 		
 		ai_will_do = {
@@ -375,7 +375,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = 2 y = 10 }
+			position = { x = 2 y = 11 }
 		}
 		
 		ai_will_do = {
@@ -426,7 +426,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = 0 y = 12 }
+			position = { x = 0 y = 13 }
 		}
 		
 		ai_will_do = {
@@ -472,7 +472,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = 2 y = 14 }
+			position = { x = 2 y = 15 }
 		}
 		
 		ai_will_do = {
@@ -522,7 +522,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = 2 y = 16 }
+			position = { x = 2 y = 17 }
 		}
 		
 		ai_will_do = {
@@ -558,7 +558,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = 2 y = 18 }
+			position = { x = 2 y = 19 }
 		}
 		
 		ai_will_do = {
@@ -603,7 +603,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = -2 y = 14 }
+			position = { x = -2 y = 15 }
 		}
 		
 		ai_will_do = {
@@ -643,7 +643,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = -2 y = 16 }
+			position = { x = -2 y = 17 }
 		}
 		
 		ai_will_do = {
@@ -687,7 +687,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = -2 y = 18 }
+			position = { x = -2 y = 19 }
 		}
 		
 		ai_will_do = {
@@ -734,7 +734,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = 0 y = 0 }
+			position = { x = 0 y = 1 }
 		}
 		
 		ai_will_do = {
@@ -775,7 +775,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = 0 y = 2 }
+			position = { x = 0 y = 3 }
 		}
 		
 		ai_will_do = {
@@ -822,7 +822,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = 0 y = 4 }
+			position = { x = 0 y = 5 }
 		}
 		
 		ai_will_do = {
@@ -873,7 +873,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = 2 y = 6 }
+			position = { x = 2 y = 7 }
 		}
 		
 		ai_will_do = {
@@ -916,7 +916,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = 2 y = 8 }
+			position = { x = 2 y = 9 }
 		}
 		
 		ai_will_do = {
@@ -963,7 +963,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = -2 y = 6 }
+			position = { x = -2 y = 7 }
 		}
 		
 		ai_will_do = {
@@ -1006,7 +1006,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = -2 y = 8 }
+			position = { x = -2 y = 9 }
 		}
 		
 		ai_will_do = {
@@ -1055,7 +1055,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = 0 y = 10 }
+			position = { x = 0 y = 11 }
 		}
 		
 		ai_will_do = {
@@ -1107,7 +1107,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = -2 y = 12 }
+			position = { x = -2 y = 13 }
 		}
 		
 		ai_will_do = {
@@ -1144,7 +1144,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = -2 y = 14 }
+			position = { x = -2 y = 15 }
 		}
 		
 		ai_will_do = {
@@ -1185,7 +1185,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = -2 y = 16 }
+			position = { x = -2 y = 17 }
 		}
 		
 		ai_will_do = {
@@ -1223,7 +1223,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = -2 y = 18 }
+			position = { x = -2 y = 19 }
 		}
 		
 		ai_will_do = {
@@ -1267,7 +1267,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = 2 y = 12 }
+			position = { x = 2 y = 13 }
 		}
 		
 		ai_will_do = {
@@ -1311,7 +1311,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = 2 y = 14 }
+			position = { x = 2 y = 15 }
 		}
 		
 		ai_will_do = {
@@ -1356,7 +1356,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = 2 y = 16 }
+			position = { x = 2 y = 17 }
 		}
 		
 		ai_will_do = {
@@ -1400,7 +1400,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = 2 y = 18 }
+			position = { x = 2 y = 19 }
 		}
 		
 		ai_will_do = {
@@ -1443,7 +1443,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = 0 y = 0 }
+			position = { x = 0 y = 1 }
 		}
 		
 		ai_will_do = {
@@ -1481,7 +1481,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = 0 y = 2 }
+			position = { x = 0 y = 3 }
 		}
 		
 		ai_will_do = {
@@ -1522,7 +1522,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = 0 y = 4 }
+			position = { x = 0 y = 5 }
 		}
 		
 		ai_will_do = {
@@ -1566,7 +1566,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = 0 y = 6 }
+			position = { x = 0 y = 7 }
 		}
 		
 		ai_will_do = {
@@ -1613,7 +1613,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = -2 y = 8 }
+			position = { x = -2 y = 9 }
 		}
 		
 		ai_will_do = {
@@ -1652,7 +1652,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = -2 y = 10 }
+			position = { x = -2 y = 11 }
 		}
 		
 		ai_will_do = {
@@ -1689,7 +1689,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = -2 y = 12 }
+			position = { x = -2 y = 13 }
 		}
 		
 		ai_will_do = {
@@ -1727,7 +1727,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = -2 y = 14 }
+			position = { x = -2 y = 15 }
 		}
 		
 		ai_will_do = {
@@ -1767,7 +1767,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = -2 y = 16 }
+			position = { x = -2 y = 17 }
 		}
 		
 		ai_will_do = {
@@ -1803,7 +1803,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = -2 y = 18 }
+			position = { x = -2 y = 19 }
 		}
 		
 		ai_will_do = {
@@ -1847,7 +1847,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = 2 y = 8 }
+			position = { x = 2 y = 9 }
 		}
 		
 		ai_will_do = {
@@ -1888,7 +1888,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = 2 y = 10 }
+			position = { x = 2 y = 11 }
 		}
 		
 		ai_will_do = {
@@ -1932,7 +1932,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = 2 y = 12 }
+			position = { x = 2 y = 13 }
 		}
 		
 		ai_will_do = {
@@ -1976,7 +1976,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = 2 y = 14 }
+			position = { x = 2 y = 15 }
 		}
 		
 		ai_will_do = {
@@ -2016,7 +2016,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = 2 y = 16 }
+			position = { x = 2 y = 17 }
 		}
 		
 		ai_will_do = {
@@ -2058,7 +2058,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = 2 y = 18 }
+			position = { x = 2 y = 19 }
 		}
 		
 		ai_will_do = {
@@ -2099,7 +2099,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = 0 y = 0 }
+			position = { x = 0 y = 1 }
 		}
 		
 		ai_will_do = {
@@ -2138,7 +2138,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = 0 y = 2 }
+			position = { x = 0 y = 3 }
 		}
 		
 		ai_will_do = {
@@ -2185,7 +2185,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = 0 y = 4 }
+			position = { x = 0 y = 5 }
 		}
 		
 		ai_will_do = {
@@ -2236,7 +2236,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = -2 y = 6 }
+			position = { x = -2 y = 7 }
 		}
 		
 		ai_will_do = {
@@ -2281,7 +2281,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = -2 y = 8 }
+			position = { x = -2 y = 9 }
 		}
 		
 		ai_will_do = {
@@ -2326,7 +2326,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = -2 y = 10 }
+			position = { x = -2 y = 11 }
 		}
 		
 		ai_will_do = {
@@ -2364,7 +2364,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = -2 y = 12 }
+			position = { x = -2 y = 13 }
 		}
 		
 		ai_will_do = {
@@ -2404,7 +2404,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = -2 y = 14 }
+			position = { x = -2 y = 15 }
 		}
 		
 		ai_will_do = {
@@ -2447,7 +2447,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = -2 y = 16 }
+			position = { x = -2 y = 17 }
 		}
 		
 		ai_will_do = {
@@ -2486,7 +2486,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = -2 y = 18 }
+			position = { x = -2 y = 19 }
 		}
 		
 		ai_will_do = {
@@ -2534,7 +2534,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = 2 y = 6 }
+			position = { x = 2 y = 7 }
 		}
 		
 		ai_will_do = {
@@ -2578,7 +2578,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = 2 y = 8 }
+			position = { x = 2 y = 9 }
 		}
 		
 		ai_will_do = {
@@ -2620,7 +2620,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = 2 y = 10 }
+			position = { x = 2 y = 11 }
 		}
 		
 		ai_will_do = {
@@ -2663,7 +2663,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = 2 y = 12 }
+			position = { x = 2 y = 13 }
 		}
 		
 		ai_will_do = {
@@ -2707,7 +2707,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = 2 y = 14 }
+			position = { x = 2 y = 15 }
 		}
 		
 		ai_will_do = {
@@ -2750,7 +2750,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = 2 y = 16 }
+			position = { x = 2 y = 17 }
 		}
 		
 		ai_will_do = {
@@ -2788,7 +2788,7 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = 2 y = 18 }
+			position = { x = 2 y = 19 }
 		}
 		
 		ai_will_do = {
@@ -2836,11 +2836,11 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = 0 y = 0 }
+			position = { x = 0 y = 1 }
 		}
 		
 		ai_will_do = {
-			factor = 255
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = mutant_doctrine_ai }
@@ -2878,11 +2878,11 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = 0 y = 2 }
+			position = { x = 0 y = 3 }
 		}
 		
 		ai_will_do = {
-			factor = 255
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = mutant_doctrine_ai }
@@ -2935,11 +2935,11 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = 0 y = 4 }
+			position = { x = 0 y = 5 }
 		}
 		
 		ai_will_do = {
-			factor = 255
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = mutant_doctrine_ai }
@@ -2984,11 +2984,11 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = -2 y = 6 }
+			position = { x = -2 y = 7 }
 		}
 		
 		ai_will_do = {
-			factor = 255
+			factor = 0
 			modifier = {
 				factor = 0
 				has_tech = we_are_smart
@@ -3037,11 +3037,11 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = 2 y = 6 }
+			position = { x = 2 y = 7 }
 		}
 		
 		ai_will_do = {
-			factor = 255
+			factor = 0
 			modifier = {
 				factor = 0
 				has_tech = we_are_strong
@@ -3090,11 +3090,11 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = -2 y = 8 }
+			position = { x = -2 y = 9 }
 		}
 		
 		ai_will_do = {
-			factor = 255
+			factor = 0
 			modifier = {
 				factor = 0
 				has_tech = we_are_fast
@@ -3143,11 +3143,11 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = 2 y = 8 }
+			position = { x = 2 y = 9 }
 		}
 		
 		ai_will_do = {
-			factor = 255
+			factor = 0
 			modifier = {
 				factor = 0
 				has_tech = we_are_enduring
@@ -3192,11 +3192,11 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = -2 y = 10 }
+			position = { x = -2 y = 11 }
 		}
 		
 		ai_will_do = {
-			factor = 255
+			factor = 0
 			modifier = {
 				factor = 0
 				has_tech = we_are_perceptive
@@ -3240,11 +3240,11 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = 2 y = 10 }
+			position = { x = 2 y = 11 }
 		}
 		
 		ai_will_do = {
-			factor = 255
+			factor = 0
 			modifier = {
 				factor = 0
 				has_tech = we_are_beautiful
@@ -3286,11 +3286,11 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = 0 y = 11 }
+			position = { x = 0 y = 12 }
 		}
 		
 		ai_will_do = {
-			factor = 255
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = mutant_doctrine_ai }
@@ -3346,11 +3346,11 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = 0 y = 13 }
+			position = { x = 0 y = 14 }
 		}
 		
 		ai_will_do = {
-			factor = 255
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = mutant_doctrine_ai }
@@ -3387,11 +3387,11 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = -2 y = 15 }
+			position = { x = -2 y = 16 }
 		}
 		
 		ai_will_do = {
-			factor = 220
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = mutant_doctrine_ai }
@@ -3424,11 +3424,11 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = 2 y = 15 }
+			position = { x = 2 y = 16 }
 		}
 		
 		ai_will_do = {
-			factor = 255
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = ghoul_doctrine_ai }
@@ -3475,11 +3475,11 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = 0 y = 16 }
+			position = { x = 0 y = 17 }
 		}
 		
 		ai_will_do = {
-			factor = 255
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = mutant_doctrine_ai }
@@ -3514,11 +3514,11 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = 2 y = 18 }
+			position = { x = 2 y = 19 }
 		}
 		
 		ai_will_do = {
-			factor = 255
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = ghoul_doctrine_ai }
@@ -3555,11 +3555,11 @@ technologies = {
 		
 		folder = {
 			name = fallout_land_doctrine_folder
-			position = { x = -2 y = 18 }
+			position = { x = -2 y = 19 }
 		}
 		
 		ai_will_do = {
-			factor = 220
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { has_country_flag = mutant_doctrine_ai }

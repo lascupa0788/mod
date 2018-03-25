@@ -2548,17 +2548,17 @@ guiTypes = {
 				position = { x=1535 y=33 }
 			}
 
-			iconType = {
-				name ="outsider_warfare_bg"
-				spriteType = "GFX_outsider_warfare_bg"
-				position = { x=2012 y=33 }
-			}			
+		#	iconType = {
+		#		name ="outsider_warfare_bg"
+		#		spriteType = "GFX_outsider_warfare_bg"
+		#		position = { x=2012 y=33 }
+		#	}			
 			
 			instantTextBoxType = {
 				name = "automated_warfare_title"
-				position = { x = 120 y = 35 }
+				position = { x = 120 y = 45 }
 				textureFile = ""
-				font = "hoi_22tech"
+				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
 				text = "AUTOMATED_WARFARE_DOCTRINE_LABEL"
 				maxWidth = 400
@@ -2569,9 +2569,9 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "elite_army_title"
-				position = { x = 600 y = 35 }
+				position = { x = 600 y = 45 }
 				textureFile = ""
-				font = "hoi_22tech"
+				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
 				text = "ELITE_ARMY_DOCTRINE_LABEL"
 				maxWidth = 400
@@ -2582,9 +2582,9 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "grand_army_title"
-				position = { x = 1080 y = 35 }
+				position = { x = 1080 y = 45 }
 				textureFile = ""
-				font = "hoi_22tech"
+				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
 				text = "GRAND_ARMY_DOCTRINE_LABEL"
 				maxWidth = 400
@@ -2595,9 +2595,9 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "terror_tactics_title"
-				position = { x = 1560 y = 35 }
+				position = { x = 1560 y = 45 }
 				textureFile = ""
-				font = "hoi_22tech"
+				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
 				text = "TERROR_TACTICS_DOCTRINE_LABEL"
 				maxWidth = 400
@@ -2606,22 +2606,22 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 			}	
 
-			instantTextBoxType = {
-				name = "outsider_warfare_title"
-				position = { x = 2040 y = 35 }
-				textureFile = ""
-				font = "hoi_22tech"
-				borderSize = {x = 0 y = 4}
-				text = "OUTSIDER_WARFARE_DOCTRINE_LABEL"
-				maxWidth = 400
-				maxHeight = 122
-				format = center
-				Orientation = "UPPER_LEFT"
-			}			
+	#		instantTextBoxType = {
+	#			name = "outsider_warfare_title"
+	#			position = { x = 2040 y = 45 }
+	#			textureFile = ""
+	#			font = "hoi_36header"
+	#			borderSize = {x = 0 y = 4}
+	#			text = "OUTSIDER_WARFARE_DOCTRINE_LABEL"
+	#			maxWidth = 400
+	#			maxHeight = 122
+	#			format = center
+	#			Orientation = "UPPER_LEFT"
+	#		}			
 
 			instantTextBoxType = {
 				name = "automated_warfare_desc"
-				position = { x = 140 y = 90 }
+				position = { x = 140 y = 100 }
 				textureFile = ""
 				font = "hoi_20b"
 				borderSize = {x = 0 y = 4}
@@ -2634,7 +2634,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "elite_army_desc"
-				position = { x = 600 y = 90 }
+				position = { x = 600 y = 100 }
 				textureFile = ""
 				font = "hoi_20b"
 				borderSize = {x = 0 y = 4}
@@ -2647,7 +2647,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "grand_army_desc"
-				position = { x = 1100 y = 90 }
+				position = { x = 1100 y = 100 }
 				textureFile = ""
 				font = "hoi_20b"
 				borderSize = {x = 0 y = 4}
@@ -2660,7 +2660,7 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "terror_tactics_desc"
-				position = { x = 1606 y = 80 }
+				position = { x = 1606 y = 100 }
 				textureFile = ""
 				font = "hoi_20b"
 				borderSize = {x = 0 y = 4}
@@ -2671,23 +2671,23 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 			}
 			
-			instantTextBoxType = {
-				name = "outsider_warfare_desc"
-				position = { x = 2112 y = 90 }
-				textureFile = ""
-				font = "hoi_20b"
-				borderSize = {x = 0 y = 4}
-				text = "OUTSIDER_WARFARE_DOCTRINE_DESC"
-				maxWidth = 300
-				maxHeight = 122
-				format = center
-				Orientation = "UPPER_LEFT"
-			}
+	#		instantTextBoxType = {
+	#			name = "outsider_warfare_desc"
+	#			position = { x = 2112 y = 100 }
+	#			textureFile = ""
+	#			font = "hoi_20b"
+	#			borderSize = {x = 0 y = 4}
+	#			text = "OUTSIDER_WARFARE_DOCTRINE_DESC"
+	#			maxWidth = 300
+	#			maxHeight = 122
+	#			format = center
+	#			Orientation = "UPPER_LEFT"
+	#		}
 			
 			# Subtitles
 			instantTextBoxType = {
 				name = "mob_warfare_subtitle1"
-				position = { x = 110 y = 455 }
+				position = { x = 110 y = 515 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
@@ -2701,7 +2701,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "mob_warfare_subtitle2"
-				position = { x = 355 y = 455 }
+				position = { x = 355 y = 515 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
@@ -2715,7 +2715,7 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "mob_warfare_subtitle3"
-				position = { x = 110 y = 919 }
+				position = { x = 110 y = 979 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
@@ -2729,7 +2729,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "mob_warfare_subtitle4"
-				position = { x = 360 y = 919 }
+				position = { x = 360 y = 979 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
@@ -2746,7 +2746,7 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "elite_army_subtitle1"
-				position = { x = 600 y = 435 }
+				position = { x = 600 y = 495 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
@@ -2760,7 +2760,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "elite_army_subtitle2"
-				position = { x = 850 y = 435 }
+				position = { x = 850 y = 495 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
@@ -2774,7 +2774,7 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "elite_army_subtitle3"
-				position = { x = 600 y = 795 }
+				position = { x = 600 y = 855 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
@@ -2788,7 +2788,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "elite_army_subtitle4"
-				position = { x = 840 y = 795 }
+				position = { x = 840 y = 855 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
@@ -2802,7 +2802,7 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "grand_army_subtitle1"
-				position = { x = 1070 y = 575 }
+				position = { x = 1070 y = 635 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
@@ -2816,7 +2816,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "grand_army_subtitle2"
-				position = { x = 1310 y = 575 }
+				position = { x = 1310 y = 635 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
@@ -2830,7 +2830,7 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "terror_tactics_subtitle1"
-				position = { x = 1560 y = 435 }
+				position = { x = 1560 y = 495 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
@@ -2844,7 +2844,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "terror_tactics_subtitle2"
-				position = { x = 1816 y = 435 }
+				position = { x = 1816 y = 495 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
@@ -2861,7 +2861,7 @@ guiTypes = {
 			gridboxtype = {
 				name = "automated_warfare_tree"
 				position = { x=80 y=172 }
-				size = { width = 478 height = 1350 }
+				size = { width = 478 height = 1430 }
 				slotsize = { width=60 height= 60 }
 				format = "UP"
 
@@ -2875,7 +2875,7 @@ guiTypes = {
 			gridboxtype = {
 				name = "elite_army_tree"
 				position = { x=560 y=172 }
-				size = { width = 480 height = 1350 }
+				size = { width = 480 height = 1430 }
 				slotsize = { width=60 height= 60 }
 				format = "UP"
 				
@@ -2889,7 +2889,7 @@ guiTypes = {
 			gridboxtype = {
 				name = "grand_army_tree"
 				position = { x=1040 y=172 }
-				size = { width = 480 height = 1350 }
+				size = { width = 480 height = 1430 }
 				slotsize = { width=60 height= 60 }
 				format = "UP"
 				
@@ -2904,7 +2904,7 @@ guiTypes = {
 			gridboxtype = {
 				name = "terror_tactics_tree"
 				position = { x=1520 y=172 }
-				size = { width = 480 height = 1350 }
+				size = { width = 480 height = 1430 }
 				slotsize = { width=60 height= 60 }
 				format = "UP"
 				
@@ -2916,20 +2916,20 @@ guiTypes = {
 				
 			}
 			
-			gridboxtype = {
-				name = "outsider_warfare_tree"
-				position = { x=2000 y=172 }
-				size = { width = 480 height = 1350 }
-				slotsize = { width=60 height= 60 }
-				format = "UP"
-				
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_fullborder_tiled"
-					position = { x=0 y=-150 }					
-				}					
-				
-			}
+	#		gridboxtype = {
+	#			name = "outsider_warfare_tree"
+	#			position = { x=2000 y=172 }
+	#			size = { width = 480 height = 1430 }
+	#			slotsize = { width=60 height= 60 }
+	#			format = "UP"
+	#			
+	#			background = {
+	#				name = "Background"
+	#				quadTextureSprite ="GFX_fullborder_tiled"
+	#				position = { x=0 y=-150 }					
+	#			}					
+	#			
+	#		}
 		}
         
         #------------------------------------------
