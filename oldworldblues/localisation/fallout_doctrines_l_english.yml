@@ -15,13 +15,13 @@
 
  # Labels/headers Doctrine
  AUTOMATED_WARFARE_DOCTRINE_LABEL:0 "Automated Warfare"
- AUTOMATED_WARFARE_DOCTRINE_DESC:0 "Why waste precious lives if you can use Robots to crush the enemy under their tires, thrusters and tracks."
- ELITE_ARMY_DOCTRINE_LABEL:0 "Elite Army"
- ELITE_ARMY_DOCTRINE_DESC:0 "Discipline and skill are key to success. Who needs Quantity if you have Quality."
- GRAND_ARMY_DOCTRINE_LABEL:0 "The Grand Army"
- GRAND_ARMY_DOCTRINE_DESC:0 "Men, do you wish to live forever?"
- TERROR_TACTICS_DOCTRINE_LABEL:0 "Terror Tactics"
- TERROR_TACTICS_DOCTRINE_DESC:0 "Subterfuge, suprise assaults and psychological warfare, paired with mass charges, will surely break their will to fight and bring us victory."
+ AUTOMATED_WARFARE_DOCTRINE_DESC:0 "It was Man that failed the old world; not its creations. Robots fight better, faster, and for longer than regular soldiers. Better still - robots have no conscience."
+ ELITE_ARMY_DOCTRINE_LABEL:0 "New Age Warfare"
+ ELITE_ARMY_DOCTRINE_DESC:0 "The Old World didn't end because of inferior tactics; it bathed in nuclear fire because it could not apply these tactics effectively."
+ GRAND_ARMY_DOCTRINE_LABEL:0 "Conventional Warfare"
+ GRAND_ARMY_DOCTRINE_DESC:0 "We don't need mechanised armour, super-weapons, or machines to fight for us. Men, with guns in their hands and discipline in their hearts, will bring us victory."
+ TERROR_TACTICS_DOCTRINE_LABEL:0 "Asymmetric Warfare"
+ TERROR_TACTICS_DOCTRINE_DESC:0 "We can't hope to match our enemies industrial might or their understanding of technology - but we need neither. Terror tactics, guerrilla warfare, and mass assaults will win the day."
  OUTSIDER_WARFARE_DOCTRINE_LABEL:0 "Outsider Warfare"
  OUTSIDER_WARFARE_DOCTRINE_DESC:0 "Outcast from society, forced to forge their own fate. But also free from any and all restraint."
  
